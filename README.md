@@ -32,8 +32,10 @@ pnpm dev               # contracts (watch) + API + web
 - web: **http://localhost:5173/demo**
 - API liveness: http://localhost:3001/health/live
 - API readiness (с проверкой БД): http://localhost:3001/health/ready
+- **CRM** (старый прототип, запуск `pnpm crm`): **http://localhost:8080/crm.html** — см. [CRM](#crm-старый-прототип)
+- прототип платформы (`pnpm crm`): http://localhost:8080/
 
-Frontend обращается к `/api/*` через dev-proxy Vite; сессия — серверная HttpOnly cookie. Ключей внешних API не нужно.
+Frontend обращается к `/api/*` через dev-proxy Vite; сессия — серверная HttpOnly cookie. Ключи внешних API не обязательны (без них все цены — симулятор, см. «Реальные цены»).
 
 ## Команды
 | Команда | Что делает | Изменяет данные? |
