@@ -25,6 +25,16 @@ export const INTERVAL_MS: Record<Interval, number> = {
   '1w': 604_800_000,
 };
 
+/** Start of the interval bucket containing t (UTC); weeks start on Monday 00:00 UTC. */
+export function bucketStart(t: number, ms: number): number {
+  const DAY = 86_400_000;
+  if (ms === 7 * DAY) {
+    const d = Math.floor(t / DAY);
+    return (Math.floor((d + 3) / 7) * 7 - 3) * DAY;
+  }
+  return Math.floor(t / ms) * ms;
+}
+
 /** Max candles per response; larger ranges must be paged by the client. */
 export const MAX_CANDLES = 1000;
 /** Earliest simulated history, UTC (instrument "listing" in the demo). */

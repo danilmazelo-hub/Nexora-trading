@@ -231,5 +231,7 @@ model Candle {
   receivedAt   DateTime   @default(now()) @db.Timestamptz(3)
 
   @@id([instrumentId, source, interval, openTime])
+  /// D13: range reads by instrument + interval + time (newest first) independent of the source.
+  @@index([instrumentId, interval, openTime(sort: Desc)])
   @@map("candle")
 }

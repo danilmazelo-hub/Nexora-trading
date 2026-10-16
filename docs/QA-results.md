@@ -51,3 +51,16 @@ Seed рынка 20261015. Формат: ID · команда/шаги · ожи�
 | D11 | unit `quote-stream.test.ts` (5) | одна EventSource на все подписки; refcount; дубли/старые события отброшены; reconnect с backoff без параллельных соединений | 5 passed | Passed |
 | D11 | e2e `quotes.spec.ts` (2) | Finance и /dev/quotes в двух вкладках — одинаковая цена BTC; после обрыва — одно новое соединение и продолжение обновлений | passed | Passed |
 | D03 | Регрессия: быстрый клик «Войти в демо» | не возвращает на /demo | найдена гонка (ответ «нет сессии» затирал новую сессию) → исправлено `cancelQueries`; e2e ×3 = 72/72 | Passed |
+
+## D12–D13 и финальная проверка (2026-10-16)
+| ID | Проверка | Ожидание | Факт | Статус |
+|---|---|---|---|---|
+| D12 | e2e `markets.spec.ts` (7) | hub: 5 рынков со счётчиками, Coming soon недоступны; поиск BTC → Bitcoin, выбор меняет URL, заголовок, котировку и график; Back; рынки различаются; неизвестный symbol → «не найден» без автоподстановки; символ чужого рынка → ссылка; пусто → empty state; поиск в topbar | 7 passed | Passed |
+| D12 | integration `instruments.int.test.ts` | поиск/сортировка/пагинация справочника | passed | Passed |
+| D13 | integration `market-data.int.test.ts` (свечи) | упорядочены, без дублей, без будущих, последняя формирующаяся, шаг = интервал; 24h vs 1Y разные диапазоны; truncated; from>to → 400; лимит; кеш Candle | passed | Passed |
+| D13 | integration `migrations.int.test.ts` | индекс (instrumentId, interval, openTime DESC); `SHOW timezone` = UTC | passed | Passed |
+| D13 | e2e `chart.spec.ts` (6) | canvas с >200 свечами за 24h; 24h ≤ 24 ч, 1Y > 300 дней, период в URL и после reload; 1W/1M/All — свои интервалы; без будущих/повторов; смена актива заменяет график; LBS — «Нет данных»; формат цены по tickSize | 6 passed | Passed |
+| D13 | Лицензия библиотеки | Apache-2.0, атрибуция и ссылка на tradingview.com | ADR 0004, подпись под графиком, THIRD-PARTY-NOTICES.md | Passed |
+| Регрессия | Холодный старт + e2e | без 500 при создании сессии | найдено P2028 (localhost → IPv6 и ожидание соединения) → адреса 127.0.0.1, maxWait 10 с, уступка event loop при расчёте свечей | Passed |
+| Финал | `pnpm lint`, `typecheck`, `test`, `build`, `test:integration`, `test:e2e`, `docs:links` | всё зелёное | 0 lint; 43 unit; 64 integration; 37 e2e; build без предупреждений; 0 битых ссылок | Passed |
+| Финал | Скриншоты `/markets/crypto?symbol=BTC-USD&period=1M` (1440), `/markets/forex?symbol=EUR-USD` (390) | график, котировка, параметры, без горизонтального скролла | корректно | Passed |

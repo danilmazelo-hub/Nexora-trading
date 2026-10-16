@@ -50,6 +50,17 @@ describe('migrations on a clean database (D09)', () => {
     expect(triggers).toEqual(expect.arrayContaining(['ledger_entries_balanced', 'ledger_entry_append_only', 'ledger_transaction_append_only']));
   });
 
+  it('candle range index exists and the database stores time in UTC (D13)', async () => {
+    const idx = await clean.$queryRaw<{ indexname: string; indexdef: string }[]>`SELECT indexname, indexdef FROM pg_indexes WHERE tablename = 'candle'`;
+    const range = idx.find((i) => i.indexname === 'candle_instrumentId_interval_openTime_idx');
+    expect(range?.indexdef).toMatch(/\("instrumentId", "interval", "openTime" DESC\)/);
+    // a new connection picks up the database-level setting
+    const fresh = new PrismaClient({ datasourceUrl: cleanUrl.toString() });
+    const [tz] = await fresh.$queryRaw<{ TimeZone: string }[]>`SHOW timezone`;
+    await fresh.$disconnect();
+    expect(Object.values(tz!)[0]).toBe('UTC');
+  });
+
   it('a foreign key really rejects an orphan account', async () => {
     await expect(clean.account.create({ data: { sessionId: '00000000-0000-4000-8000-000000000000', currency: 'USD' } })).rejects.toThrow();
   });

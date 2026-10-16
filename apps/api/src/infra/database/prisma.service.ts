@@ -11,7 +11,8 @@ export class PrismaService extends PrismaClient implements OnModuleInit, OnModul
   private readonly log = new Logger('Prisma');
 
   constructor() {
-    super({ datasourceUrl: loadEnv().DATABASE_URL, log: ['warn', 'error'] });
+    // maxWait: time to obtain a pooled connection for an interactive transaction (cold start / bursts).
+    super({ datasourceUrl: loadEnv().DATABASE_URL, log: ['warn', 'error'], transactionOptions: { maxWait: 10_000, timeout: 15_000 } });
   }
 
   async onModuleInit() {

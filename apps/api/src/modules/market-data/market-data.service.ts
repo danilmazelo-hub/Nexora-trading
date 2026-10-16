@@ -154,6 +154,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     const toStore: { openTime: Date; closeTime: Date; open: string; high: string; low: string; close: string; volume: string }[] = [];
     const fmt = (v: number) => new D(v).toDecimalPlaces(places, Decimal.ROUND_HALF_UP).toFixed(places);
     const fmtS = (v: string) => new D(v).toFixed(places);
+    let computed = 0;
     for (let start = first; start <= last; start += ms) {
       const closed = start + ms <= now;
       const hit = closed ? byStart.get(start) : undefined;
@@ -161,6 +162,8 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
         out.push({ openTime: hit.openTime.toISOString(), closeTime: hit.closeTime.toISOString(), open: fmtS(hit.open.toString()), high: fmtS(hit.high.toString()), low: fmtS(hit.low.toString()), close: fmtS(hit.close.toString()), volume: new D(hit.volume.toString()).toFixed(), isClosed: true });
         continue;
       }
+      // Long histories are CPU-heavy on first computation: yield to other requests regularly.
+      if (++computed % 25 === 0) await new Promise((r) => setImmediate(r));
       const c = provider.candle(inst, start, ms, now);
       if (!c) continue;
       const row = { openTime: new Date(start), closeTime: new Date(start + ms), open: fmt(c.o), high: fmt(c.h), low: fmt(c.l), close: fmt(c.c), volume: new D(c.v).toDecimalPlaces(8).toFixed() };

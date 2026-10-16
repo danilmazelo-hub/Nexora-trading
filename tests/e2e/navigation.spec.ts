@@ -36,7 +36,8 @@ test.describe('D07 navigation map', () => {
       await expect(page, path).toHaveTitle(`${title} · NEXORA Trading`);
       await expect(page.locator('.topbar-title')).toHaveText(title);
       await page.reload();
-      await expect(page, path + ' after reload').toHaveURL(new RegExp(path.replace(/\//g, '\\/') + '$'));
+      // market pages add ?symbol= of the selected instrument (D12)
+      await expect(page, path + ' after reload').toHaveURL(new RegExp(path.replace(/\//g, '\\/') + '(\\?.*)?$'));
       await expect(page).toHaveTitle(`${title} · NEXORA Trading`);
     }
   });
@@ -45,7 +46,7 @@ test.describe('D07 navigation map', () => {
     await page.goto('/markets');
     const nav = page.getByRole('navigation', { name: 'Основная навигация' }).or(page.locator('nav.nav'));
     await nav.getByRole('link', { name: 'Акции' }).click();
-    await expect(page).toHaveURL(/\/markets\/stocks$/);
+    await expect(page).toHaveURL(/\/markets\/stocks\?symbol=AAPL$/);
     await expect(nav.getByRole('link', { name: 'Акции' })).toHaveClass(/active/);
     await nav.getByRole('link', { name: 'PnL' }).click();
     await expect(page).toHaveURL(/\/finance\/pnl$/);
@@ -55,7 +56,7 @@ test.describe('D07 navigation map', () => {
     await expect(page).toHaveURL(/\/finance\/pnl$/);
     await expect(page.locator('.topbar-title')).toHaveText('Финансы · PnL');
     await page.goBack();
-    await expect(page).toHaveURL(/\/markets\/stocks$/);
+    await expect(page).toHaveURL(/\/markets\/stocks\?symbol=AAPL$/);
     await page.goForward();
     await expect(page).toHaveURL(/\/finance\/pnl$/);
   });

@@ -12,7 +12,7 @@
 
 ## Тестовая БД
 Integration-тесты используют **только** `nexora_test` (`DATABASE_URL_TEST` из `apps/api/.env`, по умолчанию
-`postgresql://nexora:nexora@localhost:5433/nexora_test`). Перед прогоном `apps/api/test/global-setup.ts` применяет
+`postgresql://nexora:nexora@127.0.0.1:5433/nexora_test`). Перед прогоном `apps/api/test/global-setup.ts` применяет
 миграции (`prisma migrate deploy`) и очищает таблицы тестовой БД (TRUNCATE). Dev-БД `nexora` тесты не трогают;
 проверка в global-setup отказывается работать, если имя БД не оканчивается на `_test`.
 
