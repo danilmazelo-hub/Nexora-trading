@@ -1,0 +1,264 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nSettings\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nLog Out\nLanguage\n🇺🇸\nEnglish\nEnglish\n🇯🇵\n日本語\nJapanese\n🇰🇷\n한국어\nKorean\n🇨🇳\n简体中文\nChinese (Simplified)\n🇹🇼\n繁體中文\nChinese (Traditional)\n🇭🇰\n繁體中文（香港）\nChinese (Hong Kong)\n🇩🇪\nDeutsch\nGerman\n🇫🇷\nFrançais\nFrench\n🇪🇸\nEspañol\nSpanish\n🇮🇹\nItaliano\nItalian\n🇵🇹\nPortuguês\nPortuguese\n🇳🇱\nNederlands\nDutch\n🇸🇪\nSvenska\nSwedish\n🇳🇴\nNorsk\nNorwegian\n🇩🇰\nDansk\nDanish\n🇫🇮\nSuomi\nFinnish\n🇵🇱\nPolski\nPolish\n🇨🇿\nČeština\nCzech\n🇹🇷\nTürkçe\nTurkish\n🇸🇦\nالعربية\nArabic\n🇷🇺\nРусский\nRussian\nSave",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Log Out",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇺🇸\nEnglish\nEnglish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇯🇵\n日本語\nJapanese",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇰🇷\n한국어\nKorean",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇨🇳\n简体中文\nChinese (Simplified)",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇹🇼\n繁體中文\nChinese (Traditional)",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇭🇰\n繁體中文（香港）\nChinese (Hong Kong)",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇩🇪\nDeutsch\nGerman",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇫🇷\nFrançais\nFrench",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇪🇸\nEspañol\nSpanish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇮🇹\nItaliano\nItalian",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇵🇹\nPortuguês\nPortuguese",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇳🇱\nNederlands\nDutch",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇸🇪\nSvenska\nSwedish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇳🇴\nNorsk\nNorwegian",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇩🇰\nDansk\nDanish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇫🇮\nSuomi\nFinnish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇵🇱\nPolski\nPolish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇨🇿\nČeština\nCzech",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇹🇷\nTürkçe\nTurkish",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇸🇦\nالعربية\nArabic",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇷🇺\nРусский\nRussian",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Save",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Settings",
+    "Language"
+  ]
+}

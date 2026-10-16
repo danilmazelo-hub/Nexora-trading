@@ -1,0 +1,542 @@
+{
+  "url": "https://app.nexus-analyst.com/finance",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\n\nHome\n\n$50,000.00\n\nAvailable\n\nFree to trade\n\n$47,308.77\n\nOpen P&L\n\nMark to market\n\n-$1,609.00\n\nEquity\n\nCash + open P&L\n\n$48,391.00\n\nRisk\n\nMargin pressure\n\n2%\n\nCash App\nVisa, MasterCard\nMin amount\n$200 - $10,000\nFee\n1.2%\nProcessing\nInstant\nDeposit\nBank Transfer\nFor Domestic Wire Transfers\nMin amount\n$1000\nFee\n$35\nProcessing\n1-3 Days\nPersonal Verification\nCredit/Debit Card\nVisa, MasterCard\nMin amount\n$200\nFee\n2.5%\nProcessing\nInstant\nDeposit\nCrypto to cash\nInstant: send crypto, get cash on your trading balance.\nMin amount\n$10\nFee\nNetwork\nProcessing\nAfter confirmations\nDeposit\nDeposit cash\nReceive crypto\nWithdraw cash\nSwap\nTrade\nCash App\nDeposit\n\nEnter amount and currency. A secure window opens for payment details.\n\nAmount\n\nMinimum: $200 - $10,000\n\nCurrency (fiat)\nUSD — US Dollar\nEUR — Euro\nGBP — British Pound\nCHF — Swiss Franc\nPLN — Polish Złoty\nCAD — Canadian Dollar\nAUD — Australian Dollar\nCZK — Czech Koruna\nRON — Romanian Leu\nBGN — Bulgarian Lev\nSEK — Swedish Krona\nNOK — Norwegian Krone\nDKK — Danish Krone\n\nUSD, EUR… — not cryptocurrency.\n\nContinue\nCancel",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "true"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Support",
+      "title": "Support",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "Deposit",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 30,
+      "text": "Personal Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "Deposit",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "Deposit",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "Deposit cash",
+      "label": "Deposit cash",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 34,
+      "text": "Receive crypto",
+      "label": "Receive crypto",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "Withdraw cash",
+      "label": "Withdraw cash",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "Swap",
+      "label": "Swap",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 37,
+      "text": "Trade",
+      "label": "Trade",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 38,
+      "text": "",
+      "label": "Back",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "Continue",
+      "label": null,
+      "title": "",
+      "disabled": true,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 41,
+      "text": "Cancel",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "$200 - $10,000",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Amount\n\nMinimum: $200 - $10,000"
+      ]
+    },
+    {
+      "i": 2,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "placeholder": null,
+      "required": false,
+      "disabled": false,
+      "labels": [
+        "Currency (fiat)\nUSD — US Dollar\nEUR — Euro\nGBP — British Pound\nCHF — Swiss Franc\nPLN — Polish Złoty\nCAD — Canadian Dollar\nAUD — Australian Dollar\nCZK — Czech Koruna\nRON — Romanian Leu\nBGN — Bulgarian Lev\nSEK — Swedish Krona\nNOK — Norwegian Krone\nDKK — Danish Krone\n\nUSD, EUR… — not cryptocurrency."
+      ],
+      "options": [
+        {
+          "text": "USD — US Dollar",
+          "value": "USD"
+        },
+        {
+          "text": "EUR — Euro",
+          "value": "EUR"
+        },
+        {
+          "text": "GBP — British Pound",
+          "value": "GBP"
+        },
+        {
+          "text": "CHF — Swiss Franc",
+          "value": "CHF"
+        },
+        {
+          "text": "PLN — Polish Złoty",
+          "value": "PLN"
+        },
+        {
+          "text": "CAD — Canadian Dollar",
+          "value": "CAD"
+        },
+        {
+          "text": "AUD — Australian Dollar",
+          "value": "AUD"
+        },
+        {
+          "text": "CZK — Czech Koruna",
+          "value": "CZK"
+        },
+        {
+          "text": "RON — Romanian Leu",
+          "value": "RON"
+        },
+        {
+          "text": "BGN — Bulgarian Lev",
+          "value": "BGN"
+        },
+        {
+          "text": "SEK — Swedish Krona",
+          "value": "SEK"
+        },
+        {
+          "text": "NOK — Norwegian Krone",
+          "value": "NOK"
+        },
+        {
+          "text": "DKK — Danish Krone",
+          "value": "DKK"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Finance",
+    "Cash App",
+    "Deposit"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

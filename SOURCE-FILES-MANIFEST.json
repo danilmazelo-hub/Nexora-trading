@@ -1,0 +1,1546 @@
+[
+  {
+    "file": "nexus-platform-audit/01-finance-account.json",
+    "sha256": "570a828a31deb63197ed6480af88d53f307e00900a1f30ef2d0712f625cb4d5b"
+  },
+  {
+    "file": "nexus-platform-audit/01-finance-account.png",
+    "sha256": "ac5505b64a42261b6ce225d7f0eadbe7701d88e64c02d6c60a681fadbe702c9a"
+  },
+  {
+    "file": "nexus-platform-audit/02-activity.json",
+    "sha256": "878266ac39ece0765fd695ba7cd7c0d86523c135fb4fcd60e494f7a0517e83ff"
+  },
+  {
+    "file": "nexus-platform-audit/02-activity.png",
+    "sha256": "b558dced5949a8f82f6c95093445b4d8d162bdb3071d2cf6d4e1ca3ac0e81a3f"
+  },
+  {
+    "file": "nexus-platform-audit/02-chat-with-ai.json",
+    "sha256": "4a194479419e8678b10d3a891876ed206c88a52c47b4ddff8e6c863e9c8abf92"
+  },
+  {
+    "file": "nexus-platform-audit/02-chat-with-ai.png",
+    "sha256": "90a5b9a7395e61dd0be9a228b477ea77012942b6c366fe83fb617296c158219b"
+  },
+  {
+    "file": "nexus-platform-audit/02-crypto.json",
+    "sha256": "db9c9bb67a9408187f2abcdb1b2153fc19fcb4103d5c0d717f27a32e506309c8"
+  },
+  {
+    "file": "nexus-platform-audit/02-crypto.png",
+    "sha256": "41e6e96dce5bf03d2ebacc7395126656de02229b22993c195edf9d384aaeb9c9"
+  },
+  {
+    "file": "nexus-platform-audit/02-my-account.json",
+    "sha256": "0d4b87c3eb3b908aa1d14e3437b6940185be8834a6dc2ce68f7330a34ecc6961"
+  },
+  {
+    "file": "nexus-platform-audit/02-my-account.png",
+    "sha256": "c16a0e88e4a0354dd983de71519689a16292de70f9b63ef875dcbd3c52e6131b"
+  },
+  {
+    "file": "nexus-platform-audit/02-nexus-ventures.json",
+    "sha256": "0a901e2f767c60bd3d25607ae9c296fed2e2398006f30217afbc80f16654d4a5"
+  },
+  {
+    "file": "nexus-platform-audit/02-nexus-ventures.png",
+    "sha256": "88e85ec9b65c7dbe6f171a48530cf5578e819cbff4f6c62e7a084bd4bd8c8814"
+  },
+  {
+    "file": "nexus-platform-audit/02-pnl-statistics.json",
+    "sha256": "88b0b2b720e3a5204b55b56d1e62779f2c37a43f405f3f4cfe3924f6ae9e617e"
+  },
+  {
+    "file": "nexus-platform-audit/02-pnl-statistics.png",
+    "sha256": "4391e60aa4d678a67dca41aa52d8b91f291b1aabcce986ffa4cd1645887a1bae"
+  },
+  {
+    "file": "nexus-platform-audit/02-security.json",
+    "sha256": "271c5dc7a42f2aa73473e67728539c588a1829b7a2649d448a2c5b08822ca9cc"
+  },
+  {
+    "file": "nexus-platform-audit/02-security.png",
+    "sha256": "29b9447bdfa1f81c8d38fe3326e64a8046c038d69ba15fba2e09c078367f1e8f"
+  },
+  {
+    "file": "nexus-platform-audit/02-understanding-trading-chat-platforms.json",
+    "sha256": "523862ffdf083e119a73a580e91519d8b0ceaa2cf423fcac896788b2afa5e9b9"
+  },
+  {
+    "file": "nexus-platform-audit/02-understanding-trading-chat-platforms.png",
+    "sha256": "5a4e3c06dd75b2e97e7c1d79262ade832a10fa4507001922424fda9ba3eb52ea"
+  },
+  {
+    "file": "nexus-platform-audit/02-verification.json",
+    "sha256": "88b0b2b720e3a5204b55b56d1e62779f2c37a43f405f3f4cfe3924f6ae9e617e"
+  },
+  {
+    "file": "nexus-platform-audit/02-verification.png",
+    "sha256": "69c9e751f13f5e57ace0a7edab6026ca8136722ce6ddda0433f7b48e001c006d"
+  },
+  {
+    "file": "nexus-platform-audit/03-2fa-&-passkey.json",
+    "sha256": "3ba53b98128feb7224aeb891d09a59131adbb25c13f589e20636a40843ebc81a"
+  },
+  {
+    "file": "nexus-platform-audit/03-2fa-&-passkey.png",
+    "sha256": "ac2936ae564595024786b8851537abab14048fe7c2a4b6ec2269f2d4f2ca4515"
+  },
+  {
+    "file": "nexus-platform-audit/03-pending.json",
+    "sha256": "78ab6c07506682d6313ed077a07ad61e661b1d67765ef597a5d5eddece1e2953"
+  },
+  {
+    "file": "nexus-platform-audit/03-pending.png",
+    "sha256": "0d078b8fcc8cacf1d0beb37d2525cb7a808cf7b40ef0a8c703ff224ef99479b7"
+  },
+  {
+    "file": "nexus-platform-audit/03-pnl-statistics.json",
+    "sha256": "0324a02e09de0553153c66f88112ca7b0667e84c1645b5b5a5cc6eac75b50496"
+  },
+  {
+    "file": "nexus-platform-audit/03-pnl-statistics.png",
+    "sha256": "7b363bd23bf03f36e3b2ccc21275642ff4fb1b61052a644c552ca9f7fd46676f"
+  },
+  {
+    "file": "nexus-platform-audit/03-profit-by-market.json",
+    "sha256": "f671ebc71212189e6c0b5be88fcd4f38363f5898c3f15889cebf00dfbd3f053c"
+  },
+  {
+    "file": "nexus-platform-audit/03-profit-by-market.png",
+    "sha256": "55bb2d52d796d829ab474322662f6fe9c2350676d1546e921a6bee085bb5516b"
+  },
+  {
+    "file": "nexus-platform-audit/03-settings.json",
+    "sha256": "d26f0bf2a1cc7b301793a2a65feecfb12da75352817b118d68f380555a247f9c"
+  },
+  {
+    "file": "nexus-platform-audit/03-settings.png",
+    "sha256": "23f7ad27121910d2430473bfd004ef4b90b8cdb0cc88c136345298f952af6351"
+  },
+  {
+    "file": "nexus-platform-audit/03-stocks.json",
+    "sha256": "54df9c516d0d29377f3038c5b2dfd147409a4562be5722d01e2db10a6d4a8d38"
+  },
+  {
+    "file": "nexus-platform-audit/03-stocks.png",
+    "sha256": "691ca55e551d4c25894b56a644564162ad7ad7d5ff8c05042810a35a08d129e0"
+  },
+  {
+    "file": "nexus-platform-audit/04-crypto.json",
+    "sha256": "a01dd257d2137630e38b4c742d75822b8c6de7883550d9f73d8e2b2c8f40c26d"
+  },
+  {
+    "file": "nexus-platform-audit/04-crypto.png",
+    "sha256": "a3ca76397ba9cc0b1915c0f3f1afd713475f4b531b55b42c594f1d68a4d1d9d5"
+  },
+  {
+    "file": "nexus-platform-audit/04-email-&-password.json",
+    "sha256": "271c5dc7a42f2aa73473e67728539c588a1829b7a2649d448a2c5b08822ca9cc"
+  },
+  {
+    "file": "nexus-platform-audit/04-email-&-password.png",
+    "sha256": "77f498b80793a701a953d6d7dbd691eac5a42108b3b3f65cf95c70e2f3462615"
+  },
+  {
+    "file": "nexus-platform-audit/04-history.json",
+    "sha256": "5291bf1753073884b839a2034b0aa5efa50b89ade1bcb8aeb6e88ff92c9c9d44"
+  },
+  {
+    "file": "nexus-platform-audit/04-history.png",
+    "sha256": "01a1c0cd22a1373f9e90794430ff445863327f24dc7f10d624974a8256abf5e1"
+  },
+  {
+    "file": "nexus-platform-audit/04-indices.json",
+    "sha256": "66e37ab4c038d9089337265c09e0866022fc05b07a9b0466ca2ebc56d963c1b7"
+  },
+  {
+    "file": "nexus-platform-audit/04-indices.png",
+    "sha256": "2eb8b4ebe551e01a865a0e2d1dc371a109bd7fbf23ca05011e110ad5f949538b"
+  },
+  {
+    "file": "nexus-platform-audit/04-profile.json",
+    "sha256": "d26f0bf2a1cc7b301793a2a65feecfb12da75352817b118d68f380555a247f9c"
+  },
+  {
+    "file": "nexus-platform-audit/04-profile.png",
+    "sha256": "04585341e8988c80c56658c6e89bb30ad63c6c655ffb80eb34497f4de09c05bd"
+  },
+  {
+    "file": "nexus-platform-audit/04-profit-by-market.json",
+    "sha256": "0324a02e09de0553153c66f88112ca7b0667e84c1645b5b5a5cc6eac75b50496"
+  },
+  {
+    "file": "nexus-platform-audit/04-profit-by-market.png",
+    "sha256": "e18bcde0e3cb909b827c564f366fd334e1f8dc8701f9eece8bf67ec50c3f5f25"
+  },
+  {
+    "file": "nexus-platform-audit/04-trading-history.json",
+    "sha256": "2e727adda550a431d38a612a3bd33a4419e24ec86ecd4dddab31d220674f69d5"
+  },
+  {
+    "file": "nexus-platform-audit/04-trading-history.png",
+    "sha256": "473ec969c308c4f91032f9e2aabda2f5ba6812735318f385b2dde2c27af58f6e"
+  },
+  {
+    "file": "nexus-platform-audit/05-forex.json",
+    "sha256": "c3f1c628eac78462b291332828ad808f61d5a2e5bcf95509c9a825dc5e9e22ed"
+  },
+  {
+    "file": "nexus-platform-audit/05-forex.png",
+    "sha256": "c5579949e0582ba967c9efaf5f012a46e1c791018b9e2cc442a439bcbf0ecd83"
+  },
+  {
+    "file": "nexus-platform-audit/05-my-account.json",
+    "sha256": "a7426281ac0b439501bfa3bdc72dc96ff1b75491d0f68d563a2f2e4d5eb6e9ff"
+  },
+  {
+    "file": "nexus-platform-audit/05-my-account.png",
+    "sha256": "2f5bea82335aea11040e16636c2eb0691991bc343a6010a1f521fa9036ff02a1"
+  },
+  {
+    "file": "nexus-platform-audit/05-performance.json",
+    "sha256": "7995dc19311f463759c8d908d3d46136628372ffdd30543cfd77d203ab2ae81e"
+  },
+  {
+    "file": "nexus-platform-audit/05-performance.png",
+    "sha256": "967c74b7f568934358902fa03a10f1d15a29fa73900f25f496e412b092ed60eb"
+  },
+  {
+    "file": "nexus-platform-audit/05-positions.json",
+    "sha256": "42b080f838c345b1b9d3cb094114918529a008161eb3a776aa38021d83875610"
+  },
+  {
+    "file": "nexus-platform-audit/05-positions.png",
+    "sha256": "fbac5518a31aadeb8907a790f888cf17a783affa5f755d88b2e2912e0af024c7"
+  },
+  {
+    "file": "nexus-platform-audit/05-security.json",
+    "sha256": "bd7aead0df86a048ee8f513cad7499be834796a5bd42de16a2cf6f3ea3129d57"
+  },
+  {
+    "file": "nexus-platform-audit/05-security.png",
+    "sha256": "68387f77e82c115d3a410433eba7730117168cc1734f88a6fa1074bd92d58702"
+  },
+  {
+    "file": "nexus-platform-audit/05-trading-history.json",
+    "sha256": "88b0b2b720e3a5204b55b56d1e62779f2c37a43f405f3f4cfe3924f6ae9e617e"
+  },
+  {
+    "file": "nexus-platform-audit/05-trading-history.png",
+    "sha256": "4391e60aa4d678a67dca41aa52d8b91f291b1aabcce986ffa4cd1645887a1bae"
+  },
+  {
+    "file": "nexus-platform-audit/05-verification.json",
+    "sha256": "2e727adda550a431d38a612a3bd33a4419e24ec86ecd4dddab31d220674f69d5"
+  },
+  {
+    "file": "nexus-platform-audit/05-verification.png",
+    "sha256": "0fab8d225270c32fa55b4cf9a38c5f9ae86607a7779a34c4d301bf3c710ca6f6"
+  },
+  {
+    "file": "nexus-platform-audit/06-commodities.json",
+    "sha256": "8efcca2ee186639b756919cdb81ac3c4c5a31f93958b4ea05e1aaee18f269c2f"
+  },
+  {
+    "file": "nexus-platform-audit/06-commodities.png",
+    "sha256": "e92ebad73ce8f14533e300ac57daee4de99ea87327d76a3bf8b01ed54063138a"
+  },
+  {
+    "file": "nexus-platform-audit/06-crypto.json",
+    "sha256": "ca9908fc2250adc924e125cd00522a3dbcbbf3aa62a088992794091a6a025e05"
+  },
+  {
+    "file": "nexus-platform-audit/06-crypto.png",
+    "sha256": "b07a4bb31186a4e41a305659d3c9496cdd8a3a5361575eae843c08848d6c93b0"
+  },
+  {
+    "file": "nexus-platform-audit/06-notifications.json",
+    "sha256": "76fce68f113f0a0f842d642621da2b9363ae74d6ea20ccd48a80b3e18b53dfd3"
+  },
+  {
+    "file": "nexus-platform-audit/06-notifications.png",
+    "sha256": "34f0500ea7c82b69e1dee19f7b786c0791f0b4331cf8f4a304c68b6c42cd5e80"
+  },
+  {
+    "file": "nexus-platform-audit/06-overview.json",
+    "sha256": "2e727adda550a431d38a612a3bd33a4419e24ec86ecd4dddab31d220674f69d5"
+  },
+  {
+    "file": "nexus-platform-audit/06-overview.png",
+    "sha256": "8c727447a33436918b1990ef543a79790806c6e1ecfed0c5d31e2c833feeafb9"
+  },
+  {
+    "file": "nexus-platform-audit/06-pnl-statistics.json",
+    "sha256": "dadcda5117094a6d59924128562928e7bbcdece117b1240e9cbecf94891ca873"
+  },
+  {
+    "file": "nexus-platform-audit/06-pnl-statistics.png",
+    "sha256": "930d5c06b6e031c67a02c12fc52c1c084613fbad0192b479a860bafbaa33e77b"
+  },
+  {
+    "file": "nexus-platform-audit/06-stocks.json",
+    "sha256": "dcee6cef928bfd51b6df08aed178f499d0a05fe313ae0a569316a362a346f4aa"
+  },
+  {
+    "file": "nexus-platform-audit/06-stocks.png",
+    "sha256": "6db795e6a6baaad2bc5e578bd6d260d94b62c711d81aaf263a2033a8064610e9"
+  },
+  {
+    "file": "nexus-platform-audit/06-verification.json",
+    "sha256": "88b0b2b720e3a5204b55b56d1e62779f2c37a43f405f3f4cfe3924f6ae9e617e"
+  },
+  {
+    "file": "nexus-platform-audit/06-verification.png",
+    "sha256": "1670c8369916dbc29d1cf873c05ea8291924d39a1b8eb9aca15f99564ddbdca4"
+  },
+  {
+    "file": "nexus-platform-audit/07-heatmap.json",
+    "sha256": "a165509297dc1ea90441d1e681bf65880f87a0b7fa2179a1dc66901dba8f3ea2"
+  },
+  {
+    "file": "nexus-platform-audit/07-heatmap.png",
+    "sha256": "0f33b2afa56ae40494a6cf27436af80039a33624ebef13be2e1e1eb9640b7d10"
+  },
+  {
+    "file": "nexus-platform-audit/07-language.json",
+    "sha256": "2a451131699bbfe3b84ee96d68d4b0fe1579dafe83e5dfca1c9fff1354afbb05"
+  },
+  {
+    "file": "nexus-platform-audit/07-language.png",
+    "sha256": "e832d2c99a7b15422478d6e46f415d85869ec00daf65d6e170ebbc1197d7fba7"
+  },
+  {
+    "file": "nexus-platform-audit/07-performance.json",
+    "sha256": "852bd91f21d2baad938b226ccb88a7dbec1052feb54b72d2bdeee3abda09e5dc"
+  },
+  {
+    "file": "nexus-platform-audit/07-performance.png",
+    "sha256": "8eb7976c03ff3cd15eb4843932154d7f2eb554558479a62f096610fe3dec5fca"
+  },
+  {
+    "file": "nexus-platform-audit/07-subscription.json",
+    "sha256": "529c9144e02d2d1f01e87fb90cb0b69d750b5d7b3b57f7ed1128957c649dd8d8"
+  },
+  {
+    "file": "nexus-platform-audit/07-subscription.png",
+    "sha256": "5b45a3be28877b85f5118c847e9f633079b101a2382c9d536fd4fca6bc2f8716"
+  },
+  {
+    "file": "nexus-platform-audit/07-verification.json",
+    "sha256": "5a1e855a2a3395678880b98a92896b454d9e6f6b1d1cd45bde189fa726e016ed"
+  },
+  {
+    "file": "nexus-platform-audit/07-verification.png",
+    "sha256": "958740bf2fdaacfe03763dbade5d9775a250b4ddcf4add5eb0b4378d26e8900a"
+  },
+  {
+    "file": "nexus-platform-audit/08-charts.json",
+    "sha256": "659bef2ae09c177e66d9fbd9f74208df078366b3a09db6d834c01dd354e8c8c2"
+  },
+  {
+    "file": "nexus-platform-audit/08-charts.png",
+    "sha256": "d0f7b5b0ed03c94d5a43e5598f35c8da3af5dd4d93a225c1e80e0900fdc744da"
+  },
+  {
+    "file": "nexus-platform-audit/08-history.json",
+    "sha256": "c80763d208d9dd78c23376da6c449b18f6bda9b92ae6efd576b4bd47168b28bc"
+  },
+  {
+    "file": "nexus-platform-audit/08-history.png",
+    "sha256": "d76387a8409af84e9d1144d978e463865558624852f7fb5136588c13864d44ba"
+  },
+  {
+    "file": "nexus-platform-audit/08-support.json",
+    "sha256": "0afcb48f270ea6584cb4c3b121164273cab9ca56a7ce959c269c26ae1e079b0e"
+  },
+  {
+    "file": "nexus-platform-audit/08-support.png",
+    "sha256": "abf7fa9ebdc26ecbc4c66157eee2df8d20b7c09116b95748f38c9a108cadb11b"
+  },
+  {
+    "file": "nexus-platform-audit/09-activity.json",
+    "sha256": "2354406598114f85f0f494510106b35ea4aaa1f3afdb239c6dcc2c5c6373e0d1"
+  },
+  {
+    "file": "nexus-platform-audit/09-activity.png",
+    "sha256": "a3c1dc16de21433462d612d55133cd6f797b0e8b0c23028302e306ff257dbd82"
+  },
+  {
+    "file": "nexus-platform-audit/09-top-crypto.json",
+    "sha256": "dc17fa1b69c9b7b6ee389ad6a71fdf907637681245558dd7a004c9550d26f23b"
+  },
+  {
+    "file": "nexus-platform-audit/09-top-crypto.png",
+    "sha256": "9d8439207d7772e538a6625f3824af75477471a87cb304ba5f94b6672be42247"
+  },
+  {
+    "file": "nexus-platform-audit/20-ai-existing-chat.json",
+    "sha256": "0daa4846af6ee7e27de76e838e0c7956834fa0ae8f1fe59de9e1c1b621f2c570"
+  },
+  {
+    "file": "nexus-platform-audit/20-ai-existing-chat.png",
+    "sha256": "490350a35e0bd4a10116a6306253b983b9b4ed5753c74d34626c81e305522354"
+  },
+  {
+    "file": "nexus-platform-audit/21-verification-settled.json",
+    "sha256": "0324a02e09de0553153c66f88112ca7b0667e84c1645b5b5a5cc6eac75b50496"
+  },
+  {
+    "file": "nexus-platform-audit/21-verification-settled.png",
+    "sha256": "4a3ccb6bf1e1b058d3c8af94cb313c4a70ca85ad47e463f8a075d4ba13e64df8"
+  },
+  {
+    "file": "nexus-platform-audit/30-stocks.json",
+    "sha256": "153612533c9b9ec64b0c66f66283502c0fdddffd0a25d515dff2f337d11e9150"
+  },
+  {
+    "file": "nexus-platform-audit/30-stocks.png",
+    "sha256": "67a3eec350d7bc79cf57a4058b6eed6f46da660de64db1f7f809046facddde8e"
+  },
+  {
+    "file": "nexus-platform-audit/31-stocks-heatmap.json",
+    "sha256": "b8eadadaa9d15f73963311e8b3933d2ade7eae65d717c5a5fbc24988f9771c7b"
+  },
+  {
+    "file": "nexus-platform-audit/31-stocks-heatmap.png",
+    "sha256": "cdd926971bce112791e2c56975d145b39dfaa4d8969867ab7e7f026f4750c321"
+  },
+  {
+    "file": "nexus-platform-audit/32-stocks-performance.json",
+    "sha256": "cdb7ac224ab3d2878897a0f7cd97f8319f348c4c4f6ff4b78dc513fb136eb328"
+  },
+  {
+    "file": "nexus-platform-audit/32-stocks-performance.png",
+    "sha256": "616d0ee5fa6c5d08d9ab7114f1f1e8620577eb1bc2eebe8ab95c425a80b9aa15"
+  },
+  {
+    "file": "nexus-platform-audit/33-indices.json",
+    "sha256": "1025512fb00196aa6e9f1b4d6369429378171d211aac1b856cadcfab1ec93d92"
+  },
+  {
+    "file": "nexus-platform-audit/33-indices.png",
+    "sha256": "e4a0d65311f94e0d214ded3d3faa8533fff199a25742182fad9aba0a6dded873"
+  },
+  {
+    "file": "nexus-platform-audit/34-indices-heatmap.json",
+    "sha256": "e8f607e06607f8fd4fcda178c3cbc6ebdb694350dd99b1cacb1108689914cb7f"
+  },
+  {
+    "file": "nexus-platform-audit/34-indices-heatmap.png",
+    "sha256": "b6b1dc9d9e039d55b0c086a4dac6e83fbb098446f68ff5fff339fd239da5341c"
+  },
+  {
+    "file": "nexus-platform-audit/35-indices-performance.json",
+    "sha256": "bf68b8c96c05eb7582533621f261404130583e95b2155db923a2661907186ce2"
+  },
+  {
+    "file": "nexus-platform-audit/35-indices-performance.png",
+    "sha256": "46cdf0af93ce8ac6d654803f4ca57cfa02b893885fa94e03d3f1f4368804329e"
+  },
+  {
+    "file": "nexus-platform-audit/36-forex.json",
+    "sha256": "3a61b7ebfb60ca140d22a1415ba9891789f60c0ce33791cb56b21e88d25a8c4a"
+  },
+  {
+    "file": "nexus-platform-audit/36-forex.png",
+    "sha256": "374e08c8dde4885dd2351900f1f5a83d96aab55b616a1a2802d00cc6c22ca86c"
+  },
+  {
+    "file": "nexus-platform-audit/37-forex-quotes.json",
+    "sha256": "5cce4682bed61d595bef822fd7a50b63a2792eca94b8e60dcc82d86304788602"
+  },
+  {
+    "file": "nexus-platform-audit/37-forex-quotes.png",
+    "sha256": "5a8e20d0b4d1cb743e22d72fc4f90aef029b57da1e0af51e52a912dfb803fef0"
+  },
+  {
+    "file": "nexus-platform-audit/38-forex-performance.json",
+    "sha256": "1e0c0474120bec7d9437e39b02f17101a85aea511820fc8b33c7ee854635e177"
+  },
+  {
+    "file": "nexus-platform-audit/38-forex-performance.png",
+    "sha256": "7b5f6b08e817bb3e53d56fa317e6c814870bf93851e3df4bb0c4f36c2365f503"
+  },
+  {
+    "file": "nexus-platform-audit/39-commodities.json",
+    "sha256": "982b85b17842edd42b4de4cf1694f209e79cf43d3856295dc0ee76a1d1fdda1f"
+  },
+  {
+    "file": "nexus-platform-audit/39-commodities.png",
+    "sha256": "14c23c5dcfaff4f71647a571a4e03273f96152c62aae4943ff0ae351842a9329"
+  },
+  {
+    "file": "nexus-platform-audit/40-commodities-heatmap.json",
+    "sha256": "1d697a5aa7da9a6f7ba754d058f73fb48e8b58127b88350d75a800bccc84f485"
+  },
+  {
+    "file": "nexus-platform-audit/40-commodities-heatmap.png",
+    "sha256": "815a04e7fcbc07680ad632dc3afda8cb3004b4666d27174d133756b533879051"
+  },
+  {
+    "file": "nexus-platform-audit/41-commodities-performance.json",
+    "sha256": "6a41353f76404a6d2217d89c606134c3ae736fe49f60c1febb814b32a5dc515e"
+  },
+  {
+    "file": "nexus-platform-audit/41-commodities-performance.png",
+    "sha256": "213b4414b2b3d21994996e01003b7ec319803f345525394afd644c86c8d80ba9"
+  },
+  {
+    "file": "nexus-platform-audit/42-finance-overview.json",
+    "sha256": "07ce81d0ac517c19158f3e1d234567658433d8ef229f8d04e99ede87552af581"
+  },
+  {
+    "file": "nexus-platform-audit/42-finance-overview.png",
+    "sha256": "724de70e9dc78f8b318682488a3ebf5a89c4539a0bdda8bc751d0db958326c36"
+  },
+  {
+    "file": "nexus-platform-audit/43-finance-subscription.json",
+    "sha256": "0e22a21bed981806b35919ef313b659ac0e402ac16364a849719810ab1dda56f"
+  },
+  {
+    "file": "nexus-platform-audit/43-finance-subscription.png",
+    "sha256": "c98b6a1208e1825c3f43bb26e7c7a3cfb374baa4899a9a72a491bd99c2751934"
+  },
+  {
+    "file": "nexus-platform-audit/44-finance-history.json",
+    "sha256": "b8849cb3412025d06f8300b9fbc8a4e2a0c124a69f43080cd86b890cdacab7ec"
+  },
+  {
+    "file": "nexus-platform-audit/44-finance-history.png",
+    "sha256": "c636bf1ef17d7cf96150b6478b47878abbc3da8fe50c91acc71fc1c18106152c"
+  },
+  {
+    "file": "nexus-platform-audit/45-auth-overlay.json",
+    "sha256": "c98ee179a47262dbb11d83799c0aa9b3d1459ca8a1437192084c98930b0f7a02"
+  },
+  {
+    "file": "nexus-platform-audit/45-auth-overlay.png",
+    "sha256": "5d0a97cdce24dfb271a342879b9cb7faf4123e4f9d10101a6f7bdf729438d5e8"
+  },
+  {
+    "file": "nexus-platform-audit/AUDIT-RU.md",
+    "sha256": "5b4e911e6160286ea29745e83267af8ec325b6894696f26571bb3a6861120b57"
+  },
+  {
+    "file": "nexus-platform-audit/EVIDENCE-INDEX.md",
+    "sha256": "9ee5da87abeeccb95fc217145ca38def96310e5dd027dfbcaa1087850ae6af86"
+  },
+  {
+    "file": "audits/CLAUDE-20-SKILLS-RU.md",
+    "sha256": "1bf15d98c875fe58c0dfc4b79bd0edce1b620358fff51a58a780c7d7bfda64cc"
+  },
+  {
+    "file": "audits/NEXUS-FEEDBACK-FROM-ME-RU.md",
+    "sha256": "8a476fa0d1e7940d3fd2c55b702e021dd5500bcaa3540639e280a28dcab0b8fc"
+  },
+  {
+    "file": "audits/NEXUS-SECURITY-AUDIT-RU.md",
+    "sha256": "ccf0ef069e18388e823d32292010cfd2d0f5c381245bc4be52ace0196eb01ee3"
+  },
+  {
+    "file": "audits/NEXUS-SENIOR-QA-AUDIT-RU.md",
+    "sha256": "3305e77574af9197c2fe538f0033ffd95cd9425641b7924c4a3898237ff3d378"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/00-baseline.json",
+    "sha256": "f01fb9968bdd2e7797e52cd2bd39d143d58266805f267aacf869bd905f1a6948"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/00-baseline.png",
+    "sha256": "318bcd78528293ced935d25763288f556c31f90b0539f7300c2f642af011d092"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/01-deposit-open.json",
+    "sha256": "408641ffcf2e1bb9564bfe4ea9f0671b237d9480d42bd45868c29067a250d522"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/01-deposit-open.png",
+    "sha256": "eef6689c383a0c1708aa8d698325998743b65b9ab9e15d4ae575c502afc8657e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/02-deposit-cashapp-form.json",
+    "sha256": "c9a89d339d4c61d88ebfe5042907a81d5264da1701c07ac4dd7822e195cdd436"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/02-deposit-cashapp-form.png",
+    "sha256": "3d167acc9f507f3f6b7ff3737dd1fa617402cabda3e63fdb0fff7398b3f05827"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/03-deposit-methods.json",
+    "sha256": "68ebe6d51d48228e057fe4b7176dd1b78e8f117e83e337724b693a4ead13316d"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/03-deposit-methods.png",
+    "sha256": "22920fbf705edf814caab57df11fd80908ea3967955c35dfe10e0c41184360f3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/04-cashapp-form.json",
+    "sha256": "336ac36513a569c40fdbca8bc7792a92c2bb34e939dce12db04dfa475725f993"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/04-cashapp-form.png",
+    "sha256": "8843a441c66db623c24fc72d3e4d326f6b713591f431779bbf890b07d5d4a0ef"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/05-cashapp-empty.json",
+    "sha256": "0531e09035ad308114bf6b7652048dedc6593a096b64b3c4a83d2c6eac6f4e57"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/05-cashapp-empty.png",
+    "sha256": "2381dc46cbe34839658a6a94fbf026855bad44765813bd61f7fe3a10bf3b11a7"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/06-cashapp-below-min.json",
+    "sha256": "821eab8eb6f98af1842cdf2c76073b0651f28ee6fdaf4c73adc8ca14da851666"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/06-cashapp-below-min.png",
+    "sha256": "dc75c626f79935939bfe0501516f9e389768c467046199a89edc8d5f66eb0ffb"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/07-cashapp-above-max.json",
+    "sha256": "8fd4b358b96ed0b27910e4c1c659a51fc5b230d7285bc309fab7b46db81c284e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/07-cashapp-above-max.png",
+    "sha256": "95198916aa676e758b02d106d2bd1238aefde7ad8f43c010c984dbed166a093c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/08-cashapp-cancel.json",
+    "sha256": "3c8fd295be7382195e6d99a18306620380e9c550ded4efa55faaa54cd7d37354"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/08-cashapp-cancel.png",
+    "sha256": "2a33df0560926b8ad1414288081f8e0db61494ab525b709c6a5a826937ef85a7"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/09-card-form.json",
+    "sha256": "3c8fd295be7382195e6d99a18306620380e9c550ded4efa55faaa54cd7d37354"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/09-card-form.png",
+    "sha256": "29844e648e013630c5299d940212afed71c50d32971752c9c8bd921123896b65"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/10-card-escape.json",
+    "sha256": "3c8fd295be7382195e6d99a18306620380e9c550ded4efa55faaa54cd7d37354"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/10-card-escape.png",
+    "sha256": "c3100f0e90314f3c72f00f12f73c04188107052b4442e2404a324dc4289ddae2"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/100-search-focus-read.json",
+    "sha256": "4263bb71f5c15adcc7b44b39db6cce5faede745ffd31e647bfa4ee87ea6e10d5"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/100-search-focus.json",
+    "sha256": "1c85731fbe9ed423b879d5c335d848a0835f0a2f1c7cce79e5d176ba19e51df1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/100-search-focus.png",
+    "sha256": "7b4b46d794720004b274b2b5a62854e5769a02579a8d102d424b0515f7d5c17c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/101-search-open-btc.json",
+    "sha256": "07fcc692fa5c6d2e6dff8d2cce80f8f5db981e997d1e9ef6f89ded4a7168eed3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/101-search-open-btc.png",
+    "sha256": "fb5a389bc3397af10b446f476b2eb84fd7ff83d0d56c94af643a1222bbd84a4b"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/102-support-dialog.json",
+    "sha256": "b95b8ff5940ffdd5fef96d2c35054cff3ab6be85b961644ffe4f7dd13a4591ea"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/102-support-dialog.png",
+    "sha256": "7b28943465d1d6c94ad951ffc702722f857d134b21f991bff6911c42ff9239c3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/103-search-target-confirmed.json",
+    "sha256": "54d16c515f12b6be9f444526acbda060c9ae6db804df0cbc7f73c6aed0922a92"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/103-search-target-confirmed.png",
+    "sha256": "28c3fd0db62ca1146498dfed495ca17cf1218e6eb093944103fb359147add9c1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/104-support-dialog.json",
+    "sha256": "ff1d99d5c3781064b4e5c0d3d5832d2b78e34e12b44faca45678322bcfbe648e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/104-support-dialog.png",
+    "sha256": "24493596703f18891b5f3509cdeec60ca0392acb4dcc156bbd0616de88ccb05a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/105-support-open.json",
+    "sha256": "f39e2d531f3b3ade3c8058175838cf0d262d3d0c0d61ac6749eb9139792601ab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/105-support-open.png",
+    "sha256": "b0fd019373ffc0856921034f9189bf5dbe36d451c6d5d96b17bfd315d974bf90"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/106-support-attachments.json",
+    "sha256": "5bcbb4e85e66c87b80d393390d1c8e42fda50e14d41e703b6537c3d37593747a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/106-support-attachments.png",
+    "sha256": "4f24790b5e2cc7c91cf8ffcd9f8e4d48b8a823ccfc57ef4e5f2b795ac3e7b663"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/107-ai-open.json",
+    "sha256": "21f06497479722440a6bc29a10696ec99dab8cce02bfc42569df6586bb206e28"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/107-ai-open.png",
+    "sha256": "a22f3573426702e2f7357cf1b95fd9340711418b22bc9a137ccd4c45aa023be0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/108-ai-current.json",
+    "sha256": "eb14c3a2d49f93163f83e2d0cdedaf1b9d31715e6a96f6166a0524918e51a47c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/108-ai-current.png",
+    "sha256": "c93dca7546734a0683cddaa080653aba0a8b077cd5b970520a441935834cc1ee"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/109-ai-new-chat.json",
+    "sha256": "21f331a4faa1e7f364b300bf45ddddc85c69531a9e79da5e89121823a9e27ce1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/11-receive-crypto.json",
+    "sha256": "71dc9b8d5f88758880494ac2e4681ec7a5aacf464fcf0c1a8cd363f3989202f9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/11-receive-crypto.png",
+    "sha256": "9acc6a82bcfa7568489d46817b973c9dc337032a242466cab9092bf3fa5f074a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/110-ai-message-ready-read.json",
+    "sha256": "6c59fb05739eabeba16c35beea4e3e8bee611cd1d54c228d8615cd0f6265a518"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/110-ai-message-ready.json",
+    "sha256": "e90c923f653b188955f7ef4bbfff7309b9ebc861934b5b16796044623a2068ba"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/111-ai-response.json",
+    "sha256": "7a445fa869901d1d6e74735764438f91a1bb10313e8f0e4788610cd7a07421c5"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/112-ai-response-confirmed.json",
+    "sha256": "1880a0fa64e53fec09cf88f5c4e1e86137de7b44e6bc39c600e13bbfe16c7c1e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/113-activity.json",
+    "sha256": "1b2a830776d5e776b15ca1e591c699df9245b25400f61cfba92e1e11bf361e12"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/114-mobile-activity.json",
+    "sha256": "059831882f680c5d22e84398df9b023070edda6d587c78686155f4b048d6e076"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/115-mobile-activity-selected.json",
+    "sha256": "59f39209cb159d31d7fa30e175726d6fa260efa4f025a5fe07b6caf90318f755"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/116-mobile-finance.json",
+    "sha256": "0cb41498c78f8bc6690c441c72cf9f43ef8292729fb5b8b3e51eb9213f8ec9f4"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/117-mobile-layout-read.json",
+    "sha256": "9ece403c6942ae0356687245b7c50680d2114b0da244c00c0c3c17f6f4f95a18"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/117-mobile-layout.json",
+    "sha256": "0cb41498c78f8bc6690c441c72cf9f43ef8292729fb5b8b3e51eb9213f8ec9f4"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/118-mobile-markets.json",
+    "sha256": "6579cb5eb83aff81e3c009bebb91227e4587c11130f9b5bc8c1be0da8de73212"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/119-mobile-settings.json",
+    "sha256": "b820bc44f0dd6c3eda05fb72feafd7ed93ec0f3d88cd1877a2a60dfd44d2465c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/12-withdraw-methods.json",
+    "sha256": "3fcb39c980faa9e9fe6d5ca2872b8a3a0a528e588a3540111df11af7a306eb5b"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/12-withdraw-methods.png",
+    "sha256": "e0a6af545c7ab68c73566f93824f0304448c8874713294d7efeeb0d249a0eebc"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/120-mobile-language.json",
+    "sha256": "a1b5dd9bf7946d001b57e5697f1ad3da518efc12611bbbe2c3c6f23aeac3bc95"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/121-english-selected.json",
+    "sha256": "a1b5dd9bf7946d001b57e5697f1ad3da518efc12611bbbe2c3c6f23aeac3bc95"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/13-swap.json",
+    "sha256": "45640215815e0b2b1f152264c97a403f586c5426cd3e7593c041b35ea57ad3a8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/13-swap.png",
+    "sha256": "223ab82f913f5912d4ef9f291f1dea20450e627c9f52eb67580ee3ec7906c87b"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/14-trade-menu.json",
+    "sha256": "2365618710f7f311d8bc2794743e4de34d7f576cd0b3b7a98571f27e066990c7"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/14-trade-menu.png",
+    "sha256": "2a1686cbf652e3798fdbcc05583055138d740c819477a6f513550340fbc6b845"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/15-crypto-chart.json",
+    "sha256": "69b66cc059936d7e62fe0da0bbaac2a1a61ba23ec678d51f7cfe6e745259aceb"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/15-crypto-chart.png",
+    "sha256": "6f258ac35d051f90ffdd015849090bda49422f441f6ae15b96798b164818f5ee"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/16-buy-ticket.json",
+    "sha256": "14a5ea79a455688b708153c0c8cb00bfdaac2d4d5ee1c80d62964e4934651795"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/16-buy-ticket.png",
+    "sha256": "55864b027a7239baa3ec9233bfbe08b65194feac25b77535d9051faec5fd046f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/17-buy-form-retry.json",
+    "sha256": "f75deed4ea2854ed6f85d50d0793e27165dd6640907e4d9cd7a1fe6e55a4cf3f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/17-buy-form-retry.png",
+    "sha256": "2570e96f4c71be1b7e005bf695eef38b90e4ac28ce12db5d05cd8b79cad24800"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/18-trade-zero.json",
+    "sha256": "12e07efdcbae6f204d7340ae16ce248217d43bbf4f7a28fdd38b84fbdf332110"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/18-trade-zero.png",
+    "sha256": "6e19e88e85e3e6cc08a6022e79037fe3941f6086e8b090dfad3063a8f71a018f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/19-trade-over-balance.json",
+    "sha256": "0418874f0cabf2dbaa1352a5b9b4d17d8b5c7eba3c281d7acff982757cb006d5"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/19-trade-over-balance.png",
+    "sha256": "ccf383743ccf5e5e007899ccfb28f6060d7cd25fde772582c89c2492be3d1c48"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/20-trade-one-dollar.json",
+    "sha256": "bc44f4acf53376ab108a57ff4394f98be6db9ed7862ccdb4f465c1e4e6607ea0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/20-trade-one-dollar.png",
+    "sha256": "f1738bf2abc07da1a897713dd3348764e6b7b862d9f222bfc9564671180eed88"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/21-trade-confirmation.json",
+    "sha256": "5646564f5f897a6b2e23ba9b900366574e1311fc093fc6732dcfe689b438202e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/21-trade-confirmation.png",
+    "sha256": "f4f4bfdefd1ce7087c6083155b5326d150464c0f2fbc7f854a04a4b30760bbc4"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/22-limit-form.json",
+    "sha256": "2f8cace1e7bdfc04974a209a31ec99ea58fc79ff5e46f4364bddd7dbf26deab8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/22-limit-form.png",
+    "sha256": "47ad18f8adbda6b075da24f1b46ea9efcc8923bae1e7b2e9cdfbae8fb56ce741"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/23-limit-empty-price.json",
+    "sha256": "ae2aac3ac1f3625e39ddc25be4d17173ecf9c40d2fd67e6d55ba0a95b891e353"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/23-limit-empty-price.png",
+    "sha256": "b2382cc5308997672694b9cfeb736a36c7a3d23f075d1b48906c266df13b57ef"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/24-stop-form.json",
+    "sha256": "00e68ff1c711b92b8a5d770a155f7c778f548a3ede0296245d920412e4f6d0b2"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/24-stop-form.png",
+    "sha256": "8e95cb4828acb457fdc5dde4937a3acc36f0780387564d44a01b0d2150a57b49"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/25-stop-market-form.json",
+    "sha256": "70b9b7fb9b760154595355b8272a6364e5436fb909c6144a5c42a4cdc927bba1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/25-stop-market-form.png",
+    "sha256": "4e16bb66b5090f967c20ced77e79813a5e86fcf061e79af9d33ab0f6ca579773"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/26-market-form.json",
+    "sha256": "a2105e71ea1ba595a3ef0dacb0635cb762626c6dd736c536e7048cc4fc1e238d"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/26-market-form.png",
+    "sha256": "e7d1c0ce6ac5e3ada3d6d58dfb59f508bfc21d0b362787f312d2b57e1ce8d7e2"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/27-advanced-order.json",
+    "sha256": "547a3783c064847cef7375bd81925c07c653390b73453989fe2e2487441045b6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/27-advanced-order.png",
+    "sha256": "94f9592e7592fbdb80a1d680489aceb4c89967eea8e0a89f41ea417b71372444"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/28-market-buy-result.json",
+    "sha256": "da0e7395ed2404cc6c31035a80ab49c3f20a89c03c1937c7bdda6c5d962ae04a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/28-market-buy-result.png",
+    "sha256": "d361c61eb74c04b419edfdf0a537b0b8f5140e63c71a2059d03bb87152fd4084"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/29-edit-own-position.json",
+    "sha256": "eb04d3d1d4b82b3cc74839a5f9680983408ab0740d628105948c38346777a6ce"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/29-edit-own-position.png",
+    "sha256": "0c538ccbea3e763f05b965c5b2958a858bbe6d031db8a82db9558a367b9a9b72"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/30-invalid-tp-result.json",
+    "sha256": "9ef5054cd0cae6b54e73ac59ee6c09b3a430b6dc78fc26c65308f1227e6dee1f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/30-invalid-tp-result.png",
+    "sha256": "3d2872eb48a6ab88481a32266563230b0de2268817ac8770a1da79b64c0e5a34"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/31-edit-escape.json",
+    "sha256": "f7a74a427aa578663135f6ecbd21531eaf8c5cdf98f1baba17ef04aa2c06df28"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/31-edit-escape.png",
+    "sha256": "f2a50051e414030dcfa2341c963270c250508f51249ddbde87cfa7b8f74cd677"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/32-crypto-history.json",
+    "sha256": "e59ef5a5aeee85e3b0266eedec9b2fc7b170ab1ed5769d88d9d6c7f340a839dd"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/32-crypto-history.png",
+    "sha256": "e3c6095748ea405dec79d9132633599951d15fc681e23cccab09ef8d30cf0067"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/33-crypto-positions.json",
+    "sha256": "30c63f1285713a624e600e5a8b0b6e4110e307602b24cf883513280e82027f26"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/33-crypto-positions.png",
+    "sha256": "e9f73b79823857f9dc3853f8ea278b3a4f348d10efdce424d7d8f57642365693"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/34-position-filters.json",
+    "sha256": "1a57ec96c64a7869008b1bc7c9db9191cbcbc160bde5d860fb38bca01b1d126a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/34-position-filters.png",
+    "sha256": "31cf53942ff4abc9d30bc322e8f93ed95df1bbc3047aa4bb5291ca1bb9541c20"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/35-filter-today.json",
+    "sha256": "3ab1976e51ae7d0b70ad0a3d9ddaab34ed3c01a0d15fa2e9f0de62d593130e06"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/35-filter-today.png",
+    "sha256": "917af6bc7bfff2a2bf5176fdea6bc09718b34f55d20e74e466085223902ea6ac"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/36-filter-reset.json",
+    "sha256": "413ca2ee39960a7bd8c230908e752b37b3c2c4a9d39288a6e109b7f4ab6f7fca"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/36-filter-reset.png",
+    "sha256": "e1f04139f6d2865ee3c18753ab6cf61ecc3b7605334d2328aa8f9b8ccfae9e0c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/37-filter-done.json",
+    "sha256": "2521bb28933c152188e94c8d678de242b089cfd2003405637c15b83a958643c8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/37-filter-done.png",
+    "sha256": "e42987dcc74a3771beeaa79a89f783f86ce97d56d691f1060d93c8544a9c76bb"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/38-own-closed-history.json",
+    "sha256": "ac082a93391bf13d1b6eb39e4f83b857977ff648610ae3a47b9c7ef94af6de1c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/38-own-closed-history.png",
+    "sha256": "68700b3896cb108d10728cb8d04f70d9da00295d14a4bc84e9dd5e0e90a40dce"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/39-pending.json",
+    "sha256": "9e82d85068aa48f048d96e42bb28d10796e7a5cedb0ada2f364c7edfd933d91e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/39-pending.png",
+    "sha256": "6486e1fce29b82c92d79744a26fb5b5d8e7d2fd4a53925e505cb8cf0753a2569"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/40-stocks-chart.json",
+    "sha256": "0fcf8ebf9960c4db50a40b3e0364a554f2b9de74e2ed92d11034762a8a10cca8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/40-stocks-chart.png",
+    "sha256": "ec7e145140c3c8a6c8bfa1f00c1c7e44de03263a4f9d948cb97111a6fcd77185"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/41-stocks-heatmap.json",
+    "sha256": "d717d46336b6767be488ca3d1cbbb981faebfba38156ae8422358d287397a71d"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/41-stocks-heatmap.png",
+    "sha256": "4c6d79d664c3edde68b805ff1bb5dcc03a4e61780163c63177a5821b6b57a1b6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/42-stocks-performance.json",
+    "sha256": "d6ddd60e0a3d30f6c53071a1ba6e1418d30634516368146853e0b1468ef1b24a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/42-stocks-performance.png",
+    "sha256": "466f49a8583ef9816913304ffa3d52a40384acd22988f6e6b9016358dd354f53"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/43-indices-chart.json",
+    "sha256": "721f44a2a79f3905e6bbbaf8fedce75e27b8618d13143b4cd01b9509dcc07b93"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/43-indices-chart.png",
+    "sha256": "a26d960b47c84eb87785d77cae9a85a26e87bb2b3cdc5d816271b8ffe222ea37"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/44-indices-heatmap.json",
+    "sha256": "24803a05c83cb2c837148945f70bf1f72108b4e226d7e6bd44386b85148fff7c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/44-indices-heatmap.png",
+    "sha256": "f6e04e6abdedf896237ac39928f85bffda2ebfa1785c7f8dd7db4c2f2afb79d0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/45-indices-performance.json",
+    "sha256": "b6f72bb7dc4aa4585f546dea0b6e6d0d2bfda011470bbbc4888a8155b861a0e8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/45-indices-performance.png",
+    "sha256": "523d2bcbfba720617337cff20b334dd01468dabb538e1911eab7469b6a478b3a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/46-forex-chart.json",
+    "sha256": "a4aa5ab20406a5d5205b4e2108ff42d65cde40ca373e5a8477d6924d75a1ebe0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/46-forex-chart.png",
+    "sha256": "fd63944847e9ad1ce11f91f99c97ea967b7e73d79170b99bf9b9cc7e9b9bf5c5"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/47-forex-quotes.json",
+    "sha256": "e5624d732041a2c5204a044602b042a0f79f25bb890d6d5e4188d85346acd781"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/47-forex-quotes.png",
+    "sha256": "b4c9262c1c50050c10e30f33e27df2c87eb1d65a47283677dea808ae9a4a22ab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/48-forex-performance.json",
+    "sha256": "f6efd376b8c95aef3dca969034ef0402a44eaee8143e68b0486204add0762866"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/48-forex-performance.png",
+    "sha256": "118996225be0aa0716366f7a0dbbb5bdc69f84630c42bfc680c3ef9631518157"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/49-commodities-chart.json",
+    "sha256": "cc231a605395d06043c7eb7a244cdfd6e90f2ec80ac270639185deb05b50f0da"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/49-commodities-chart.png",
+    "sha256": "3d7ce8eb8e5d2f4c596f68530195599911183c62c2e0d479e2118bb74fcaa116"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/50-commodities-heatmap.json",
+    "sha256": "2ea760ff30fe02f279ebda73ccf395f76a80e12b389d1a18cecca80b00bd52ac"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/50-commodities-heatmap.png",
+    "sha256": "c20c73e0afcac20a223b327e31e803759f67202cc45ecc9a7d5e444d235b03e8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/51-commodities-performance.json",
+    "sha256": "bbfba622cc8835263723051b20d70dca589668796b455a6d22e588168c7be8a0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/51-commodities-performance.png",
+    "sha256": "195552ba4420c385a86d826afd7ef12c2932e5b11a5bc0c5c24b2703dd2acb80"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/52-finance-return.json",
+    "sha256": "77e8a7501547c38086482e0771d8035ff81b50822f3a1efdfaf8a78123528006"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/52-finance-return.png",
+    "sha256": "fef24b9786306c0b23a06626ea134f64e4021a4f88f45c803748263d7d7b71a6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/53-finance-year.json",
+    "sha256": "77e8a7501547c38086482e0771d8035ff81b50822f3a1efdfaf8a78123528006"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/53-finance-year.png",
+    "sha256": "8069b16098de5822988c738ee18cd24db65eba69ef497da7970583ab0c709a91"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/54-pnl.json",
+    "sha256": "77e8a7501547c38086482e0771d8035ff81b50822f3a1efdfaf8a78123528006"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/54-pnl.png",
+    "sha256": "20b50ebf842bd29320186002a7d290d4cefb487cad16c48a35261a7bcf42f223"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/55-pnl-markets.json",
+    "sha256": "5aaedf2feddbcad8d32a6387e16020163210168e7f13912c37c3f627fe6a6237"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/55-pnl-markets.png",
+    "sha256": "ed70a3a3f58a0dc2f0fc4bc0b044ead1ed28c238f68702861ee9b2efc98902e9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/56-pnl-history.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/56-pnl-history.png",
+    "sha256": "5980063201f545e9b3184330a96055b0d75bc10886236ef69974de4d3a33e114"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/57-verification.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/57-verification.png",
+    "sha256": "0489cd53ceb3920a226df5cbc48b3a9d56a9ac958bd23cc4b62574f5e0ddad98"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/58-subscription.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/58-subscription.png",
+    "sha256": "8826a815b701cd1ad0f67558d2c4bc3b95c09d0867184f1c54165ffc7156cddf"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/59-subscribe-assistant.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/59-subscribe-assistant.png",
+    "sha256": "c064db9437c5016f5827ec5ba89c10662cc268b0a4402da48a22b76acb251d78"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/60-subscribe-escape.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/60-subscribe-escape.png",
+    "sha256": "f77e86cb21623c1ca3f208b0541b33ac9c58dbf7bf043e4293c957da30454ced"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/61-finance-history.json",
+    "sha256": "5c70a888ad9c0d22bb3dded21182cf35a0e519310ce12df544c7e06b8b915a51"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/61-finance-history.png",
+    "sha256": "efaccf0961be2bc18cb2bc22b7a989d7f1659b0995b72d01f9c25089398ca07a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/62-ventures.json",
+    "sha256": "0724a4cb677acfe23cff56b1f69a932c15d2d023332a4f4c633a30ff4f50f45b"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/62-ventures.png",
+    "sha256": "2ac7404bcdbc9aca335beb99f93817033c8e587d668a39c7d7355d8bdf911c4a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/63-ventures-continue.json",
+    "sha256": "5c490a1d3720bcad65a3d1061706a756b1fecf748e251641ef003228cfde8a62"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/63-ventures-continue.png",
+    "sha256": "4b319d7d3081e35b56c2cd54f69adefedc25256e258f2fc562909abcf377764c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/64-settings.json",
+    "sha256": "438506c1315c9145cdc16ebbb9d61f95dbdc14fe3f4e2d8ba6de55b87068e3b9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/64-settings.png",
+    "sha256": "e1231dbe26626b369d7294392788bab0e33918367d56a0e8581b07ae2ea2d143"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/65-profile.json",
+    "sha256": "438506c1315c9145cdc16ebbb9d61f95dbdc14fe3f4e2d8ba6de55b87068e3b9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/65-profile.png",
+    "sha256": "fb34c1fa4ad800952be022b35dbedf6dca514a9b213e4eb9f424ace5e6aa0266"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/66-security.json",
+    "sha256": "87280552fb7944dd384e29755813dd1595495a81b2e55fef44972670731eed38"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/66-security.png",
+    "sha256": "cbf904c4161808b9baefeddf6d11091fbc20080b9e30fae6038597020df327d8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/67-password-empty.json",
+    "sha256": "3a675762895da41bee74a60d74df6b080e16aa81180da9a4bb0708565ca3a36a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/67-password-empty.png",
+    "sha256": "f0399051756321335eafdbf443cc2c8c6f04812a65af49f68b3a0b287b2c77ac"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/68-passkey.json",
+    "sha256": "9f20bec4df0e5a6119ea326f8fb702d136a0de5a7f2dabaefe65a89febced9c7"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/68-passkey.png",
+    "sha256": "5582c75ba9579c49f82e967f6b090d33d5c9dbb7939a3b14aba7686783e6d785"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/69-notification-settings.json",
+    "sha256": "8f18790d8fff8c8529cc9ae8eef33ff532075c1806777a1fe36e9ca7daf634b0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/69-notification-settings.png",
+    "sha256": "d8e7794e1484baeb274cb123b26f3b57a913b0da7e4c92283b3873d5dfc4d846"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/70-languages.json",
+    "sha256": "a09d757f19f8e53ff0cb206c8d7cf728eab77dba6103c8b0e712072ab16008ab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/70-languages.png",
+    "sha256": "ca0efc96545c0f9c31617071c275f17f582da14917ab2b0dd0c34329256bac87"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/71-finance-verified.json",
+    "sha256": "5f7cdc45b70a12a0e8556e89b45e8b96c2795524f78fa34864a980f868e4bac9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/71-finance-verified.png",
+    "sha256": "7d3b5d9c42a716805d32d4710e28db3346c7c30e8871ca9d7f4d4238baf449d4"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/72-finance-year-verified.json",
+    "sha256": "583272d00201fae774714c6e3b08efba947aa552fecf83dd33a379805dd5abdb"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/72-finance-year-verified.png",
+    "sha256": "11ec62aab154f0c84b1dcf370e3f170856097c1bb7fc4227efc56b3bbef469b7"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/73-pnl-verified.json",
+    "sha256": "e69efeb53d99fe075ee782f2ef07fcd04755dbe38019c986c2c0479ebf28e670"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/73-pnl-verified.png",
+    "sha256": "3bee1c5e54fb24d350e6867bc99846ca928affca2956c54cafcd7ca17532dbc3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/74-pnl-markets-verified.json",
+    "sha256": "e69efeb53d99fe075ee782f2ef07fcd04755dbe38019c986c2c0479ebf28e670"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/74-pnl-markets-verified.png",
+    "sha256": "2863221d09d9e460b8aefddcb7fc850b569c9e6bae623ec04a56bf04587cfec1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/75-pnl-history-verified.json",
+    "sha256": "e4d2187698ece206901fcc7c51c9dcb6463566d323da056ee775c710f361bc14"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/75-pnl-history-verified.png",
+    "sha256": "7f2c266b16ea322da8e26e40b3d2eb25fa07d2b29df6e31fa5002f788ae106f8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/76-verification-verified.json",
+    "sha256": "0a62594f2e29687261e0c628046068b590adf00a83259f9a8392c7b123e0cca6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/76-verification-verified.png",
+    "sha256": "165f7fe19ff55ce1176d83945b7af29dca64e4f96ff1967f125b61d9f81e3dea"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/77-subscription-verified.json",
+    "sha256": "046a4f64a9031c0e99364ea9b5a93e76ca06263532fbf3d7711be16778d45285"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/77-subscription-verified.png",
+    "sha256": "00d65ca22b31f60d631a31545217b0623af199d22e6c92ad27094d0d5ef15426"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/78-subscribe-open.json",
+    "sha256": "47ae4ef4c1482aba6d0454c2d807dd6a4dce1b0d29919536ad6fe054fc351e26"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/78-subscribe-open.png",
+    "sha256": "5d526bc1f0f7ac8d7ebd53d1beda429c6ee9d32281826bfce631669778cc0c09"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/79-subscribe-close.json",
+    "sha256": "dad9f05686fbdc7d9c6540d1eea0a7e60ee897df822b6929a5875de605bd915d"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/79-subscribe-close.png",
+    "sha256": "dcec05d4cc57ec49626251636a2985e88f762ec446d76bee08f0a0439eeb2830"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/80-financial-history-verified.json",
+    "sha256": "ae76102c50082ba9aaace7854dacc52fd12b82605cb7e7d11d5b6ad87fd2ace1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/80-financial-history-verified.png",
+    "sha256": "5ad11072f554a5740cb08ebff8f8c34fe51a7c2533df9ee1a0420f8bdd1dcbab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/81-subscription-main-tab.json",
+    "sha256": "a29442e01e38498322d839c55436b6fa6219c24bbb2530407cc41a3c9e4a42df"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/81-subscription-main-tab.png",
+    "sha256": "daf7e79256ff736c4908768f49054b8e991f4c9688ac9af0c5224d9e182e75a3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/82-subscription-choose.json",
+    "sha256": "a29442e01e38498322d839c55436b6fa6219c24bbb2530407cc41a3c9e4a42df"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/82-subscription-choose.png",
+    "sha256": "a9dbe66937af58f61420f448c2a4e5709e2428c28f3c927086444c1a3829cf23"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/83-external-payment-read.json",
+    "sha256": "5fb9e0f1f00d96339eb5067148a145dedf98bac914228ec0d4ec25c23071ec2c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/84-language-before.json",
+    "sha256": "a09d757f19f8e53ff0cb206c8d7cf728eab77dba6103c8b0e712072ab16008ab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/84-language-before.png",
+    "sha256": "3572900d64fe3321d3fba40ec360b91f51cefb1d64d4daaedfbc2eedef72e568"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/85-russian-selected.json",
+    "sha256": "a09d757f19f8e53ff0cb206c8d7cf728eab77dba6103c8b0e712072ab16008ab"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/85-russian-selected.png",
+    "sha256": "fb5e168c06804716281dd3d6ac7875835ce9c7558122d6a91f931d400bb09e75"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/90-resumed.json",
+    "sha256": "61f7e156f810a268117fed281fe3a62b1fc6bf5257db79e00c84064f271c5e88"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/90-resumed.png",
+    "sha256": "60ad39a574a11b1f34c156a4b4341971b5aaade8e9570b7da09cbead3351ae7f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/91-browser-security-read.json",
+    "sha256": "e6ba8286a700a1b3a9497a2f55b19483dc75e4c595a10c5733d7394531b90cb9"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/91-browser-security.json",
+    "sha256": "7a5bb4f64105455a0c85693dcd01dc81c89ddbcaf2e13b6f5102670641adcca8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/91-browser-security.png",
+    "sha256": "09ab6ac069fad3de7e34e3eab311c2348bdffac32f55b66789fcbbb534b394e1"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/96-resume-no-reload.json",
+    "sha256": "f8f7b5bed942973846634dadc2eeb429e1d29989fd164d133ec26907e3ec536f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/96-resume-no-reload.png",
+    "sha256": "ee272f755f04afaa488f4c20197136d37c2f2f127a3b2cb73f22cc29514bd29c"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/97-search-btc.json",
+    "sha256": "1e581a56bdb572e85cb5567c2277ae9ea2244541c9a90c01497683c89cf982f3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/97-search-btc.png",
+    "sha256": "82bbd6244cf74b4c1648abfbbee78b0a0e989ef86ec8bbbcde5e792dd678f83e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/98-notifications.json",
+    "sha256": "4b2c1aa752983eb5d3238be4780ec2cb23570ebfbbee01dd7467251f7d5f9463"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/98-notifications.png",
+    "sha256": "aa843751053131c2dd729fe710942b576bdb8f62264e3733b1e2aa5e0bd43a09"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/99-account-menu.json",
+    "sha256": "ead8d09f4e64b1ac94aaea97ea859b65220aa59c9537664f428b5b58cd1c7dde"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/99-account-menu.png",
+    "sha256": "ad55b641e3a89457b3e6309eba3b4edde0e8694cbec2d4d72dd128ee20103fad"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/actions.jsonl",
+    "sha256": "b43a2e0d8c127f5353535358ed65b8e67bcfd91ea37c23fe72dc45fd13e73a7e"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/browser-session-limitation.md",
+    "sha256": "a7c0a6c085fe588e8c8715bd2bd5c24f2b05dae7cded79f93bf40d70f44962bd"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/INDEX.md",
+    "sha256": "e4364131e4edd6afdfc0ca00b40860fa0f90b22764f2181e3d71f76d8ae46fe8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091145721745500.json",
+    "sha256": "ec06fa7fa92216397f433df0c1a4b5d9e27aebc97a0aa860af9d52825e500f40"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091159262871400.json",
+    "sha256": "c43b6649d24aed8f790ca88450bf8a063ff0a2b64ae5e56ed71d2e6582a03d09"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091198564228300.json",
+    "sha256": "d3aab1eb58aa56e5caf716fed64a62be6c3dcc2b12d24dad85c7bdaeab1e1fc0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091217407223800.json",
+    "sha256": "8c29d44a13d9e47a8596f0c76a3944ef8ed09aef9524ca549825c92113ad3224"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091256346788400.json",
+    "sha256": "69c8c4d99eed367e62344fc6bf3fe97bd0f23e5b8a02deacbbd3870c39ad8fbe"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091299644532500.json",
+    "sha256": "24d1bf8633d5da48f84515cd5b84700e5c88b18506b869e9593fd629b17834c4"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091337466966300.json",
+    "sha256": "abee44bd137e81d854a29e29e5cb5645f12f043ab861689f0162de14185ee2f3"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091371165868100.json",
+    "sha256": "eceddf438c28e93af1f7ea48d7d66e80ea4589507dd925e2a16d019bd82cc74a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091520522505700.json",
+    "sha256": "a4f4a461ca06f525ee18785825a913851af105ff2d0b98b08bbb947260ebcbb6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091544818099700.json",
+    "sha256": "a4473e718d63566e1e213cc08b680ec970c6c92cb573f04705b1317144ba2319"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091577980789000.json",
+    "sha256": "da5ccf1000f161eaaaf94ac87abb97ae46b39fa253f84f7b063a950889aaeacb"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091674778180600.json",
+    "sha256": "51a689e46f594ff2915d0535c1c0433af0bdf3d16cc8b68600ba1f6df9382c0b"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091777587077500.json",
+    "sha256": "eedfe927cdb9cc1d4b520857308c1d2a01cd4face4e0c672caa3b4a5de1020e6"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091841710652200.json",
+    "sha256": "d9899e833ea8fb147e4b7b5b84640520fb3fb151bca4b38b1e15c165401d0278"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792091900317267900.json",
+    "sha256": "69fa749948276c129e852d39afcd7ba81d64ca804768c47e4c820b23fe132a93"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093101173122600.json",
+    "sha256": "73db80c768cca612faa68a92c15fc0ab84757d18510e637165782dda3024e899"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093153188166200.json",
+    "sha256": "122d03083dc9f1e6e3dc9fe49e857ea20ab76106ad7d2c0ceea1aba5e6cdfc15"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093195552407700.json",
+    "sha256": "491e3e23307f99d77d7a2db0344026cc889aba8931de7218605064895145b74a"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093225865939300.json",
+    "sha256": "db59aba66bc1e0a35b0f879e2f098dc583d9e32d2cc6f7401ac0a99f6d6b89f2"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093259147276700.json",
+    "sha256": "eff8403c2736d05ed7401cfadb090b8f78757ced7b9fc5340cd285110925b7ca"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093284342846300.json",
+    "sha256": "2846595770a65d75cd102a145adfb1149dd3d5d8ad982422ed07513729e508a8"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093308916128100.json",
+    "sha256": "d63184e12360fb91d7bc0f8423f69b7fb32a68de3286f2299206006e1ee286d0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093330187643600.json",
+    "sha256": "7e04ce7eef1698b256787bb115b8368ab15f9c22758c48032c3d1f5932de55d0"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093374414408200.json",
+    "sha256": "a2029c367822f42854581ddc12726750a69a87aef8e098b51b76f261b18956bc"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093425443045900.json",
+    "sha256": "333df0e818e41feb6eec30b9c3b0602fa92c4b607930a105f9bda9a3cee3506f"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/network-1792093485332721800.json",
+    "sha256": "525b25d6ce675034a8efe8b36217f5b000dd8977c19d3a30fcd4a92ce53d1b99"
+  },
+  {
+    "file": "audits/NEXUS-QA-2026-10-15-evidence/skills-verified.json",
+    "sha256": "e5b0462b1ffad6af2962c1f8c76e6dabe731327b4cab6b6af7f589becaebbe46"
+  },
+  {
+    "file": "REFERENCE-PLAN-2026-10-14-RU.md",
+    "sha256": "f6eb7fcb821cb875c40ed7fa6d6eb7aca01c4d6ddf317ad8832b084b1885200a"
+  },
+  {
+    "file": "AI-AGENT-PROJECT-STRUCTURE-GUIDE-RU.md",
+    "sha256": "b58fc11a5be57a59b7ac2378e2ddfcddcf34f215090bd1c0878f796feefd9b9e"
+  }
+]

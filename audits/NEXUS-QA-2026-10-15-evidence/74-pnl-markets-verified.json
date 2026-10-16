@@ -1,0 +1,498 @@
+{
+  "url": "https://app.nexus-analyst.com/trading",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\nPnL Statistics\nThis Month\nTotal P&L\n$-0.00\n-0.02% avg\nTotal Trades\n1\nClosed\nActive Markets\n1\nIn period\nProfit by Market\nTrading History\nCrypto\n1 trades · 0% win\n$-0.00\n-0.02%\nStocks\nNo trades in period\n$0.00\nIndices\nNo trades in period\n$0.00\nForex\nNo trades in period\n$0.00\nCommodities\nNo trades in period\n$0.00\nNexus Ventures\nNo trades in period\n$0.00\nMetals\nComing soon\n$0.00\nBonds\nComing soon\n$0.00\nETFs\nComing soon\n$0.00\nNFTs\nComing soon\n$0.00\nOptions\nComing soon\n$0.00\nDeFi\nComing soon\n$0.00\nSports Betting\nComing soon\n$0.00\nBinary Options\nComing soon\n$0.00",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "true"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Support",
+      "title": "Support",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "This Month",
+      "label": "Timeframe",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 30,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "Crypto\n1 trades · 0% win\n$-0.00\n-0.02%",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "Stocks\nNo trades in period\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 34,
+      "text": "Indices\nNo trades in period\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "Forex\nNo trades in period\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "Commodities\nNo trades in period\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 37,
+      "text": "Nexus Ventures\nNo trades in period\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 38,
+      "text": "Metals\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "Bonds\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "ETFs\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 41,
+      "text": "NFTs\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 42,
+      "text": "Options\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 43,
+      "text": "DeFi\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 44,
+      "text": "Sports Betting\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 45,
+      "text": "Binary Options\nComing soon\n$0.00",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    }
+  ],
+  "headings": [
+    "Finance",
+    "PnL Statistics"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

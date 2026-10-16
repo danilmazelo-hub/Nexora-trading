@@ -1,0 +1,299 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nCommodities Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n+$453.81(+0.91%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$50,453.81\n\nAvailable\n\nFree to trade\n\n$49,452.98\n\nUsed\n\nIn positions\n\n$1,000.83\n\nRisk\n\nMargin pressure\n\n2%\n\nCharts\nHeatmap\nPerformance\n🛢️\nCrude Oil WTI\n95.83\n+1.80%\n\t\n\t\n\t\n\t\n$95.86\n▼\n▲\n$90.07\n24h\n1W\n1M\n1Y\nAll\n🛢️\nCrude Oil WTI\n95.83+1.80%\nSymbol\nCL=F\nCategory\nEnergy\nChange\n+1.80%\nVolume\n60\nDay Low\n93.97\nDay High\n95.99\nSpread\n0.07666\nBuy\nSell\nPositions\nPending\nHistory\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:12\t\n🛢️\nCrude Oil Brent\nBZ=Fe21e5d49…\n\tBuy\t14.0 Lot\t$1,500.00\t$15.00\t106.9528\t106.25\t—\t—\t100x\t—\t$-10.46\t-0.02%\t\n\nOct 12, 17:09\t\nGold\nGC=F91453ea5…\n\tBuy\t0.2 Lot\t$1,000.00\t$10.00\t4,197.249\t4,161.30\t—\t—\t100x\t—\t$-8.81\t-0.02%\t\n\nOct 12, 17:00\t\n🛢️\nCrude Oil Brent\nBZ=F2a4b5767…\n\tBuy\t9.3 Lot\t$1,000.00\t$20.00\t107.1528\t106.25\t—\t—\t50x\t—\t$-8.83\t-0.02%\t\n\nSep 14, 19:31\t\n🛢️\nCrude Oil Brent\nBZ=F96ded38c…\n\tSell\t9.5 Lot\t$1,000.00\t$100.00\t105.39\t106.25\t—\t—\t10x\t—\t$-81.60\t-0.16%\t\nShowing 4 of 4 positions",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Heatmap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "24h",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🛢️\nCrude Oil WTI\n95.83+1.80%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "e21e5d49…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "91453ea5…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "2a4b5767…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "96ded38c…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Commodities Trading",
+    "Commodities"
+  ]
+}

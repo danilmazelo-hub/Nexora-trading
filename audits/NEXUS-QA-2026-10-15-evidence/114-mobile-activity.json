@@ -1,0 +1,630 @@
+{
+  "url": "https://app.nexus-analyst.com/trading",
+  "title": "NΞXUS ΛI",
+  "width": 390,
+  "height": 844,
+  "lang": "en",
+  "text": "Crypto\n-$1,584.53\n(-3.17%)\nCharts\nPerformance\nBitcoin\n$82,448.74\n+0.81%\nPrice\nMarket cap\n\t\n\t\n\t\n\t\n$84,126.87\n▼\n▲\n$80,299.84\n24h\n1W\n1M\n1Y\nAll\nBuy\nSell\nПозиции\nОтложенные ордера\nИстория\nAll Positions\nNΞXUS ΛI Positions\nClient Positions\nEthereum\n0.98 lot\n10/12, 17:11\nEdit\nClose\n-$86.13\nBitcoin\n0.03 lot\n10/12, 17:10\nEdit\nClose\n-$21.24\nEthereum\n0.39 lot\n10/12, 17:08\nEdit\nClose\n+$32.60\nBitcoin\n0.01 lot\n10/12, 17:08\nEdit\nClose\n-$7.01\nEthereum\n0.59 lot\n10/12, 16:58\nEdit\nClose\n-$50.20\nBitcoin\n0.01 lot\n10/12, 16:58\nEdit\nClose\n-$6.63\nEthereum\n0.39 lot\n09/14, 20:23\nEdit\nClose\n-$3,021.16\nBitcoin\n0.01 lot\n09/14, 19:29\nEdit\nClose\n+$473.72\nFinance\nMarkets\nActivity\nSettings\n\nУстановите NΞXUS ΛI\n\nЧерез «Поделиться» ниже — «Добавить на главный экран» или пункт установки в браузере.\n\nПоделиться / На главный экран\n\nСмахните вниз, чтобы скрыть до следующего визита",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "-$1,584.53\n(-3.17%)",
+      "label": "Expand P&L details",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 1,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 2,
+      "text": "Charts",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "Performance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Bitcoin\n$82,448.74\n+0.81%",
+      "label": "Select crypto",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 5,
+      "text": "Price",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Market cap",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "24h",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "1W",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "1M",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "1Y",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "All",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Buy",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Sell",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Позиции",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Отложенные ордера",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "История",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "All Positions",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 18,
+      "text": "NΞXUS ΛI Positions",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Client Positions",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "",
+      "label": "Filters",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Ethereum\n0.98 lot\n10/12, 17:11",
+      "label": "Expand Ethereum Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 22,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "-$86.13",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Bitcoin\n0.03 lot\n10/12, 17:10",
+      "label": "Expand Bitcoin Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "-$21.24",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 29,
+      "text": "Ethereum\n0.39 lot\n10/12, 17:08",
+      "label": "Expand Ethereum Sell",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 30,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "+$32.60",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 33,
+      "text": "Bitcoin\n0.01 lot\n10/12, 17:08",
+      "label": "Expand Bitcoin Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 34,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "-$7.01",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 37,
+      "text": "Ethereum\n0.59 lot\n10/12, 16:58",
+      "label": "Expand Ethereum Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 38,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "-$50.20",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 41,
+      "text": "Bitcoin\n0.01 lot\n10/12, 16:58",
+      "label": "Expand Bitcoin Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 42,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 43,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 44,
+      "text": "-$6.63",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 45,
+      "text": "Ethereum\n0.39 lot\n09/14, 20:23",
+      "label": "Expand Ethereum Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 46,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 47,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 48,
+      "text": "-$3,021.16",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 49,
+      "text": "Bitcoin\n0.01 lot\n09/14, 19:29",
+      "label": "Expand Bitcoin Buy",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 50,
+      "text": "Edit",
+      "label": "Edit",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 51,
+      "text": "Close",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 52,
+      "text": "+$473.72",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 53,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 54,
+      "text": "Markets",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 55,
+      "text": "",
+      "label": "Nexus AI",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 56,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 57,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 58,
+      "text": "",
+      "label": "Закрыть",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 59,
+      "text": "",
+      "label": "Закрыть",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 60,
+      "text": "Поделиться / На главный экран",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [],
+  "headings": [
+    "Crypto"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

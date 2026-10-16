@@ -1,0 +1,818 @@
+{
+  "url": "https://app.nexus-analyst.com/trading",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nФинансы\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nНастройки\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nCrypto Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n-$1,614.62(-3.23%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$48,385.38\n\nAvailable\n\nFree to trade\n\n$47,303.15\n\nUsed\n\nIn positions\n\n$1,082.23\n\nRisk\n\nMargin pressure\n\n2%\n\nOrder Book\nTop Crypto\nOrder Book\nPRICE\nAMOUNT\nAsks (Sell)\n82,426.00\n0.0001\n82,425.68\n0.0061\n82,425.64\n0.0001\n82,425.49\n0.0001\n82,425.48\n0.0048\n82,424.89\n0.4719\n82,424.88\n0.0001\n82,424.58\n0.0001\n82,424.57\n0.0007\n82,424.56\n2.693\nSpread: 16.4849\nBook 0.01\nLive\nBids (Buy)\n82,424.55\n1.4126\n82,424.54\n0.0003\n82,424.53\n0.0001\n82,424.16\n0.0001\n82,424.13\n0.0001\n82,424.12\n0.1363\n82,424.01\n0.0001\n82,424.00\n0.026\n82,423.56\n0.0001\n82,423.24\n0.0001\nCharts\nPerformance\nBITCOIN · PRICE\n$82,424.55\n+0.82%\nPrice\nMarket cap\n\t\n\t\n\t\n\t\n$84,230.83\n▼\n▲\n$80,090.30\n24h\n1W\n1M\n1Y\nAll\nBitcoin\n$82,424.55+0.82%\nMarket cap\n$1.65T\n▲ +0.70%\nVolume (24h)\n$41.00B\n24h Low\n$79,800.00\n24h High\n$82,634.30\nAll-time high\nOct 06, 2025 (1y ago)\n$126,080.00\n-34.73%\nAll-time low\nJul 05, 2013 (13y ago)\n$67.81\n+121268%\nSpread\n16.4849\nBuy\nSell\nПозиции\nPending\nИстория\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:11\t\nEthereum\nETH6c573f48…\n\tBuy\t1.0 Lot\t$2,500.00\t$25.00\t2,542.8614\t2,454.34\t—\t—\t100x\t—\t$-87.40\t-0.17%\t\n\nOct 12, 17:10\t\nBitcoin\nBTCa5bbf5e3…\n\tBuy\t0.0 Lot\t$2,500.00\t$25.00\t83,100.3192\t82,377.60\t—\t—\t100x\t—\t$-21.99\t-0.04%\t\n\nOct 12, 17:08\t\nEthereum\nETHbf60e9ed…\n\tSell\t0.4 Lot\t$1,000.00\t$10.00\t2,538.7791\t2,454.34\t—\t—\t100x\t—\t+$33.11\t+0.07%\t\n\nOct 12, 17:08\t\nBitcoin\nBTC4ccf9aa7…\n\tBuy\t0.0 Lot\t$1,000.00\t$10.00\t82,975.6967\t82,377.60\t—\t—\t100x\t—\t$-7.31\t-0.01%\t\n\nOct 12, 16:58\t\nEthereum\nETH4904ec62…\n\tBuy\t0.6 Lot\t$1,500.00\t$12.50\t2,540.281\t2,454.34\t—\t—\t120x\t—\t$-50.97\t-0.10%\t\n\nOct 12, 16:58\t\nBitcoin\nBTCf439c6b3…\n\tBuy\t0.0 Lot\t$1,000.00\t$8.33\t82,944.2936\t82,377.60\t—\t—\t120x\t—\t$-6.93\t-0.01%\t\n\nSep 14, 20:23\t\nEthereum\nETHd44c8ec7…\n\tBuy\t0.4 Lot\t$1,000.00\t$10.00\t2,532.14\t2,454.34\t—\t—\t100x\t—\t$-3,072.50\t-6.14%\t\n\nSep 14, 19:29\t\nBitcoin\nBTC98732be1…\n\tBuy\t0.0 Lot\t$1,000.00\t$100.00\t78,675.70\t82,377.60\t—\t—\t10x\t—\t+$470.53\t+0.94%\t\nShowing 8 of 8 positions\n\nChat with AI\n\nYour conversations\n\nNew chat\nRequest for a Low-Risk Monthly Investment Plan\nUnderstanding Trading Chat Platforms",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Финансы",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Настройки",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Поддержка",
+      "title": "Поддержка",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "Order Book",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "Top Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "Charts",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "Performance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 30,
+      "text": "Price",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "Market cap",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "24h",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "1W",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 34,
+      "text": "1M",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "1Y",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "All",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 37,
+      "text": "Bitcoin\n$82,424.55+0.82%",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 38,
+      "text": "Buy",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "Sell",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "Позиции",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 41,
+      "text": "Pending",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 42,
+      "text": "История",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 43,
+      "text": "All",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 44,
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 45,
+      "text": "Client",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 46,
+      "text": "",
+      "label": "Filters",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 47,
+      "text": "6c573f48…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 48,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 49,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 50,
+      "text": "a5bbf5e3…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 51,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 52,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 53,
+      "text": "bf60e9ed…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 54,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 55,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 56,
+      "text": "4ccf9aa7…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 57,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 58,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 59,
+      "text": "4904ec62…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 60,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 61,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 62,
+      "text": "f439c6b3…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 63,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 64,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 65,
+      "text": "d44c8ec7…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 66,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 67,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 68,
+      "text": "98732be1…",
+      "label": null,
+      "title": "Copy Order ID",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 69,
+      "text": "",
+      "label": null,
+      "title": "Edit TP/SL",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 70,
+      "text": "",
+      "label": null,
+      "title": "Close position",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 71,
+      "text": "",
+      "label": "Close chats",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 72,
+      "text": "",
+      "label": "Close",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 73,
+      "text": "New chat",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 74,
+      "text": "Request for a Low-Risk Monthly Investment Plan",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 75,
+      "text": "",
+      "label": "Chat options",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 76,
+      "text": "Understanding Trading Chat Platforms",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 77,
+      "text": "",
+      "label": "Chat options",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    }
+  ],
+  "headings": [
+    "Crypto Trading",
+    "Order Book"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

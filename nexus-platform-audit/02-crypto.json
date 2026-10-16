@@ -1,0 +1,375 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nCrypto Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n+$431.87(+0.86%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$50,431.87\n\nAvailable\n\nFree to trade\n\n$49,431.04\n\nUsed\n\nIn positions\n\n$1,000.83\n\nRisk\n\nMargin pressure\n\n2%\n\nOrder Book\nTop Crypto\nOrder Book\nCharts\nPerformance\nBITCOIN · PRICE\n$83,417.30\n+0.10%\nPrice\nMarket cap\n\t\n\t\n\t\n\t\n$84,176.29\n▼\n▲\n$80,464.05\n24h\n1W\n1M\n1Y\nAll\nBitcoin\n$83,417.30+0.10%\nMarket cap\n$1.68T\n▲ +0.06%\nVolume (24h)\n$26.33B\n24h Low\n$82,912.80\n24h High\n$84,117.60\nAll-time high\nOct 06, 2025 (1y ago)\n$126,080.00\n-33.86%\nAll-time low\nJul 05, 2013 (13y ago)\n$67.81\n+122873%\nSpread\n16.6835\nBuy\nSell\nPositions\nPending\nHistory\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:11\t\nEthereum\nETH6c573f48…\n\tBuy\t1.0 Lot\t$2,500.00\t$25.00\t2,542.8614\t2,501.90\t—\t—\t100x\t—\t$-40.65\t-0.08%\t\n\nOct 12, 17:10\t\nBitcoin\nBTCa5bbf5e3…\n\tBuy\t0.0 Lot\t$2,500.00\t$25.00\t83,100.3192\t83,424.00\t—\t—\t100x\t—\t+$9.49\t+0.02%\t\n\nOct 12, 17:08\t\nEthereum\nETHbf60e9ed…\n\tSell\t0.4 Lot\t$1,000.00\t$10.00\t2,538.7791\t2,501.90\t—\t—\t100x\t—\t+$14.38\t+0.03%\t\n\nOct 12, 17:08\t\nBitcoin\nBTC4ccf9aa7…\n\tBuy\t0.0 Lot\t$1,000.00\t$10.00\t82,975.6967\t83,424.00\t—\t—\t100x\t—\t+$5.30\t+0.01%\t\n\nOct 12, 16:58\t\nEthereum\nETH4904ec62…\n\tBuy\t0.6 Lot\t$1,500.00\t$12.50\t2,540.281\t2,501.90\t—\t—\t120x\t—\t$-22.89\t-0.05%\t\n\nOct 12, 16:58\t\nBitcoin\nBTCf439c6b3…\n\tBuy\t0.0 Lot\t$1,000.00\t$8.33\t82,944.2936\t83,424.00\t—\t—\t120x\t—\t+$5.68\t+0.01%\t\n\nSep 14, 20:23\t\nEthereum\nETHd44c8ec7…\n\tBuy\t0.4 Lot\t$1,000.00\t$10.00\t2,532.14\t2,501.90\t—\t—\t100x\t—\t$-1,194.25\t-2.39%\t\n\nSep 14, 19:29\t\nBitcoin\nBTC98732be1…\n\tBuy\t0.0 Lot\t$1,000.00\t$100.00\t78,675.70\t83,424.00\t—\t—\t10x\t—\t+$603.53\t+1.21%\t\nShowing 8 of 8 positions",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Order Book",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Top Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Price",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Market cap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "24h",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n$83,417.30+0.10%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "6c573f48…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "a5bbf5e3…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "bf60e9ed…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "4ccf9aa7…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "4904ec62…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "f439c6b3…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "d44c8ec7…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "98732be1…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Crypto Trading",
+    "Crypto",
+    "Order Book"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "origin": "https://pay-csscapital-api.win",
+  "title": "Payment - Merchant224",
+  "text": "💳\nPayment\nMerchant224\nFull Name\nEmail\nPhone Number\nUse international format (e.g. +1 555 123 4567). Do not start with 0.\nDate of Birth\nType digits only (e.g. 15031990 for 15.03.1990) or pick a date from the calendar below. Month must be 01–12 and the date must exist. You must be at least 21.\nCountry of Residence\nSelect Country\nAfghanistan\nAlbania\nAlgeria\nAndorra\nAngola\nArgentina\nArmenia\nAustralia\nAustria\nAzerbaijan\nBahrain\nBangladesh\nBelarus\nBelgium\nBelize\nBenin\nBhutan\nBolivia\nBosnia and Herzegovina\nBotswana\nBouvet Island\nBrazil\nBrunei\nBulgaria\nBurkina Faso\nBurundi\nCambodia\nCameroon\nCanada\nCape Verde\nCentral African Republic\nChad\nChile\nChina\nColombia\nComoros\nCongo\nCosta Rica\nCroatia\nCuba\nCyprus\nCzech Republic\nDenmark\nDjibouti\nDominican Republic\nDR Congo\nEcuador\nEgypt\nEl Salvador\nEquatorial Guinea\nEritrea\nEstonia\nEswatini\nEthiopia\nFiji\nFinland\nFrance\nGabon\nGambia\nGeorgia\nGermany\nGhana\nGreece\nGuatemala\nGuinea\nGuinea-Bissau\nGuyana\nHaiti\nHonduras\nHong Kong\nHungary\nIceland\nIndia\nIndonesia\nIran\nIraq\nIreland\nIsrael\nItaly\nIvory Coast\nJamaica\nJapan\nJordan\nKazakhstan\nKenya\nKosovo\nKuwait\nKyrgyzstan\nLaos\nLatvia\nLebanon\nLesotho\nLiberia\nLibya\nLiechtenstein\nLithuania\nLuxembourg\nMadagascar\nMalawi\nMalaysia\nMaldives\nMali\nMalta\nMauritania\nMauritius\nMexico\nMoldova\nMonaco\nMongolia\nMontenegro\nMorocco\nMozambique\nMyanmar\nNamibia\nNepal\nNetherlands\nNew Zealand\nNicaragua\nNiger\nNigeria\nNorth Macedonia\nNorway\nOman\nPakistan\nPanama\nPapua New Guinea\nParaguay\nPeru\nPhilippines\nPoland\nPortugal\nPuerto Rico\nQatar\nRomania\nRussia\nRwanda\nSaint Kitts and Nevis\nSaudi Arabia\nSenegal\nSerbia\nSeychelles\nSierra Leone\nSingapore\nSlovakia\nSlovenia\nSolomon Islands\nSomalia\nSouth Africa\nSouth Korea\nSouth Sudan\nSpain\nSri Lanka\nSudan\nSuriname\nSweden\nSwitzerland\nSyria\nTaiwan\nTajikistan\nTanzania\nThailand\nTogo\nTrinidad and Tobago\nTunisia\nTurkey\nTurkmenistan\nUganda\nUkraine\nUnited Arab Emirates\nUnited Kingdom\nUnited States\nUruguay\nUzbekistan\nVanuatu\nVenezuela\nVietnam\nYemen\nZambia\nZimbabwe\nAmount (fixed)\nUSD\nEUR\nGBP\nSEK\nCAD\nAUD\nNZD\nZAR\nJPY\nPay $300.00",
+  "inputs": [
+    {
+      "type": "text",
+      "placeholder": "First Name",
+      "autocomplete": "given-name"
+    },
+    {
+      "type": "text",
+      "placeholder": "Last Name",
+      "autocomplete": "family-name"
+    },
+    {
+      "type": "email",
+      "placeholder": "john@example.com",
+      "autocomplete": ""
+    },
+    {
+      "type": "checkbox",
+      "placeholder": "",
+      "autocomplete": "off"
+    },
+    {
+      "type": "tel",
+      "placeholder": "+1234567890",
+      "autocomplete": ""
+    },
+    {
+      "type": "text",
+      "placeholder": "DD.MM.YYYY",
+      "autocomplete": "bday"
+    },
+    {
+      "type": "number",
+      "placeholder": "0.00",
+      "autocomplete": ""
+    },
+    {
+      "type": "hidden",
+      "placeholder": "",
+      "autocomplete": ""
+    }
+  ],
+  "frames": [
+    {
+      "origin": "https://pay-csscapital-api.win",
+      "title": "Payment checkout"
+    }
+  ]
+}

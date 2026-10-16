@@ -1,0 +1,48 @@
+[
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  }
+]

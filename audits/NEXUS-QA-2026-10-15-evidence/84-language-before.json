@@ -1,0 +1,528 @@
+{
+  "url": "https://app.nexus-analyst.com/trading",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nSettings\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nLog Out\nLanguage\n🇺🇸\nEnglish\nEnglish\n🇯🇵\n日本語\nJapanese\n🇰🇷\n한국어\nKorean\n🇨🇳\n简体中文\nChinese (Simplified)\n🇹🇼\n繁體中文\nChinese (Traditional)\n🇭🇰\n繁體中文（香港）\nChinese (Hong Kong)\n🇩🇪\nDeutsch\nGerman\n🇫🇷\nFrançais\nFrench\n🇪🇸\nEspañol\nSpanish\n🇮🇹\nItaliano\nItalian\n🇵🇹\nPortuguês\nPortuguese\n🇳🇱\nNederlands\nDutch\n🇸🇪\nSvenska\nSwedish\n🇳🇴\nNorsk\nNorwegian\n🇩🇰\nDansk\nDanish\n🇫🇮\nSuomi\nFinnish\n🇵🇱\nPolski\nPolish\n🇨🇿\nČeština\nCzech\n🇹🇷\nTürkçe\nTurkish\n🇸🇦\nالعربية\nArabic\n🇷🇺\nРусский\nRussian\nSave",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "true"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Support",
+      "title": "Support",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "Log Out",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "🇺🇸\nEnglish\nEnglish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "🇯🇵\n日本語\nJapanese",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "🇰🇷\n한국어\nKorean",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 30,
+      "text": "🇨🇳\n简体中文\nChinese (Simplified)",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "🇹🇼\n繁體中文\nChinese (Traditional)",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "🇭🇰\n繁體中文（香港）\nChinese (Hong Kong)",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "🇩🇪\nDeutsch\nGerman",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 34,
+      "text": "🇫🇷\nFrançais\nFrench",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "🇪🇸\nEspañol\nSpanish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "🇮🇹\nItaliano\nItalian",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 37,
+      "text": "🇵🇹\nPortuguês\nPortuguese",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 38,
+      "text": "🇳🇱\nNederlands\nDutch",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "🇸🇪\nSvenska\nSwedish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "🇳🇴\nNorsk\nNorwegian",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 41,
+      "text": "🇩🇰\nDansk\nDanish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 42,
+      "text": "🇫🇮\nSuomi\nFinnish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 43,
+      "text": "🇵🇱\nPolski\nPolish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 44,
+      "text": "🇨🇿\nČeština\nCzech",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 45,
+      "text": "🇹🇷\nTürkçe\nTurkish",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 46,
+      "text": "🇸🇦\nالعربية\nArabic",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 47,
+      "text": "🇷🇺\nРусский\nRussian",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 48,
+      "text": "Save",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    }
+  ],
+  "headings": [
+    "Settings",
+    "Language"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\nAccount Verification\n\nComplete verification to unlock higher limits and features\n\n29%\nOverall\nBasic: In Progress\nIntermediate: Locked\nAdvanced: Locked\nBusiness: Locked\nBasic Verification\nIn Progress\n\nGet started with basic trading features\n\nDaily: $100,000\nWithdrawal: $50,000\n50%\nDONE\nBenefits\nDaily deposit limit: $100,000\nDaily withdrawal limit: $50,000\nAccess to basic trading pairs\nEmail, phone, SSN, and photo ID verification\nRequirements\nEmail Verification\nVerified\n\nYour email is already verified\n\nPhone Verification\nVerified\n\nYour phone number is already verified\n\nSocial Security Number\n\nSSN on file ending in ••••1123\n\nID Front Side\n\nPhotograph the front of your passport, driver’s license, or national ID\n\nID Back Side\n\nPhotograph the back of your ID document\n\nSelfie\n\nTake a clear selfie of your face for identity matching\n\nResubmit photos\nIntermediate Verification\nLocked\n\nComplete the previous verification level first (Basic Verification) to unlock this step.\n\nAdvanced Verification\nLocked\n\nComplete the previous verification level first (Intermediate Verification) to unlock this step.\n\nBusiness Verification\nLocked\n\nComplete the previous verification level first (Advanced Verification) to unlock this step.\n\nSecurity & Privacy\n\nAll documents are encrypted and stored securely. We use bank-level security to protect your information. Photo ID review usually takes 3–10 minutes. You'll receive a notification once your verification is complete.",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Resubmit photos",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "placeholder": null,
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": "Current Password",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": null,
+      "name": "newPassword"
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": "Confirm New Password",
+      "name": "confirmPassword"
+    }
+  ],
+  "headings": [
+    "Finance",
+    "Account Verification",
+    "Security",
+    "Email",
+    "Password",
+    "Keep your account secure"
+  ],
+  "frames": []
+}

@@ -1,0 +1,1830 @@
+[
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/icon-animations/ae-mask.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "cache-control": "public, max-age=14400",
+      "content-type": "image/png"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/activity",
+      "query_keys": [
+        "limit"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/support-chat/unread-count",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/balances",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/balances",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/psp/deposit-request",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/psp/trapay-create-payment",
+      "query_keys": []
+    },
+    "status": 502,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+      "referrer-policy": "same-origin",
+      "content-type": "text/html; charset=UTF-8",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/psp/deposit-request",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/balances",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto/quotes",
+      "query_keys": [
+        "symbol"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate, max-age=0",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/icons/networks/base.svg",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "cache-control": "public, max-age=14400",
+      "content-type": "image/svg+xml"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/eth.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/xrp.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/btc.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/ltc.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/sol.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/ada.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/bnb.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/usdc.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/doge.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/avax.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/trx.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/dot.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/usdt.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/bch.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://raw.githubusercontent.com",
+      "path": "/spothq/cryptocurrency-icons/master/128/color/link.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "x-content-type-options": "nosniff",
+      "content-type": "image/png",
+      "x-frame-options": "deny",
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "cache-control": "max-age=300",
+      "access-control-allow-origin": "*"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/balances",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/support-chat/unread-count",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/history",
+      "query_keys": [
+        "limit",
+        "scope"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/crypto-merchant/balances",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/pending-auth/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  }
+]

@@ -1,0 +1,435 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nCommodities Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n+$617.69(+1.24%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$50,617.69\n\nAvailable\n\nFree to trade\n\n$49,616.85\n\nUsed\n\nIn positions\n\n$1,000.83\n\nRisk\n\nMargin pressure\n\n2%\n\nCharts\nHeatmap\nPerformance\nAll\nEnergy\nSofts\nMetals\nGrains\n#\n24h\nName\n1\n🛢️\nCrude Oil WTI\nCL=F· Energy\n$95.91\n+1.88%\n2\n🛢️\nCrude Oil Brent\nBZ=F· Energy\n$106.24\n+52.04%\n3\n⛽\nGasoline RBOB\nRB=F· Energy\n$3.14\n+28.40%\n4\n🛢️\nHeating Oil\nHO=F· Energy\n$4.93\n-5.47%\n5\n🔥\nNatural Gas\nNG=F· Energy\n$3.25\n-88.33%\n6\n🧪\nEthanol\nEH=F· Energy\n$2.22\n+0.00%\n7\nCocoa\nCC=F· Softs\n$5,994.00\n+4.55%\n8\n🧵\nCotton\nCT=F· Softs\n$80.67\n+8.68%\n9\n🍊\nOrange Juice\nOJ=F· Softs\n$141.40\n-31.72%\n10\nCoffee\nKC=F· Softs\n$296.10\n+1.16%\n11\n🪵\nLumber\nLBS=F· Softs\n$—\n+0.00%\n12\n🍬\nSugar\nSB=F· Softs\n$20.92\n-90.00%\n13\nGold\nGC=F· Metals\n$4,162.20\n-36.15%\n14\n🪙\nSilver\nSI=F· Metals\n$58.75\n-1.30%\n15\n⚪\nPlatinum\nPL=F· Metals\n$1,662.60\n-51.46%\n16\n🔶\nCopper\nHG=F· Metals\n$6.74\n+22.30%\n17\n⚙️\nPalladium\nPA=F· Metals\n$1,134.50\n+62.98%\n18\n🐄\nLive Cattle\nLE=F· Metals\n$226.35\n-1.10%\n19\n🫘\nSoybeans\nZS=F· Grains\n$1,292.75\n+70.11%\n20\n🌾\nSoybean Meal\nZM=F· Grains\n$364.70\n+41.30%\n21\n🫒\nSoybean Oil\nZL=F· Grains\n$68.20\n+26.46%\n22\n🌽\nCorn\nZC=F· Grains\n$483.75\n+20.71%\n23\n🌾\nWheat\nZW=F· Grains\n$668.50\n-11.21%\n24\n🍚\nRough Rice\nZR=F· Grains\n$17.20\n-5.81%\n🛢️\nCrude Oil WTI\n95.91+1.88%\nSymbol\nCL=F\nCategory\nEnergy\nChange\n+1.88%\nVolume\n61\nDay Low\n93.97\nDay High\n95.99\nSpread\n0.07673\nBuy\nSell\nPositions\nPending\nHistory\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:12\t\n🛢️\nCrude Oil Brent\nBZ=Fe21e5d49…\n\tBuy\t14.0 Lot\t$1,500.00\t$15.00\t106.9528\t106.24\t—\t—\t100x\t—\t$-10.60\t-0.02%\t\n\nOct 12, 17:09\t\nGold\nGC=F91453ea5…\n\tBuy\t0.2 Lot\t$1,000.00\t$10.00\t4,197.249\t4,161.50\t—\t—\t100x\t—\t$-8.77\t-0.02%\t\n\nOct 12, 17:00\t\n🛢️\nCrude Oil Brent\nBZ=F2a4b5767…\n\tBuy\t9.3 Lot\t$1,000.00\t$20.00\t107.1528\t106.24\t—\t—\t50x\t—\t$-8.92\t-0.02%\t\n\nSep 14, 19:31\t\n🛢️\nCrude Oil Brent\nBZ=F96ded38c…\n\tSell\t9.5 Lot\t$1,000.00\t$100.00\t105.39\t106.24\t—\t—\t10x\t—\t$-80.65\t-0.16%\t\nShowing 4 of 4 positions",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Heatmap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Energy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Softs",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Metals",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Grains",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "#",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "24h",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Name",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1\n🛢️\nCrude Oil WTI\nCL=F· Energy\n$95.91\n+1.88%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "2\n🛢️\nCrude Oil Brent\nBZ=F· Energy\n$106.24\n+52.04%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "3\n⛽\nGasoline RBOB\nRB=F· Energy\n$3.14\n+28.40%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "4\n🛢️\nHeating Oil\nHO=F· Energy\n$4.93\n-5.47%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "5\n🔥\nNatural Gas\nNG=F· Energy\n$3.25\n-88.33%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "6\n🧪\nEthanol\nEH=F· Energy\n$2.22\n+0.00%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "7\nCocoa\nCC=F· Softs\n$5,994.00\n+4.55%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "8\n🧵\nCotton\nCT=F· Softs\n$80.67\n+8.68%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "9\n🍊\nOrange Juice\nOJ=F· Softs\n$141.40\n-31.72%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "10\nCoffee\nKC=F· Softs\n$296.10\n+1.16%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "11\n🪵\nLumber\nLBS=F· Softs\n$—\n+0.00%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "12\n🍬\nSugar\nSB=F· Softs\n$20.92\n-90.00%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "13\nGold\nGC=F· Metals\n$4,162.20\n-36.15%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "14\n🪙\nSilver\nSI=F· Metals\n$58.75\n-1.30%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "15\n⚪\nPlatinum\nPL=F· Metals\n$1,662.60\n-51.46%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "16\n🔶\nCopper\nHG=F· Metals\n$6.74\n+22.30%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "17\n⚙️\nPalladium\nPA=F· Metals\n$1,134.50\n+62.98%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "18\n🐄\nLive Cattle\nLE=F· Metals\n$226.35\n-1.10%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "19\n🫘\nSoybeans\nZS=F· Grains\n$1,292.75\n+70.11%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "20\n🌾\nSoybean Meal\nZM=F· Grains\n$364.70\n+41.30%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "21\n🫒\nSoybean Oil\nZL=F· Grains\n$68.20\n+26.46%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "22\n🌽\nCorn\nZC=F· Grains\n$483.75\n+20.71%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "23\n🌾\nWheat\nZW=F· Grains\n$668.50\n-11.21%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "24\n🍚\nRough Rice\nZR=F· Grains\n$17.20\n-5.81%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🛢️\nCrude Oil WTI\n95.91+1.88%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "e21e5d49…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "91453ea5…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "2a4b5767…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "96ded38c…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Commodities Trading",
+    "Commodities"
+  ],
+  "frames": []
+}

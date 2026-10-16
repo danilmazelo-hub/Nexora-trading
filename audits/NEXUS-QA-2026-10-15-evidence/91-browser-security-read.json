@@ -1,0 +1,50 @@
+{
+  "cookies": [
+    {
+      "name": "__Secure-authjs.callback-url",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "Lax",
+      "session": true
+    },
+    {
+      "name": "sidebar_state",
+      "secure": false,
+      "httpOnly": false,
+      "sameSite": null,
+      "session": false
+    },
+    {
+      "name": "__Host-authjs.csrf-token",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "Lax",
+      "session": true
+    },
+    {
+      "name": "__Secure-authjs.session-token",
+      "secure": true,
+      "httpOnly": true,
+      "sameSite": "Lax",
+      "session": false
+    }
+  ],
+  "browser": {
+    "secureContext": true,
+    "storageKeys": [
+      "nexus-phone-country",
+      "nexus.notifications.seenIds.v1",
+      "crypto_trades",
+      "app-language",
+      "crypto_positions",
+      "nexusCoinbasePushOptInDone"
+    ],
+    "sessionStorageKeys": [],
+    "scriptOrigins": [
+      "https://app.nexus-analyst.com"
+    ],
+    "iframeOrigins": [],
+    "passwordFields": [],
+    "cspMeta": false
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "url": "https://app.nexus-analyst.com/trading",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nSettings\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nLog Out\nSecurity\nEmail & password\n2FA & Passkey\nEmail\n\nYour account email address\n\nEmail address\nPassword\n\nChange your password to keep your account secure\n\nCurrent Password\nNew Password *\nConfirm New Password *\nUpdate\nReset Password via Email\nKeep your account secure\n\nUse a unique password and enable 2-step verification for stronger protection.",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "true"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Support",
+      "title": "Support",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "Log Out",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "Email & password",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "2FA & Passkey",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "",
+      "label": "Show password",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 30,
+      "text": "",
+      "label": "Show password",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "",
+      "label": "Confirm",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "Update",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "Reset Password via Email",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "email",
+      "id": "",
+      "name": "",
+      "placeholder": null,
+      "required": false,
+      "disabled": true,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": []
+    },
+    {
+      "i": 2,
+      "tag": "INPUT",
+      "type": "password",
+      "id": "currentPassword",
+      "name": "",
+      "placeholder": "Current Password",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": []
+    },
+    {
+      "i": 3,
+      "tag": "INPUT",
+      "type": "password",
+      "id": "newPassword",
+      "name": "newPassword",
+      "placeholder": null,
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": []
+    },
+    {
+      "i": 4,
+      "tag": "INPUT",
+      "type": "password",
+      "id": "confirmPassword",
+      "name": "confirmPassword",
+      "placeholder": "Confirm New Password",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Confirm New Password *"
+      ]
+    }
+  ],
+  "headings": [
+    "Settings",
+    "Security",
+    "Email",
+    "Password",
+    "Keep your account secure"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [
+      {
+        "type": "email",
+        "placeholder": null
+      },
+      {
+        "type": "password",
+        "placeholder": "Current Password"
+      },
+      {
+        "type": "password",
+        "placeholder": null
+      }
+    ],
+    "horizontalOverflow": false
+  }
+}

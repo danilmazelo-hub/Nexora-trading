@@ -1,0 +1,495 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nStocks Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n+$759.40(+1.52%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$50,759.40\n\nAvailable\n\nFree to trade\n\n$49,758.57\n\nUsed\n\nIn positions\n\n$1,000.83\n\nRisk\n\nMargin pressure\n\n2%\n\nCharts\nHeatmap\nPerformance\nDow\nS&P 500\nNasdaq\nDown\nFlat\nUp\n1D\n1W\n1M\n3M\n1Y\n+0.09%\n\nAAPL\n\nApple\n\n+0.42%\n\nMSFT\n\nMicrosoft\n\n+0.30%\n\nGOOGL\n\nAlphabet\n\n-0.37%\n\nAMZN\n\nAmazon\n\n+0.97%\n\nNVDA\n\nNVIDIA\n\n+2.63%\n\nMETA\n\nMeta\n\n-0.74%\n\nTSLA\n\nTesla\n\n+0.58%\n\nBRK.B\n\nBerkshire\n\n-0.20%\n\nUNH\n\nUnitedHealth\n\n-5.73%\n\nJNJ\n\nJohnson & Johnson\n\n+1.74%\n\nV\n\nVisa\n\n-0.71%\n\nWMT\n\nWalmart\n\n-0.10%\n\nPG\n\nProcter & Gamble\n\n+1.63%\n\nMA\n\nMastercard\n\n-0.86%\n\nJPM\n\nJPMorgan\n\n-0.23%\n\nGS\n\nGoldman Sachs\n\n+1.27%\n\nCVX\n\nChevron\n\n0.00%\n\nXOM\n\nExxon Mobil\n\n+1.14%\n\nHD\n\nHome Depot\n\n+0.08%\n\nDIS\n\nDisney\n\n-0.21%\n\nNFLX\n\nNetflix\n\n-0.78%\n\nADBE\n\nAdobe\n\n-0.23%\n\nCSCO\n\nCisco\n\n-0.16%\n\nPLTR\n\nPalantir\n\n0.00%\n\nTSM\n\nTSMC\n\n0.00%\n\nMU\n\nMicron\n\n0.00%\n\nASML\n\nASML\n\n-1.54%\n\nLMT\n\nLockheed Martin\n\n-1.95%\n\nRTX\n\nRTX\n\n-1.59%\n\nBA\n\nBoeing\n\n-0.33%\n\nGE\n\nGE\n\n-1.12%\n\nHON\n\nHoneywell\n\n-0.50%\n\nCOST\n\nCostco\n\n+1.90%\n\nAMD\n\nAMD\n\n+1.44%\n\nINTC\n\nIntel\n\n+0.73%\n\nAVGO\n\nBroadcom\n\nApple Inc.\n$341.27+0.09%\nTicker\nAAPL\nIndustry\nTechnology\nMarket cap\n$4.98M\nP/E\n38.83\nVolume\n—\nDay Low\n$340.74\nDay High\n$348.15\nSpread\n0.34127\nBuy\nSell\nPositions\nPending\nHistory\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:11\t\nMETA\nMETA96f1484e…\n\tBuy\t1.3 Lot\t$1,000.00\t$20.00\t742.8913\t762.50\t—\t—\t50x\t—\t+$25.90\t+0.05%\t\n\nOct 12, 17:08\t\nAAPL\nAAPLdc09dc46…\n\tBuy\t7.3 Lot\t$2,500.00\t$25.00\t342.3511\t341.27\t—\t—\t100x\t—\t$-9.14\t-0.02%\t\n\nOct 12, 16:59\t\nTSLA\nTSLAa155df37…\n\tSell\t2.6 Lot\t$1,000.00\t$20.00\t380.5896\t375.23\t—\t—\t50x\t—\t+$13.58\t+0.03%\t\n\nSep 14, 19:30\t\nAAPL\nAAPL8dd50bb4…\n\tBuy\t3.0 Lot\t$1,000.00\t$20.00\t336.32\t341.27\t—\t—\t50x\t—\t+$735.91\t+1.47%\t\nShowing 4 of 4 positions",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Heatmap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Dow",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "S&P 500",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nasdaq",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1D",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "3M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.09%\n\nAAPL\n\nApple",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.42%\n\nMSFT\n\nMicrosoft",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.30%\n\nGOOGL\n\nAlphabet",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.37%\n\nAMZN\n\nAmazon",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.97%\n\nNVDA\n\nNVIDIA",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+2.63%\n\nMETA\n\nMeta",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.74%\n\nTSLA\n\nTesla",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.58%\n\nBRK.B\n\nBerkshire",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.20%\n\nUNH\n\nUnitedHealth",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-5.73%\n\nJNJ\n\nJohnson & Johnson",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.74%\n\nV\n\nVisa",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.71%\n\nWMT\n\nWalmart",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.10%\n\nPG\n\nProcter & Gamble",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.63%\n\nMA\n\nMastercard",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.86%\n\nJPM\n\nJPMorgan",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.23%\n\nGS\n\nGoldman Sachs",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.27%\n\nCVX\n\nChevron",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "0.00%\n\nXOM\n\nExxon Mobil",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.14%\n\nHD\n\nHome Depot",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.08%\n\nDIS\n\nDisney",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.21%\n\nNFLX\n\nNetflix",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.78%\n\nADBE\n\nAdobe",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.23%\n\nCSCO\n\nCisco",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.16%\n\nPLTR\n\nPalantir",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "0.00%\n\nTSM\n\nTSMC",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "0.00%\n\nMU\n\nMicron",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "0.00%\n\nASML\n\nASML",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-1.54%\n\nLMT\n\nLockheed Martin",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-1.95%\n\nRTX\n\nRTX",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-1.59%\n\nBA\n\nBoeing",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.33%\n\nGE\n\nGE",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-1.12%\n\nHON\n\nHoneywell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "-0.50%\n\nCOST\n\nCostco",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.90%\n\nAMD\n\nAMD",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+1.44%\n\nINTC\n\nIntel",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "+0.73%\n\nAVGO\n\nBroadcom",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Apple Inc.\n$341.27+0.09%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "96f1484e…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "dc09dc46…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "a155df37…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "8dd50bb4…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Stocks Trading",
+    "Stocks"
+  ],
+  "frames": []
+}

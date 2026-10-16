@@ -1,0 +1,162 @@
+[
+  {
+    "repo": "obra/superpowers",
+    "path": "skills/brainstorming/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/HEAD/skills/brainstorming/SKILL.md",
+    "status": 200,
+    "bytes": 10073,
+    "header": "---\nname: brainstorming\ndescription: \"You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).\"\n---\n\n# Brainstorming\n\nYou are very good at building. You build what you believe your human\npartner wants, and that belief is usually thinner than it feels. This\nskill is for finding out what they actually want, and why, before\nanything gets built.\n\nPeople often haven't finished working out what they want. Good questions\nhelp them think it through. When you understand the why, you make the\nhundred decisions they never mention the way they would have made them.\n\n## First: What Do You Actually Know?\n\nBefore you reply, ask yourself: what do I know about what they want, and\nwhy?\n\n- **Everything that matters is in the request** (\"make the icon cornflower\n  blue\"). This is a quick, clear task. D"
+  },
+  {
+    "repo": "obra/superpowers",
+    "path": "skills/writing-plans/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/HEAD/skills/writing-plans/SKILL.md",
+    "status": 200,
+    "bytes": 10335,
+    "header": "---\nname: writing-plans\ndescription: Use when you have a spec or requirements for a multi-step task, before touching code\n---\n\n# Writing Plans\n\n## Overview\n\nWrite implementation plans for an engineer who has not seen this codebase or this spec. Assume they write idiomatic code in the project's language once they know the exact interface and the exact test, and that they will make a reasonable choice wherever the plan leaves one open. What they cannot know is what you decided: which files, which names and signatures, which values from the spec, which tests prove each task. Document those. Give them the whole plan as bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.\n\n**Announce at start:** \"I'm using the writing-plans skill to create the implementation plan.\"\n\n**Context:** If working in an isolated worktree, it should have been created via the `superpowers:using-git-worktrees` skill at execution time.\n\n**Save plans to:** `docs/superpow"
+  },
+  {
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/HEAD/skills/systematic-debugging/SKILL.md",
+    "status": 200,
+    "bytes": 9530,
+    "header": "---\nname: systematic-debugging\ndescription: Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes\n---\n\n# Systematic Debugging\n\n## Overview\n\n**Core principle:** ALWAYS find root cause before attempting fixes. Symptom fixes are failure.\n\n**Violating the letter of this process is violating the spirit of debugging.**\n\n## The Iron Law\n\n```\nNO FIXES WITHOUT ROOT CAUSE INVESTIGATION FIRST\n```\n\nIf you haven't completed Phase 1, you cannot propose fixes.\n\n## When to Use\n\nUse for ANY technical issue:\n- Test failures\n- Bugs in production\n- Unexpected behavior\n- Performance problems\n- Build failures\n- Integration issues\n\n**Use this ESPECIALLY when:**\n- Under time pressure (emergencies make guessing tempting)\n- \"Just one quick fix\" seems obvious\n- You've already tried multiple fixes\n- Previous fix didn't work\n- You don't fully understand the issue\n\n**Don't skip when:**\n- Issue seems simple (simple bugs have root"
+  },
+  {
+    "repo": "obra/superpowers",
+    "path": "skills/test-driven-development/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/HEAD/skills/test-driven-development/SKILL.md",
+    "status": 200,
+    "bytes": 9578,
+    "header": "---\nname: test-driven-development\ndescription: Use when implementing any feature or bugfix, before writing implementation code\n---\n\n# Test-Driven Development (TDD)\n\n## Overview\n\nWrite the test first. Watch it fail. Write minimal code to pass.\n\n**Core principle:** If you didn't watch the test fail, you don't know if it tests the right thing.\n\n**Violating the letter of the rules is violating the spirit of the rules.**\n\n## When to Use\n\n**Always:**\n- New features\n- Bug fixes\n- Refactoring\n- Behavior changes\n\n**Exceptions (ask your human partner):**\n- Throwaway prototypes\n- Generated code\n- Configuration files\n\nThinking \"skip TDD just this once\"? Stop. That's rationalization.\n\n## The Iron Law\n\n```\nNO PRODUCTION CODE WITHOUT A FAILING TEST FIRST\n```\n\nWrite code before the test? Delete it. Start over.\n\n**No exceptions:**\n- Don't keep it as \"reference\"\n- Don't \"adapt\" it while writing tests\n- Don't look at it\n- Delete means delete\n\nImplement fr"
+  },
+  {
+    "repo": "obra/superpowers",
+    "path": "skills/verification-before-completion/SKILL.md",
+    "url": "https://github.com/obra/superpowers/blob/HEAD/skills/verification-before-completion/SKILL.md",
+    "status": 200,
+    "bytes": 3646,
+    "header": "---\nname: verification-before-completion\ndescription: Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always\n---\n\n# Verification Before Completion\n\n## Overview\n\n**Core principle:** Evidence before claims, always.\n\n**Violating the letter of this rule is violating the spirit of this rule.**\n\n## The Iron Law\n\n```\nNO COMPLETION CLAIMS WITHOUT FRESH VERIFICATION EVIDENCE\n```\n\nIf you haven't run the verification command in this message, you cannot claim it passes.\n\n## The Gate Function\n\n```\nBEFORE claiming any status or expressing satisfaction:\n\n1. IDENTIFY: What command proves this claim?\n2. RUN: Execute the FULL command (fresh, complete)\n3. READ: Full output, check exit code, count failures\n4. VERIFY: Does output confirm the claim?\n   - If NO: State actual status with evid"
+  },
+  {
+    "repo": "wshobson/agents",
+    "path": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/HEAD/plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+    "status": 200,
+    "bytes": 6804,
+    "header": "---\nname: code-review-excellence\ndescription: Master effective code review practices to provide constructive feedback, catch bugs early, and foster knowledge sharing while maintaining team morale. Use when reviewing pull requests, establishing review standards, or mentoring developers.\n---\n\n# Code Review Excellence\n\nTransform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.\n\n## When to Use This Skill\n\n- Reviewing pull requests and code changes\n- Establishing code review standards for teams\n- Mentoring junior developers through reviews\n- Conducting architecture reviews\n- Creating review checklists and guidelines\n- Improving team collaboration\n- Reducing code review cycle time\n- Maintaining code quality standards\n\n## Core Principles\n\n### 1. The Review Mindset\n\n**Goals of Code Review:**\n\n- Catch bugs and edge cases\n- Ensure code maintainability\n- Share kno"
+  },
+  {
+    "repo": "wshobson/agents",
+    "path": "plugins/backend-development/skills/architecture-patterns/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/HEAD/plugins/backend-development/skills/architecture-patterns/SKILL.md",
+    "status": 200,
+    "bytes": 7942,
+    "header": "---\nname: architecture-patterns\ndescription: Implement proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design. Use this skill when designing clean architecture for a new microservice, when refactoring a monolith to use bounded contexts, when implementing hexagonal or onion architecture patterns, or when debugging dependency cycles between application layers.\n---\n\n# Architecture Patterns\n\nMaster proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.\n\n**Given:** a service boundary or module to architect.\n**Produces:** layered structure with clear dependency rules, interface definitions, and test boundaries.\n\n## When to Use This Skill\n\n- Designing new backend services or microservices from scratch\n- Refactoring monolithic applications where business logic is entangl"
+  },
+  {
+    "repo": "wshobson/agents",
+    "path": "plugins/backend-development/skills/api-design-principles/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/HEAD/plugins/backend-development/skills/api-design-principles/SKILL.md",
+    "status": 200,
+    "bytes": 3603,
+    "header": "---\nname: api-design-principles\ndescription: Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers. Use when designing new APIs, reviewing API specifications, or establishing API design standards.\n---\n\n# API Design Principles\n\nMaster REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.\n\n## When to Use This Skill\n\n- Designing new REST or GraphQL APIs\n- Refactoring existing APIs for better usability\n- Establishing API design standards for your team\n- Reviewing API specifications before implementation\n- Migrating between API paradigms (REST to GraphQL, etc.)\n- Creating developer-friendly API documentation\n- Optimizing APIs for specific use cases (mobile, third-party integrations)\n\n## Core Concepts\n\n### 1. RESTful Design Principles\n\n**Resource-Oriented Architecture**\n\n- Resources are n"
+  },
+  {
+    "repo": "wshobson/agents",
+    "path": "plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/HEAD/plugins/developer-essentials/skills/error-handling-patterns/SKILL.md",
+    "status": 200,
+    "bytes": 4090,
+    "header": "---\nname: error-handling-patterns\ndescription: Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful degradation to build resilient applications. Use when implementing error handling, designing APIs, or improving application reliability.\n---\n\n# Error Handling Patterns\n\nBuild resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.\n\n## When to Use This Skill\n\n- Implementing error handling in new features\n- Designing error-resilient APIs\n- Debugging production issues\n- Improving application reliability\n- Creating better error messages for users and developers\n- Implementing retry and circuit breaker patterns\n- Handling async/concurrent errors\n- Building fault-tolerant distributed systems\n\n## Core Concepts\n\n### 1. Error Handling Philosophies\n\n**Exceptions vs Result Types:**\n\n- **Exceptions**: Tradit"
+  },
+  {
+    "repo": "wshobson/agents",
+    "path": "plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md",
+    "url": "https://github.com/wshobson/agents/blob/HEAD/plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md",
+    "status": 200,
+    "bytes": 5961,
+    "header": "---\nname: sql-optimization-patterns\ndescription: Master SQL query optimization, indexing strategies, and EXPLAIN analysis to dramatically improve database performance and eliminate slow queries. Use when debugging slow queries, designing database schemas, or optimizing application performance.\n---\n\n# SQL Optimization Patterns\n\nTransform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.\n\n## When to Use This Skill\n\n- Debugging slow-running queries\n- Designing performant database schemas\n- Optimizing application response times\n- Reducing database load and costs\n- Improving scalability for growing datasets\n- Analyzing EXPLAIN query plans\n- Implementing efficient indexes\n- Resolving N+1 query problems\n\n## Core Concepts\n\n### 1. Query Execution Plans (EXPLAIN)\n\nUnderstanding EXPLAIN output is fundamental to optimization.\n\n**PostgreSQL EXPLAIN:**\n\n```sql\n-- Basic expl"
+  },
+  {
+    "repo": "anthropics/skills",
+    "path": "skills/frontend-design/SKILL.md",
+    "url": "https://github.com/anthropics/skills/blob/HEAD/skills/frontend-design/SKILL.md",
+    "status": 200,
+    "bytes": 9390,
+    "header": "---\nname: frontend-design\ndescription: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.\nlicense: Complete terms in LICENSE.txt\n---\n\n# Frontend Design\n\nApproach this as the design lead at a design studio known for giving every client a distinct visual identity that is not mistaken for anyone else's. This client has already rejected proposals that felt cliché or templated, and is paying for a distinctive point of view: make deliberate, opinionated choices about palette, typography, and layout that are specific to this brief, and take aesthetic risk if justified.\n\n## Ground your designs in the subject matter\n\nIf the brief does not identify what the product or subject matter is, identify it yourself before designing, and confirm with the client. You can come up with one concrete subject,"
+  },
+  {
+    "repo": "anthropics/skills",
+    "path": "skills/webapp-testing/SKILL.md",
+    "url": "https://github.com/anthropics/skills/blob/HEAD/skills/webapp-testing/SKILL.md",
+    "status": 200,
+    "bytes": 3913,
+    "header": "---\nname: webapp-testing\ndescription: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.\nlicense: Complete terms in LICENSE.txt\n---\n\n# Web Application Testing\n\nTo test local web applications, write native Python Playwright scripts.\n\n**Helper Scripts Available**:\n- `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)\n\n**Always run scripts with `--help` first** to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.\n\n## Decision Tree: Choosing Your Approach\n\n```\nUser task → Is it static HTML?\n    ├─ Yes → Read HTML"
+  },
+  {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-best-practices/SKILL.md",
+    "url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/react-best-practices/SKILL.md",
+    "status": 200,
+    "bytes": 7251,
+    "header": "---\nname: vercel-react-best-practices\ndescription: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.\nlicense: MIT\nmetadata:\n  author: vercel\n  version: \"1.0.0\"\n---\n\n# Vercel React Best Practices\n\nComprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Contains 70 rules across 8 categories, prioritized by impact to guide automated refactoring and code generation.\n\n## When to Apply\n\nReference these guidelines when:\n- Writing new React components or Next.js pages\n- Implementing data fetching (client or server-side)\n- Reviewing code for performance issues\n- Refactoring existing React/Next.js code\n- Optimizing bundle siz"
+  },
+  {
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/web-design-guidelines/SKILL.md",
+    "url": "https://github.com/vercel-labs/agent-skills/blob/HEAD/skills/web-design-guidelines/SKILL.md",
+    "status": 200,
+    "bytes": 1231,
+    "header": "---\nname: web-design-guidelines\ndescription: Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".\nmetadata:\n  author: vercel\n  version: \"1.0.0\"\n  argument-hint: <file-or-pattern>\n---\n\n# Web Interface Guidelines\n\nReview files for compliance with Web Interface Guidelines.\n\n## How It Works\n\n1. Fetch the latest guidelines from the source URL below\n2. Read the specified files (or prompt user for files/pattern)\n3. Check against all rules in the fetched guidelines\n4. Output findings in the terse `file:line` format\n\n## Guidelines Source\n\nFetch fresh guidelines before each review:\n\n```\nhttps://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md\n```\n\nUse WebFetch to retrieve the latest rules. The fetched content contains all the rules and output format instructions.\n\n## Usage\n\nWhen a user p"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/audit-context-building/skills/audit-context-building/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/audit-context-building/skills/audit-context-building/SKILL.md",
+    "status": 200,
+    "bytes": 3991,
+    "header": "---\nname: audit-context-building\ndescription: Understand a codebase before looking for bugs in it - what each function assumes, what it guarantees, and what it depends on elsewhere. Use when starting an audit, threat model, or architecture review on unfamiliar code, and before any vulnerability-hunting pass.\nallowed-tools: Workflow Task Read Grep Glob\n---\n\n# Audit Context Building\n\nBuild understanding, not verdicts. This runs before anyone hunts for bugs, and feeds that work.\n\n## When to Use\n\nAt the start of an audit, a threat model, or an architecture review, when the code is unfamiliar. Also when\nan earlier pass produced findings nobody could judge, because no one had mapped out how the system fits\ntogether.\n\n## When NOT to Use\n\nDo not name vulnerabilities, suggest fixes, write proofs-of-concept, or rate severity. Those belong to the\nhunting phase, which runs next and with the whole picture in hand. When the code counts on something a"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/differential-review/skills/differential-review/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/differential-review/skills/differential-review/SKILL.md",
+    "status": 200,
+    "bytes": 7439,
+    "header": "---\nname: differential-review\ndescription: \"Performs security-focused differential review of code changes. Adapts analysis depth to codebase size, uses git blame for context, calculates blast radius by counting callers, checks test coverage of modified code, and generates a markdown report. Use when reviewing a PR, commit, or diff for security vulnerabilities, checking whether a change re-introduces a previously fixed bug, asking what else a change could break, or finding which modified code has no test covering it.\"\nallowed-tools: Read Write Grep Glob Bash\n---\n\n# Differential Security Review\n\nSecurity-focused code review for PRs, commits, and diffs.\n\n## Core Principles\n\n1. **Risk-First**: Focus on auth, crypto, value transfer, external calls\n2. **Evidence-Based**: Every finding backed by git history, line numbers, attack scenarios\n3. **Adaptive**: Scale to codebase size (SMALL/MEDIUM/LARGE)\n4. **Honest**: Explicitly state coverage limi"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/property-based-testing/skills/property-based-testing/SKILL.md",
+    "status": 200,
+    "bytes": 4306,
+    "header": "---\nname: property-based-testing\neffort: low\ndescription: \"Writes, reviews, and debugs property-based tests — Hypothesis, fast-check, proptest, jqwik, rapid, and Echidna or Medusa for Solidity invariants. Use whenever tests should cover a whole input domain instead of a hand-picked list of examples: encode/decode and serialize/deserialize pairs, parsers, canonicalizers and normalizers, validators, numeric and Decimal types, comparators and sort order, data structures, and smart-contract state invariants. Also use when adding cases to an existing @given, fast-check, or proptest suite, when judging whether existing property tests assert anything real, and when a generator has shrunk a counterexample and you need to tell a wrong property from a genuine bug. Not for coverage-guided binary fuzzing (libFuzzer, AFL), mutation-testing campaigns, static analysis, benchmarking, or end-to-end UI tests.\"\n---\n\n# Property-Based Testing\n\nAn example te"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/sharp-edges/skills/sharp-edges/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/sharp-edges/skills/sharp-edges/SKILL.md",
+    "status": 200,
+    "bytes": 11814,
+    "header": "---\nname: sharp-edges\ndescription: \"Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration.\"\nallowed-tools: Read Grep Glob\n---\n\n# Sharp Edges Analysis\n\nEvaluates whether APIs, configurations, and interfaces are resistant to developer misuse. Identifies designs where the \"easy path\" leads to insecurity.\n\n## When to Use\n\n- Reviewing API or library design decisions\n- Auditing configuration schemas for dangerous options\n- Evaluating cryptographic API ergonomics\n- Assessing authentication/authorization interfaces\n- Reviewing any code that exposes security-relevant choices to developers\n\n## When NOT to Use\n\n- Implementation bug"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md",
+    "status": 200,
+    "bytes": 6991,
+    "header": "---\nname: supply-chain-risk-auditor\ndescription: \"Audits a project's dependencies for supply-chain risk: version-matched advisories for direct dependencies and the full lockfile tree, abandoned or archived upstreams, npm publisher concentration, and install-time script execution. Use when asked to audit dependencies, assess supply-chain or third-party package risk, or review a dependency tree before an engagement.\"\nallowed-tools: Read Write Bash Glob Grep\n---\n\n# Supply Chain Risk Auditor\n\nGenerates a supply-chain risk report for a project's direct dependencies (npm, PyPI,\nGo), plus an advisory sweep of everything its lockfile resolves. Two deterministic\nscripts do the measuring; your job is the judgment they refuse to automate.\n\n## Why the scripts do the measuring, not you\n\nEvery figure in this report is a claim about somebody else's project, and hand-collected\nfigures were measured wrong before this skill was rebuilt around scripts: Gi"
+  },
+  {
+    "repo": "trailofbits/skills",
+    "path": "plugins/static-analysis/skills/semgrep/SKILL.md",
+    "url": "https://github.com/trailofbits/skills/blob/HEAD/plugins/static-analysis/skills/semgrep/SKILL.md",
+    "status": 200,
+    "bytes": 15678,
+    "header": "---\nname: semgrep\ndescription: >-\n  Runs a Semgrep security scan over a codebase: detects languages, selects\n  rulesets, presents the plan for explicit approval, then runs every approved\n  ruleset through scripts/run-scans.sh, which batches the semgrep processes and\n  writes scans.json, and merges the output to SARIF. Supports two scan modes,\n  \"run all\" for full ruleset coverage and \"important only\" for security\n  findings at medium-to-high confidence and impact. Uses Semgrep Pro for\n  cross-file taint analysis when it is available. Use when asked to scan code\n  for vulnerabilities, run a security audit with Semgrep, find bugs, or perform\n  static analysis. For the same scan without the approval gate, use the\n  /static-analysis:semgrep-scan workflow.\nallowed-tools: Bash Read Glob AskUserQuestion TaskCreate TaskList TaskUpdate\n---\n\n# Semgrep Security Scan\n\nRun a Semgrep scan with automatic language detection, parallel execution, and mer"
+  }
+]

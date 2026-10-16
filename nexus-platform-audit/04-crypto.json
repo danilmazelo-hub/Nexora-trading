@@ -1,0 +1,285 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Crypto\n$443.26\n(+0.89%)\nCharts\nPerformance\nBitcoin\n$83,452.00\n+0.15%\nPrice\nMarket cap\n\t\n\t\n\t\n\t\n$84,176.29\n▼\n▲\n$80,464.05\n24h\n1W\n1M\n1Y\nAll\nBuy\nSell\nPositions\nPending Orders\nHistory\nAll Positions\nNΞXUS ΛI Positions\nClient Positions\nEthereum\n0.98 lot\n10/12, 17:11\nEdit\nClose\n-$40.33\nBitcoin\n0.03 lot\n10/12, 17:10\nEdit\nClose\n+$9.34\nEthereum\n0.39 lot\n10/12, 17:08\nEdit\nClose\n+$14.25\nBitcoin\n0.01 lot\n10/12, 17:08\nEdit\nClose\n+$5.24\nEthereum\n0.59 lot\n10/12, 16:58\nEdit\nClose\n-$22.70\nBitcoin\n0.01 lot\n10/12, 16:58\nEdit\nClose\n+$5.62\nEthereum\n0.39 lot\n09/14, 20:23\nEdit\nClose\n-$1,181.61\nBitcoin\n0.01 lot\n09/14, 19:29\nEdit\nClose\n+$602.91",
+  "buttons": [
+    {
+      "text": "$443.26\n(+0.89%)",
+      "label": "Expand P&L details",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n$83,452.00\n+0.15%",
+      "label": "Select crypto",
+      "disabled": false
+    },
+    {
+      "text": "Price",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Market cap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "24h",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending Orders",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "Ethereum\n0.98 lot\n10/12, 17:11",
+      "label": "Expand Ethereum Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "-$40.33",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n0.03 lot\n10/12, 17:10",
+      "label": "Expand Bitcoin Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$9.34",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Ethereum\n0.39 lot\n10/12, 17:08",
+      "label": "Expand Ethereum Sell",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$14.25",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n0.01 lot\n10/12, 17:08",
+      "label": "Expand Bitcoin Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$5.24",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Ethereum\n0.59 lot\n10/12, 16:58",
+      "label": "Expand Ethereum Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "-$22.70",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n0.01 lot\n10/12, 16:58",
+      "label": "Expand Bitcoin Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$5.62",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Ethereum\n0.39 lot\n09/14, 20:23",
+      "label": "Expand Ethereum Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "-$1,181.61",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\n0.01 lot\n09/14, 19:29",
+      "label": "Expand Bitcoin Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$602.91",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Crypto Trading",
+    "Crypto"
+  ],
+  "frames": []
+}

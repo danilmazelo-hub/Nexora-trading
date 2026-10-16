@@ -1,0 +1,690 @@
+[
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/icon-animations/ae-mask.png",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Image",
+    "headers": {
+      "cache-control": "public, max-age=14400",
+      "content-type": "image/png"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/auth/session",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "cache-control": "private, no-cache, no-store",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Other",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/platform-session/activity",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/webauthn/devices",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": [
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/profile/get",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/user/balance",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "cache-control": "no-store, no-cache, must-revalidate",
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/push/check",
+      "query_keys": []
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot",
+        "t"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  },
+  {
+    "event": "response",
+    "url": {
+      "origin": "https://app.nexus-analyst.com",
+      "path": "/api/trading/all-positions",
+      "query_keys": [
+        "bot"
+      ]
+    },
+    "status": 200,
+    "type": "Fetch",
+    "headers": {
+      "content-type": "application/json"
+    },
+    "protocol": "h2"
+  }
+]

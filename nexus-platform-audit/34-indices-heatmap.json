@@ -1,0 +1,345 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nIndices Trading\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\n\nP&L\n\nMark to market\n\n+$622.99(+1.25%)\n\nBalance\n\nCash ledger\n\n$50,000.00\n\nEquity\n\nCash + open P&L\n\n$50,622.99\n\nAvailable\n\nFree to trade\n\n$49,622.16\n\nUsed\n\nIn positions\n\n$1,000.83\n\nRisk\n\nMargin pressure\n\n2%\n\nCharts\nHeatmap\nPerformance\nUSA\nEurope\nAsia\nDown\nFlat\nUp\n1D\n1W\n1M\n3M\n1Y\nD\nD\n0.00%\n\nDow Jones\n\nDJI\n\nN\nN\n+0.24%\n\nNASDAQ\n\nIXIC\n\nS\nS\n+0.13%\n\nS&P 500\n\nGSPC\n\nR\nR\n-0.36%\n\nRussell 2000\n\nRUT\n\nN\nN\n+0.54%\n\nNASDAQ 100\n\nNDX\n\nV\nV\n+1.12%\n\nVIX\n\nVIX\n\nS\nS\nS&P 500\n7,805.45+0.13%\nSymbol\nGSPC\nCountry\nUSA\nExchange\nNYSE\nChange\n+0.13%\nVolume\n2\nDay Low\n7,786.11\nDay High\n7,814.15\nSpread\n6.2444\nBuy\nSell\nPositions\nPending\nHistory\nAll\nNΞXUS ΛI\nClient\nOpened\n\tAsset\t\nSide\n\t\nSize\n\tUsed\tMargin\t\nEntry\n\t\nMark\n\t\nTP\n\t\nSL\n\t\nLev\n\t\nSwap\n\t\nP&L\n\t\nP&L%\n\t\nOct 12, 17:11\t\nS\nS\nS&P 500\n^GSPCd5471163…\n\tBuy\t0.1 Lot\t$1,000.00\t$20.00\t7,809.7226\t7,805.45\t—\t—\t50x\t—\t$-0.95\t-0.00%\t\n\nOct 12, 17:08\t\nN\nN\nNASDAQ Composite\n^IXIC7d2d90e5…\n\tSell\t0.1 Lot\t$1,500.00\t$150.00\t27,268.4782\t27,204.38\t—\t—\t10x\t—\t+$2.93\t+0.01%\t\n\nOct 12, 17:00\t\nS\nS\nS&P 500\n^GSPC9de97d8d…\n\tBuy\t0.1 Lot\t$1,000.00\t$20.00\t7,815.4549\t7,805.45\t—\t—\t50x\t—\t$-1.68\t-0.00%\t\n\nSep 14, 19:30\t\nN\nN\nNASDAQ Composite\n^IXIC815be04c…\n\tBuy\t0.0 Lot\t$1,000.00\t$200.00\t26,240.74\t27,204.38\t—\t—\t5x\t—\t+$183.62\t+0.37%\t\nShowing 4 of 4 positions",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Heatmap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "USA",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Europe",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Asia",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1D",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "3M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "D\nD\n0.00%\n\nDow Jones\n\nDJI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "N\nN\n+0.24%\n\nNASDAQ\n\nIXIC",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "S\nS\n+0.13%\n\nS&P 500\n\nGSPC",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "R\nR\n-0.36%\n\nRussell 2000\n\nRUT",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "N\nN\n+0.54%\n\nNASDAQ 100\n\nNDX",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "V\nV\n+1.12%\n\nVIX\n\nVIX",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "S\nS\nS&P 500\n7,805.45+0.13%",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "d5471163…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "7d2d90e5…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "9de97d8d…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "815be04c…",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Indices Trading",
+    "Indices"
+  ],
+  "frames": []
+}

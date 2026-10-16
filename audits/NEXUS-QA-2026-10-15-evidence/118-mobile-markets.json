@@ -1,0 +1,260 @@
+{
+  "url": "https://app.nexus-analyst.com/markets",
+  "title": "NΞXUS ΛI",
+  "width": 390,
+  "height": 844,
+  "lang": "en",
+  "text": "Markets\nCrypto\n8 open\n-$2,761.56\n8 trades\nStocks\n7 open\n+$896.94\n7 trades\nIndices\n7 open\n+$104.85\n7 trades\nForex\n4 open\n+$205.13\n4 trades\nCommodities\n4 open\n-$77.13\n4 trades\nNexus Ventures\nNot funded\n$0.00\nVentures\nMetals\nComing soon\n$0.00\n0 trades\nBonds\nComing soon\n$0.00\n0 trades\nETFs\nComing soon\n$0.00\n0 trades\nNFTs\nComing soon\n$0.00\n0 trades\nOptions\nComing soon\n$0.00\n0 trades\nDeFi\nComing soon\n$0.00\n0 trades\nSports Betting\nComing soon\n$0.00\n0 trades\nBinary Options\nComing soon\n$0.00\n0 trades\nFinance\nMarkets\nActivity\nSettings\n\nУстановите NΞXUS ΛI\n\nУстановите в один тап или через «Поделиться» добавьте на главный экран.\n\nУстановить\nПоделиться / На главный экран\n\nСмахните вниз, чтобы скрыть до следующего визита",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 1,
+      "text": "Crypto\n8 open\n-$2,761.56\n8 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 2,
+      "text": "Stocks\n7 open\n+$896.94\n7 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "Indices\n7 open\n+$104.85\n7 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Forex\n4 open\n+$205.13\n4 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Commodities\n4 open\n-$77.13\n4 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Nexus Ventures\nNot funded\n$0.00\nVentures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Metals\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Bonds\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "ETFs\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "NFTs\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Options\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "DeFi\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Sports Betting\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Binary Options\nComing soon\n$0.00\n0 trades",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Markets",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "",
+      "label": "Nexus AI",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 18,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "",
+      "label": "Закрыть",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "",
+      "label": "Закрыть",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Установить",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "Поделиться / На главный экран",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [],
+  "headings": [
+    "Markets"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [],
+    "horizontalOverflow": false
+  }
+}

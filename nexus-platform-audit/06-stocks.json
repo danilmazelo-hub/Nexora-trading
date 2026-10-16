@@ -1,0 +1,200 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Stocks\n$443.26\n(+0.89%)\nCharts\nHeatmap\nPerformance\nApple Inc.\n$341.27\n+0.09%\n\t\n\t\n\t\n\t\n$346.60\n▼\n▲\n$333.08\n24h\n1W\n1M\n1Y\nAll\nBuy\nSell\nPositions\nPending Orders\nHistory\nAll Positions\nNΞXUS ΛI Positions\nClient Positions\nMETA\n1.35 lot\n10/12, 17:11\nEdit\nClose\n+$25.90\nAAPL\n7.3 lot\n10/12, 17:08\nEdit\nClose\n-$9.14\nTSLA\n2.63 lot\n10/12, 16:59\nEdit\nClose\n+$13.58\nAAPL\n2.97 lot\n09/14, 19:30\nEdit\nClose\n+$735.91",
+  "buttons": [
+    {
+      "text": "$443.26\n(+0.89%)",
+      "label": "Expand P&L details",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Charts",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Heatmap",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Performance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Apple Inc.\n$341.27\n+0.09%",
+      "label": "Select stock",
+      "disabled": false
+    },
+    {
+      "text": "24h",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sell",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Pending Orders",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS ΛI Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Client Positions",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Filters",
+      "disabled": false
+    },
+    {
+      "text": "META\n1.35 lot\n10/12, 17:11",
+      "label": "Expand META Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$25.90",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "AAPL\n7.3 lot\n10/12, 17:08",
+      "label": "Expand AAPL Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "-$9.14",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "TSLA\n2.63 lot\n10/12, 16:59",
+      "label": "Expand TSLA Sell",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$13.58",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "AAPL\n2.97 lot\n09/14, 19:30",
+      "label": "Expand AAPL Buy",
+      "disabled": false
+    },
+    {
+      "text": "Edit",
+      "label": "Edit",
+      "disabled": false
+    },
+    {
+      "text": "Close",
+      "label": "Close",
+      "disabled": false
+    },
+    {
+      "text": "+$735.91",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Stocks Trading",
+    "Stocks"
+  ],
+  "frames": []
+}

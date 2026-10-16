@@ -1,0 +1,129 @@
+{"time": "2026-10-15T19:05:45.721334+00:00", "kind": "snapshot", "label": null, "slug": "00-baseline", "result": null, "elapsed": 2.684}
+{"time": "2026-10-15T19:05:59.260444+00:00", "kind": "aria", "label": "Deposit cash", "slug": "01-deposit-open", "result": "clicked", "elapsed": 2.417}
+{"time": "2026-10-15T19:06:38.562295+00:00", "kind": "button", "label": "Deposit", "slug": "02-deposit-cashapp-form", "result": "clicked", "elapsed": 2.594}
+{"time": "2026-10-15T19:06:54.986893+00:00", "kind": "aria", "label": "Deposit cash", "slug": "03-deposit-methods", "result": "clicked", "elapsed": 2.314}
+{"time": "2026-10-15T19:06:57.406584+00:00", "kind": "button", "label": "Deposit", "slug": "04-cashapp-form", "result": "clicked", "elapsed": 2.418}
+{"time": "2026-10-15T19:07:15.348319+00:00", "kind": "button", "label": "Continue", "slug": "05-cashapp-empty", "result": "disabled", "elapsed": 2.375}
+{"time": "2026-10-15T19:07:15.555400+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 0.207}
+{"time": "2026-10-15T19:07:17.910687+00:00", "kind": "button", "label": "Continue", "slug": "06-cashapp-below-min", "result": "disabled", "elapsed": 2.355}
+{"time": "2026-10-15T19:07:18.118007+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 0.207}
+{"time": "2026-10-15T19:07:20.413677+00:00", "kind": "button", "label": "Continue", "slug": "07-cashapp-above-max", "result": "clicked", "elapsed": 2.295}
+{"time": "2026-10-15T19:07:22.654784+00:00", "kind": "button", "label": "Cancel", "slug": "08-cashapp-cancel", "result": "clicked", "elapsed": 2.24}
+{"time": "2026-10-15T19:07:24.851274+00:00", "kind": "button", "label": "Deposit", "slug": "09-card-form", "result": "clicked", "elapsed": 2.196}
+{"time": "2026-10-15T19:07:27.087576+00:00", "kind": "key", "label": null, "slug": "10-card-escape", "result": null, "elapsed": 2.236}
+{"time": "2026-10-15T19:07:29.679442+00:00", "kind": "aria", "label": "Receive crypto", "slug": "11-receive-crypto", "result": "clicked", "elapsed": 2.591}
+{"time": "2026-10-15T19:07:31.896396+00:00", "kind": "aria", "label": "Withdraw cash", "slug": "12-withdraw-methods", "result": "clicked", "elapsed": 2.216}
+{"time": "2026-10-15T19:07:34.150164+00:00", "kind": "aria", "label": "Swap", "slug": "13-swap", "result": "clicked", "elapsed": 2.253}
+{"time": "2026-10-15T19:07:36.346291+00:00", "kind": "aria", "label": "Trade", "slug": "14-trade-menu", "result": "clicked", "elapsed": 2.196}
+{"time": "2026-10-15T19:08:16.003285+00:00", "kind": "nav", "label": "Crypto", "slug": "15-crypto-chart", "result": "clicked", "elapsed": 4.29}
+{"time": "2026-10-15T19:08:19.643656+00:00", "kind": "button", "label": "Buy", "slug": "16-buy-ticket", "result": "clicked", "elapsed": 3.64}
+{"time": "2026-10-15T19:08:57.466435+00:00", "kind": "button", "label": "Buy", "slug": "17-buy-form-retry", "result": "clicked", "elapsed": 5.334}
+{"time": "2026-10-15T19:09:18.943417+00:00", "kind": "button", "label": "Next", "slug": "18-trade-zero", "result": "disabled", "elapsed": 4.051}
+{"time": "2026-10-15T19:09:19.152172+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 0.208}
+{"time": "2026-10-15T19:09:23.033474+00:00", "kind": "button", "label": "Next", "slug": "19-trade-over-balance", "result": "disabled", "elapsed": 3.881}
+{"time": "2026-10-15T19:09:23.241497+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 0.208}
+{"time": "2026-10-15T19:09:27.310195+00:00", "kind": "button", "label": "1x", "slug": "20-trade-one-dollar", "result": "clicked", "elapsed": 4.068}
+{"time": "2026-10-15T19:09:31.165463+00:00", "kind": "button", "label": "Next", "slug": "21-trade-confirmation", "result": "clicked", "elapsed": 3.855}
+{"time": "2026-10-15T19:11:33.633644+00:00", "kind": "button", "label": "Limit", "slug": "22-limit-form", "result": "clicked", "elapsed": 4.155}
+{"time": "2026-10-15T19:11:37.779873+00:00", "kind": "button", "label": "Place Buy Order", "slug": "23-limit-empty-price", "result": "disabled", "elapsed": 4.146}
+{"time": "2026-10-15T19:11:41.642150+00:00", "kind": "button", "label": "Stop", "slug": "24-stop-form", "result": "clicked", "elapsed": 3.862}
+{"time": "2026-10-15T19:11:45.552585+00:00", "kind": "button", "label": "Stop Mkt", "slug": "25-stop-market-form", "result": "clicked", "elapsed": 3.91}
+{"time": "2026-10-15T19:11:49.471657+00:00", "kind": "button", "label": "Market", "slug": "26-market-form", "result": "clicked", "elapsed": 3.918}
+{"time": "2026-10-15T19:11:53.531710+00:00", "kind": "button", "label": "Show Advanced Options (Take Profit / Stop Loss)", "slug": "27-advanced-order", "result": "clicked", "elapsed": 4.06}
+{"time": "2026-10-15T19:12:00.522128+00:00", "kind": "button", "label": "Place Buy Order", "slug": "28-market-buy-result", "result": "clicked", "elapsed": 6.989}
+{"time": "2026-10-15T19:12:24.817283+00:00", "kind": "title", "label": "Edit TP/SL", "slug": "29-edit-own-position", "result": "clicked", "elapsed": 4.227}
+{"time": "2026-10-15T19:12:36.704968+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 0.358}
+{"time": "2026-10-15T19:12:41.910854+00:00", "kind": "button", "label": "Save", "slug": "30-invalid-tp-result", "result": "clicked", "elapsed": 5.206}
+{"time": "2026-10-15T19:12:45.823090+00:00", "kind": "key", "label": null, "slug": "31-edit-escape", "result": null, "elapsed": 3.911}
+{"time": "2026-10-15T19:12:49.779466+00:00", "kind": "button", "label": "History", "slug": "32-crypto-history", "result": "missing", "elapsed": 3.956}
+{"time": "2026-10-15T19:12:53.939255+00:00", "kind": "button", "label": "Positions", "slug": "33-crypto-positions", "result": "clicked", "elapsed": 4.159}
+{"time": "2026-10-15T19:12:57.980480+00:00", "kind": "aria", "label": "Filters", "slug": "34-position-filters", "result": "clicked", "elapsed": 4.041}
+{"time": "2026-10-15T19:13:23.468794+00:00", "kind": "button", "label": "Today", "slug": "35-filter-today", "result": "clicked", "elapsed": 3.958}
+{"time": "2026-10-15T19:13:27.405989+00:00", "kind": "button", "label": "Reset", "slug": "36-filter-reset", "result": "clicked", "elapsed": 3.937}
+{"time": "2026-10-15T19:13:31.241198+00:00", "kind": "button", "label": "Done", "slug": "37-filter-done", "result": "clicked", "elapsed": 3.835}
+{"time": "2026-10-15T19:13:37.374644+00:00", "kind": "button", "label": "History", "slug": "38-own-closed-history", "result": "clicked", "elapsed": 6.133}
+{"time": "2026-10-15T19:13:41.270812+00:00", "kind": "button", "label": "Pending", "slug": "39-pending", "result": "clicked", "elapsed": 3.895}
+{"time": "2026-10-15T19:13:45.191284+00:00", "kind": "nav", "label": "Stocks", "slug": "40-stocks-chart", "result": "clicked", "elapsed": 3.92}
+{"time": "2026-10-15T19:13:49.515699+00:00", "kind": "button", "label": "Heatmap", "slug": "41-stocks-heatmap", "result": "clicked", "elapsed": 4.324}
+{"time": "2026-10-15T19:13:53.458792+00:00", "kind": "button", "label": "Performance", "slug": "42-stocks-performance", "result": "clicked", "elapsed": 3.943}
+{"time": "2026-10-15T19:13:57.593785+00:00", "kind": "nav", "label": "Indices", "slug": "43-indices-chart", "result": "clicked", "elapsed": 4.135}
+{"time": "2026-10-15T19:14:01.473786+00:00", "kind": "button", "label": "Heatmap", "slug": "44-indices-heatmap", "result": "clicked", "elapsed": 3.88}
+{"time": "2026-10-15T19:14:05.427125+00:00", "kind": "button", "label": "Performance", "slug": "45-indices-performance", "result": "clicked", "elapsed": 3.953}
+{"time": "2026-10-15T19:14:09.364354+00:00", "kind": "nav", "label": "Forex", "slug": "46-forex-chart", "result": "clicked", "elapsed": 3.937}
+{"time": "2026-10-15T19:14:13.307312+00:00", "kind": "button", "label": "Quotes", "slug": "47-forex-quotes", "result": "clicked", "elapsed": 3.942}
+{"time": "2026-10-15T19:14:22.768437+00:00", "kind": "button", "label": "Performance", "slug": "48-forex-performance", "result": "clicked", "elapsed": 9.461}
+{"time": "2026-10-15T19:14:26.783808+00:00", "kind": "nav", "label": "Commodities", "slug": "49-commodities-chart", "result": "clicked", "elapsed": 4.015}
+{"time": "2026-10-15T19:14:30.810697+00:00", "kind": "button", "label": "Heatmap", "slug": "50-commodities-heatmap", "result": "clicked", "elapsed": 4.026}
+{"time": "2026-10-15T19:14:34.777750+00:00", "kind": "button", "label": "Performance", "slug": "51-commodities-performance", "result": "clicked", "elapsed": 3.967}
+{"time": "2026-10-15T19:15:09.045330+00:00", "kind": "nav", "label": "My Account", "slug": "52-finance-return", "result": "missing", "elapsed": 3.914}
+{"time": "2026-10-15T19:15:12.854535+00:00", "kind": "button", "label": "1Y", "slug": "53-finance-year", "result": "missing", "elapsed": 3.809}
+{"time": "2026-10-15T19:15:16.723507+00:00", "kind": "nav", "label": "PnL Statistics", "slug": "54-pnl", "result": "missing", "elapsed": 3.868}
+{"time": "2026-10-15T19:15:20.488491+00:00", "kind": "nav", "label": "Profit by Market", "slug": "55-pnl-markets", "result": "missing", "elapsed": 3.765}
+{"time": "2026-10-15T19:15:24.322086+00:00", "kind": "nav", "label": "Trading History", "slug": "56-pnl-history", "result": "missing", "elapsed": 3.833}
+{"time": "2026-10-15T19:15:28.109255+00:00", "kind": "nav", "label": "Verification", "slug": "57-verification", "result": "missing", "elapsed": 3.786}
+{"time": "2026-10-15T19:15:31.937117+00:00", "kind": "nav", "label": "Subscription", "slug": "58-subscription", "result": "missing", "elapsed": 3.827}
+{"time": "2026-10-15T19:15:35.772013+00:00", "kind": "button", "label": "Subscribe Now", "slug": "59-subscribe-assistant", "result": "missing", "elapsed": 3.835}
+{"time": "2026-10-15T19:15:39.547980+00:00", "kind": "key", "label": null, "slug": "60-subscribe-escape", "result": null, "elapsed": 3.776}
+{"time": "2026-10-15T19:15:43.326206+00:00", "kind": "nav", "label": "History", "slug": "61-finance-history", "result": "missing", "elapsed": 3.778}
+{"time": "2026-10-15T19:15:47.156892+00:00", "kind": "nav", "label": "Nexus Ventures", "slug": "62-ventures", "result": "clicked", "elapsed": 3.83}
+{"time": "2026-10-15T19:15:50.786453+00:00", "kind": "button", "label": "Continue", "slug": "63-ventures-continue", "result": "clicked", "elapsed": 3.629}
+{"time": "2026-10-15T19:15:54.783439+00:00", "kind": "nav", "label": "Settings", "slug": "64-settings", "result": "clicked", "elapsed": 3.997}
+{"time": "2026-10-15T19:15:58.605920+00:00", "kind": "nav", "label": "Profile", "slug": "65-profile", "result": "clicked", "elapsed": 3.822}
+{"time": "2026-10-15T19:16:02.476676+00:00", "kind": "nav", "label": "Security", "slug": "66-security", "result": "clicked", "elapsed": 3.87}
+{"time": "2026-10-15T19:16:06.191009+00:00", "kind": "button", "label": "Update", "slug": "67-password-empty", "result": "clicked", "elapsed": 3.714}
+{"time": "2026-10-15T19:16:09.958785+00:00", "kind": "button", "label": "2FA & Passkey", "slug": "68-passkey", "result": "clicked", "elapsed": 3.767}
+{"time": "2026-10-15T19:16:13.915897+00:00", "kind": "nav", "label": "Notifications", "slug": "69-notification-settings", "result": "clicked", "elapsed": 3.956}
+{"time": "2026-10-15T19:16:17.586741+00:00", "kind": "nav", "label": "Language", "slug": "70-languages", "result": "clicked", "elapsed": 3.67}
+{"time": "2026-10-15T19:16:43.617259+00:00", "kind": "nav", "label": "My Account", "slug": "71-finance-verified", "result": "clicked", "elapsed": 4.613}
+{"time": "2026-10-15T19:16:47.467942+00:00", "kind": "button", "label": "1Y", "slug": "72-finance-year-verified", "result": "clicked", "elapsed": 3.85}
+{"time": "2026-10-15T19:16:51.795613+00:00", "kind": "nav", "label": "PnL Statistics", "slug": "73-pnl-verified", "result": "clicked", "elapsed": 4.327}
+{"time": "2026-10-15T19:16:56.127307+00:00", "kind": "nav", "label": "Profit by Market", "slug": "74-pnl-markets-verified", "result": "clicked", "elapsed": 4.331}
+{"time": "2026-10-15T19:17:00.399865+00:00", "kind": "nav", "label": "Trading History", "slug": "75-pnl-history-verified", "result": "clicked", "elapsed": 4.272}
+{"time": "2026-10-15T19:17:04.656514+00:00", "kind": "nav", "label": "Verification", "slug": "76-verification-verified", "result": "clicked", "elapsed": 4.256}
+{"time": "2026-10-15T19:17:09.183729+00:00", "kind": "nav", "label": "Subscription", "slug": "77-subscription-verified", "result": "clicked", "elapsed": 4.527}
+{"time": "2026-10-15T19:17:13.211524+00:00", "kind": "button", "label": "Subscribe Now", "slug": "78-subscribe-open", "result": "missing", "elapsed": 4.027}
+{"time": "2026-10-15T19:17:17.209391+00:00", "kind": "key", "label": null, "slug": "79-subscribe-close", "result": null, "elapsed": 3.997}
+{"time": "2026-10-15T19:17:21.710103+00:00", "kind": "nav", "label": "History", "slug": "80-financial-history-verified", "result": "clicked", "elapsed": 4.5}
+{"time": "2026-10-15T19:18:08.608039+00:00", "kind": "button", "label": "Subscription", "slug": "81-subscription-main-tab", "result": "clicked", "elapsed": 5.122}
+{"time": "2026-10-15T19:18:20.316885+00:00", "kind": "button", "label": "Subscribe Now", "slug": "82-subscription-choose", "result": "clicked", "elapsed": 11.708}
+{"time": "2026-10-15T19:19:38.273379+00:00", "kind": "nav", "label": "Language", "slug": "84-language-before", "result": "clicked", "elapsed": 4.56}
+{"time": "2026-10-15T19:19:42.006378+00:00", "kind": "contains", "label": "Русский", "slug": "85-russian-selected", "result": "clicked", "elapsed": 3.733}
+{"time": "2026-10-15T19:29:07.321130+00:00", "kind": "snapshot", "label": null, "slug": "90-resumed", "result": null, "elapsed": 4.021}
+{"time": "2026-10-15T19:29:11.324592+00:00", "kind": "security", "label": null, "slug": "91-browser-security", "result": null, "elapsed": 4.003}
+{"time": "2026-10-15T19:38:02.570659+00:00", "kind": "snapshot", "label": null, "slug": "96-resume-no-reload", "result": null, "elapsed": 3.922}
+{"time": "2026-10-15T19:38:06.663624+00:00", "kind": "fill", "label": null, "slug": "97-search-btc", "result": "filled", "elapsed": 4.092}
+{"time": "2026-10-15T19:38:09.671053+00:00", "kind": "key", "label": null, "slug": null, "result": null, "elapsed": 3.006}
+{"time": "2026-10-15T19:38:13.838690+00:00", "kind": "aria", "label": "Notifications", "slug": "98-notifications", "result": "clicked", "elapsed": 4.167}
+{"time": "2026-10-15T19:38:16.848138+00:00", "kind": "key", "label": null, "slug": null, "result": null, "elapsed": 3.009}
+{"time": "2026-10-15T19:38:21.172496+00:00", "kind": "aria", "label": "Demo Account", "slug": "99-account-menu", "result": "clicked", "elapsed": 4.324}
+{"time": "2026-10-15T19:38:36.874617+00:00", "kind": "key", "label": null, "slug": null, "result": null, "elapsed": 3.079}
+{"time": "2026-10-15T19:38:39.939623+00:00", "kind": "fill", "label": null, "slug": null, "result": "filled", "elapsed": 3.065}
+{"time": "2026-10-15T19:38:50.674477+00:00", "kind": "read", "label": null, "slug": "100-search-focus", "result": "focused", "elapsed": 10.735}
+{"time": "2026-10-15T19:39:01.868268+00:00", "kind": "key", "label": null, "slug": "101-search-open-btc", "result": null, "elapsed": 11.193}
+{"time": "2026-10-15T19:39:13.187696+00:00", "kind": "aria", "label": "Support", "slug": "102-support-dialog", "result": "missing", "elapsed": 11.319}
+{"time": "2026-10-15T19:39:51.029268+00:00", "kind": "snapshot", "label": null, "slug": "103-search-target-confirmed", "result": null, "elapsed": 4.49}
+{"time": "2026-10-15T19:39:55.550662+00:00", "kind": "aria", "label": "Support", "slug": "104-support-dialog", "result": "missing", "elapsed": 4.521}
+{"time": "2026-10-15T19:40:25.865047+00:00", "kind": "aria", "label": "Поддержка", "slug": "105-support-open", "result": "clicked", "elapsed": 4.429}
+{"time": "2026-10-15T19:40:44.843846+00:00", "kind": "aria", "label": "Вложение", "slug": "106-support-attachments", "result": "clicked", "elapsed": 4.369}
+{"time": "2026-10-15T19:40:47.914232+00:00", "kind": "key", "label": null, "slug": null, "result": null, "elapsed": 3.069}
+{"time": "2026-10-15T19:40:51.218992+00:00", "kind": "aria", "label": "Close", "slug": null, "result": "missing", "elapsed": 3.304}
+{"time": "2026-10-15T19:40:59.146573+00:00", "kind": "nav", "label": "Chat With AI", "slug": "107-ai-open", "result": "clicked", "elapsed": 7.927}
+{"time": "2026-10-15T19:41:24.341763+00:00", "kind": "snapshot", "label": null, "slug": "108-ai-current", "result": null, "elapsed": 6.377}
+{"time": "2026-10-15T19:41:48.914388+00:00", "kind": "snapshot", "label": null, "slug": "108-ai-current", "result": null, "elapsed": 4.642}
+{"time": "2026-10-15T19:42:10.186737+00:00", "kind": "button", "label": "New chat", "slug": "109-ai-new-chat", "result": "clicked", "elapsed": 8.975}
+{"time": "2026-10-15T19:42:37.084090+00:00", "kind": "read", "label": null, "slug": "110-ai-message-ready", "result": "filled own QA message", "elapsed": 6.594}
+{"time": "2026-10-15T19:42:54.413860+00:00", "kind": "key", "label": null, "slug": "111-ai-response", "result": null, "elapsed": 17.329}
+{"time": "2026-10-15T19:43:21.206190+00:00", "kind": "snapshot", "label": null, "slug": "112-ai-response-confirmed", "result": null, "elapsed": 6.969}
+{"time": "2026-10-15T19:43:24.883080+00:00", "kind": "aria", "label": "Close chat", "slug": null, "result": "clicked", "elapsed": 3.676}
+{"time": "2026-10-15T19:43:33.638308+00:00", "kind": "nav", "label": "Activity", "slug": "113-activity", "result": "clicked", "elapsed": 8.755}
+{"time": "2026-10-15T19:43:45.441851+00:00", "kind": "viewport", "label": null, "slug": "114-mobile-activity", "result": null, "elapsed": 11.803}
+{"time": "2026-10-15T19:44:08.134173+00:00", "kind": "viewport", "label": null, "slug": null, "result": null, "elapsed": 3.204}
+{"time": "2026-10-15T19:44:12.692950+00:00", "kind": "aria", "label": "Закрыть", "slug": null, "result": "clicked", "elapsed": 4.558}
+{"time": "2026-10-15T19:44:18.706477+00:00", "kind": "button", "label": "Activity", "slug": "115-mobile-activity-selected", "result": "clicked", "elapsed": 6.013}
+{"time": "2026-10-15T19:44:25.475882+00:00", "kind": "button", "label": "Finance", "slug": "116-mobile-finance", "result": "clicked", "elapsed": 6.769}
+{"time": "2026-10-15T19:44:31.574309+00:00", "kind": "read", "label": null, "slug": "117-mobile-layout", "result": null, "elapsed": 6.098}
+{"time": "2026-10-15T19:44:38.327028+00:00", "kind": "button", "label": "Markets", "slug": "118-mobile-markets", "result": "clicked", "elapsed": 6.752}
+{"time": "2026-10-15T19:44:45.332218+00:00", "kind": "button", "label": "Settings", "slug": "119-mobile-settings", "result": "clicked", "elapsed": 7.005}
+{"time": "2026-10-15T19:45:02.815326+00:00", "kind": "viewport", "label": null, "slug": null, "result": null, "elapsed": 3.18}
+{"time": "2026-10-15T19:45:08.941780+00:00", "kind": "contains", "label": "Языковые настройки", "slug": "120-mobile-language", "result": "clicked", "elapsed": 6.125}
+{"time": "2026-10-15T19:45:14.488289+00:00", "kind": "contains", "label": "English", "slug": "121-english-selected", "result": "clicked", "elapsed": 5.546}

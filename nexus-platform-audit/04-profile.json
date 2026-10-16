@@ -1,0 +1,222 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nSettings\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nLog Out\nProfile\nUpload Avatar\n\nJPG, PNG up to 5MB\n\nEmail Address\n\nEmail cannot be changed\n\nDisplay Name\nPhone Number\n🇺🇸\n+1\nAllow SMS notifications to this phone number\nUpdate",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "Log Out",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Upload Avatar",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "🇺🇸\n+1",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Update",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "file",
+      "placeholder": null,
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "placeholder": null,
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Display Name",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "tel",
+      "placeholder": "(555) 123-4567",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "placeholder": null,
+      "name": "phone"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "placeholder": null,
+      "name": "country"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "placeholder": null,
+      "name": "countryCode"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "placeholder": null,
+      "name": "countryIso"
+    }
+  ],
+  "headings": [
+    "Settings",
+    "Profile"
+  ]
+}

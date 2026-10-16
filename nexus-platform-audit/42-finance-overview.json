@@ -1,0 +1,313 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\n\nHome\n\n$50,000.00\n\nAvailable\n\nFree to trade\n\n$49,775.71\n\nOpen P&L\n\nMark to market\n\n+$776.55\n\nEquity\n\nCash + open P&L\n\n$50,776.55\n\nRisk\n\nMargin pressure\n\n2%\n\nMy assets\nCrypto\n$0.00\nCash\n$50,000.00\nFor you\nMeet NΞXUS AI\nFinancial advisor & trading co-pilot\nNΞXUS · AI\nAI subscription plans\nAssistant · Analyst · Agent\nNΞXUS · PLANS\nOne desk, every market\nCrypto, stocks, forex, indices & more\nNΞXUS · MARKETS\nSee risk before size\nAvailable, equity, margin & P&L\nNΞXUS · RISK\nNΞXUS INSIDE\nInvestor Intelligence briefing\nNΞXUS INSIDE\nPrices\nView all\nNAME\nPRICE\n24H\nBitcoin\nBTC\n$83,656.00\n+0.42%\nBuy\nEthereum\nETH\n$2,511.31\n+0.44%\nBuy\nSolana\nSOL\n$107.39\n+1.15%\nBuy\nOverview\nSubscription\nHistory\n\nPROFIT\n\n$0.00\n\n\t\n\t\n\t\n\t\n1D\n1W\n1M\n3M\n1Y\nAll\nP&L\n$776.55\n(+77.59%)\nEquity\n$50,776.55\nAvailable\n$49,775.71\nUsed\n$1,000.83\nRisk\n2%\nDeposit cash\nReceive crypto\nWithdraw cash\nSwap\nTrade",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Previous",
+      "disabled": true
+    },
+    {
+      "text": "",
+      "label": "Next",
+      "disabled": false
+    },
+    {
+      "text": "Meet NΞXUS AI\nFinancial advisor & trading co-pilot\nNΞXUS · AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "AI subscription plans\nAssistant · Analyst · Agent\nNΞXUS · PLANS",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "One desk, every market\nCrypto, stocks, forex, indices & more\nNΞXUS · MARKETS",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "See risk before size\nAvailable, equity, margin & P&L\nNΞXUS · RISK",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NΞXUS INSIDE\nInvestor Intelligence briefing\nNΞXUS INSIDE",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "View all",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bitcoin\nBTC",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Ethereum\nETH",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Solana\nSOL",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Buy",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1D",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1W",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "3M",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "1Y",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "All",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Deposit cash",
+      "label": "Deposit cash",
+      "disabled": false
+    },
+    {
+      "text": "Receive crypto",
+      "label": "Receive crypto",
+      "disabled": false
+    },
+    {
+      "text": "Withdraw cash",
+      "label": "Withdraw cash",
+      "disabled": false
+    },
+    {
+      "text": "Swap",
+      "label": "Swap",
+      "disabled": false
+    },
+    {
+      "text": "Trade",
+      "label": "Trade",
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    }
+  ],
+  "headings": [
+    "Finance",
+    "My assets",
+    "For you",
+    "Prices",
+    "My assets"
+  ],
+  "frames": []
+}

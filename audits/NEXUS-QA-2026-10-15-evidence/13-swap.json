@@ -1,0 +1,666 @@
+{
+  "url": "https://app.nexus-analyst.com/finance",
+  "title": "NΞXUS ΛI",
+  "width": 1440,
+  "height": 1000,
+  "lang": "en",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\n\nHome\n\n$50,000.00\n\nAvailable\n\nFree to trade\n\n$47,310.46\n\nOpen P&L\n\nMark to market\n\n-$1,607.30\n\nEquity\n\nCash + open P&L\n\n$48,392.70\n\nRisk\n\nMargin pressure\n\n2%\n\nConvert\n\nSpot ledger only · fee 0.90% · no on-chain trade\n\nCrypto → Crypto\nCash → Crypto\nCrypto → Cash\nFrom\nBTC · bitcoin\nETH · ethereum\nUSDT · tron\nBNB · bsc\nXRP · xrp\nSOL · solana\nUSDC · ethereum\nDOGE · dogecoin\nADA · cardano\nTRX · tron\nAVAX · avalanche\nLINK · ethereum\nDOT · polkadot\nBCH · bitcoin-cash\nLTC · litecoin\nUSDT · ethereum\nUSDT · solana\nUSDC · base\nAvailable 0 ADA\n25%\n50%\nMax\nTo\n0.00\nBTC · bitcoin\nETH · ethereum\nUSDT · tron\nBNB · bsc\nXRP · xrp\nSOL · solana\nUSDC · ethereum\nDOGE · dogecoin\nADA · cardano\nTRX · tron\nAVAX · avalanche\nLINK · ethereum\nDOT · polkadot\nBCH · bitcoin-cash\nLTC · litecoin\nUSDT · ethereum\nUSDT · solana\nUSDC · base\nConvert\nConvert history\n\nOnly swaps, cash→crypto and crypto→cash\n\nNo convert operations yet\n\nDeposit cash\nReceive crypto\nWithdraw cash\nSwap\nTrade",
+  "buttons": [
+    {
+      "i": 0,
+      "text": "Chat With AI",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 1,
+      "text": "Finance",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "true"
+    },
+    {
+      "i": 2,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 3,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 4,
+      "text": "Profit by Market",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 5,
+      "text": "Trading History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 6,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 7,
+      "text": "Overview",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 8,
+      "text": "Subscription",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 9,
+      "text": "History",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 10,
+      "text": "Activity",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 11,
+      "text": "Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 12,
+      "text": "Stocks",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 13,
+      "text": "Indices",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 14,
+      "text": "Forex",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 15,
+      "text": "Commodities",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 16,
+      "text": "Nexus Ventures",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 17,
+      "text": "Settings",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 18,
+      "text": "Profile",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 19,
+      "text": "Security",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 20,
+      "text": "Notifications",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 21,
+      "text": "Language",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 22,
+      "text": "Support",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 23,
+      "text": "",
+      "label": "Support",
+      "title": "Support",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 24,
+      "text": "",
+      "label": "Notifications",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 25,
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": "false"
+    },
+    {
+      "i": 26,
+      "text": "My Account",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 27,
+      "text": "PnL Statistics",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 28,
+      "text": "Verification",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 29,
+      "text": "",
+      "label": "Refresh",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 30,
+      "text": "Crypto → Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 31,
+      "text": "Cash → Crypto",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 32,
+      "text": "Crypto → Cash",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 33,
+      "text": "25%",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 34,
+      "text": "50%",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 35,
+      "text": "Max",
+      "label": null,
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 36,
+      "text": "",
+      "label": "Flip",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 37,
+      "text": "Convert",
+      "label": null,
+      "title": "",
+      "disabled": true,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 38,
+      "text": "Deposit cash",
+      "label": "Deposit cash",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 39,
+      "text": "Receive crypto",
+      "label": "Receive crypto",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 40,
+      "text": "Withdraw cash",
+      "label": "Withdraw cash",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 41,
+      "text": "Swap",
+      "label": "Swap",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    },
+    {
+      "i": 42,
+      "text": "Trade",
+      "label": "Trade",
+      "title": "",
+      "disabled": false,
+      "role": null,
+      "pressed": null,
+      "expanded": null
+    }
+  ],
+  "inputs": [
+    {
+      "i": 0,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "Search assets & pages",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": [
+        "Search assets and pages\n⌘K"
+      ]
+    },
+    {
+      "i": 1,
+      "tag": "INPUT",
+      "type": "text",
+      "id": "",
+      "name": "",
+      "placeholder": "0.00",
+      "required": false,
+      "disabled": false,
+      "min": "",
+      "max": "",
+      "step": "",
+      "labels": []
+    },
+    {
+      "i": 2,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "placeholder": null,
+      "required": false,
+      "disabled": false,
+      "labels": [],
+      "options": [
+        {
+          "text": "BTC · bitcoin",
+          "value": "BTC@bitcoin"
+        },
+        {
+          "text": "ETH · ethereum",
+          "value": "ETH@ethereum"
+        },
+        {
+          "text": "USDT · tron",
+          "value": "USDT@tron"
+        },
+        {
+          "text": "BNB · bsc",
+          "value": "BNB@bsc"
+        },
+        {
+          "text": "XRP · xrp",
+          "value": "XRP@xrp"
+        },
+        {
+          "text": "SOL · solana",
+          "value": "SOL@solana"
+        },
+        {
+          "text": "USDC · ethereum",
+          "value": "USDC@ethereum"
+        },
+        {
+          "text": "DOGE · dogecoin",
+          "value": "DOGE@dogecoin"
+        },
+        {
+          "text": "ADA · cardano",
+          "value": "ADA@cardano"
+        },
+        {
+          "text": "TRX · tron",
+          "value": "TRX@tron"
+        },
+        {
+          "text": "AVAX · avalanche",
+          "value": "AVAX@avalanche"
+        },
+        {
+          "text": "LINK · ethereum",
+          "value": "LINK@ethereum"
+        },
+        {
+          "text": "DOT · polkadot",
+          "value": "DOT@polkadot"
+        },
+        {
+          "text": "BCH · bitcoin-cash",
+          "value": "BCH@bitcoin-cash"
+        },
+        {
+          "text": "LTC · litecoin",
+          "value": "LTC@litecoin"
+        },
+        {
+          "text": "USDT · ethereum",
+          "value": "USDT@ethereum"
+        },
+        {
+          "text": "USDT · solana",
+          "value": "USDT@solana"
+        },
+        {
+          "text": "USDC · base",
+          "value": "USDC@base"
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "",
+      "placeholder": null,
+      "required": false,
+      "disabled": false,
+      "labels": [],
+      "options": [
+        {
+          "text": "BTC · bitcoin",
+          "value": "BTC@bitcoin"
+        },
+        {
+          "text": "ETH · ethereum",
+          "value": "ETH@ethereum"
+        },
+        {
+          "text": "USDT · tron",
+          "value": "USDT@tron"
+        },
+        {
+          "text": "BNB · bsc",
+          "value": "BNB@bsc"
+        },
+        {
+          "text": "XRP · xrp",
+          "value": "XRP@xrp"
+        },
+        {
+          "text": "SOL · solana",
+          "value": "SOL@solana"
+        },
+        {
+          "text": "USDC · ethereum",
+          "value": "USDC@ethereum"
+        },
+        {
+          "text": "DOGE · dogecoin",
+          "value": "DOGE@dogecoin"
+        },
+        {
+          "text": "ADA · cardano",
+          "value": "ADA@cardano"
+        },
+        {
+          "text": "TRX · tron",
+          "value": "TRX@tron"
+        },
+        {
+          "text": "AVAX · avalanche",
+          "value": "AVAX@avalanche"
+        },
+        {
+          "text": "LINK · ethereum",
+          "value": "LINK@ethereum"
+        },
+        {
+          "text": "DOT · polkadot",
+          "value": "DOT@polkadot"
+        },
+        {
+          "text": "BCH · bitcoin-cash",
+          "value": "BCH@bitcoin-cash"
+        },
+        {
+          "text": "LTC · litecoin",
+          "value": "LTC@litecoin"
+        },
+        {
+          "text": "USDT · ethereum",
+          "value": "USDT@ethereum"
+        },
+        {
+          "text": "USDT · solana",
+          "value": "USDT@solana"
+        },
+        {
+          "text": "USDC · base",
+          "value": "USDC@base"
+        }
+      ]
+    }
+  ],
+  "headings": [
+    "Finance",
+    "Convert",
+    "Convert history"
+  ],
+  "frames": [],
+  "a11y": {
+    "unnamedButtons": 0,
+    "unlabelledInputs": [
+      {
+        "type": "text",
+        "placeholder": "0.00"
+      },
+      {
+        "type": "select-one",
+        "placeholder": null
+      },
+      {
+        "type": "select-one",
+        "placeholder": null
+      }
+    ],
+    "horizontalOverflow": false
+  }
+}

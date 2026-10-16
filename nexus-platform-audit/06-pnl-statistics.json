@@ -1,0 +1,278 @@
+{
+  "url": "https://app.nexus-analyst.com/trading?panel=activeOrders",
+  "title": "NΞXUS ΛI",
+  "text": "Chat With AI\nFinance\nMy Account\nPnL Statistics\nProfit by Market\nTrading History\nVerification\nOverview\nSubscription\nHistory\nActivity\nCrypto\nStocks\nIndices\nForex\nCommodities\nNexus Ventures\nSettings\nProfile\nSecurity\nNotifications\nLanguage\nSupport\nFinance\nSearch assets and pages\n⌘K\nDemo Account\n#nex-0152065\nMy Account\nPnL Statistics\nVerification\nPnL Statistics\nThis Month\nTotal P&L\n+$0.00\n+0.00% avg\nTotal Trades\n0\nClosed\nActive Markets\n0\nIn period\nProfit by Market\nTrading History\nCrypto\nNo trades in period\n$0.00\nStocks\nNo trades in period\n$0.00\nIndices\nNo trades in period\n$0.00\nForex\nNo trades in period\n$0.00\nCommodities\nNo trades in period\n$0.00\nNexus Ventures\nNo trades in period\n$0.00\nMetals\nComing soon\n$0.00\nBonds\nComing soon\n$0.00\nETFs\nComing soon\n$0.00\nNFTs\nComing soon\n$0.00\nOptions\nComing soon\n$0.00\nDeFi\nComing soon\n$0.00\nSports Betting\nComing soon\n$0.00\nBinary Options\nComing soon\n$0.00",
+  "buttons": [
+    {
+      "text": "Chat With AI",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Finance",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Overview",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Subscription",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Activity",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Settings",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Profile",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Security",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Notifications",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Language",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Support",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Support",
+      "disabled": false
+    },
+    {
+      "text": "",
+      "label": "Notifications",
+      "disabled": false
+    },
+    {
+      "text": "Demo Account\n#nex-0152065",
+      "label": "Demo Account",
+      "disabled": false
+    },
+    {
+      "text": "My Account",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "PnL Statistics",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Verification",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "This Month",
+      "label": "Timeframe",
+      "disabled": false
+    },
+    {
+      "text": "Profit by Market",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Trading History",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Crypto\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Stocks\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Indices\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Forex\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Commodities\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Nexus Ventures\nNo trades in period\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Metals\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Bonds\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "ETFs\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "NFTs\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Options\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "DeFi\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Sports Betting\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    },
+    {
+      "text": "Binary Options\nComing soon\n$0.00",
+      "label": null,
+      "disabled": false
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": "Search assets & pages",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "placeholder": null,
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": "Current Password",
+      "name": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": null,
+      "name": "newPassword"
+    },
+    {
+      "tag": "INPUT",
+      "type": "password",
+      "placeholder": "Confirm New Password",
+      "name": "confirmPassword"
+    }
+  ],
+  "headings": [
+    "Finance",
+    "PnL Statistics",
+    "Security",
+    "Email",
+    "Password",
+    "Keep your account secure"
+  ],
+  "frames": []
+}
