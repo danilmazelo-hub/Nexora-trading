@@ -50,9 +50,9 @@ SECTIONS = ['crypto', 'stocks', 'forex', 'metals', 'indices', 'commodities']
 CANDLE_CHAINS = {'crypto': ['binance', 'okx', 'coingecko']}
 DEFAULT_CHAINS = {
     'crypto': ['binance', 'coingecko', 'okx'],   # live price: Binance; CoinGecko (key) for periods & coins not on Binance
-    'stocks': ['yahoo', 'twelvedata'],          # Alpaca will become primary once its key is added
+    'stocks': ['twelvedata', 'yahoo'],          # Twelve Data primary, Yahoo as backup (Alpaca once its key is added)
     'forex': ['twelvedata', 'yahoo', 'frankfurter'],
-    'metals': ['yahoo', 'twelvedata'],
+    'metals': ['twelvedata', 'yahoo'],          # free plan: only XAU/USD, other metals fall back
     'indices': ['yahoo'],
     'commodities': ['yahoo'],
 }
