@@ -19,6 +19,6 @@
 | D11 | Доставка обновлений | Done (agent) | `D09–D11` | SSE (ADR 0003), snapshot+seq, одна EventSource на вкладку, refcount, backoff |
 | D12 | Списки рынков и выбор инструмента | Done (agent) | `D12–D13` | Markets hub + Coming soon, AssetPicker (поиск/категории), `?symbol=` в URL, not found / чужой рынок |
 | D13 | График и периоды | Done (agent) | `D12–D13` | индекс Candle + UTC, свечи с диапазоном/лимитом, Lightweight Charts 5 (ADR 0004), периоды 24h/1W/1M/1Y/All |
-| D10+ | Живые справочные цены (расширение D10) | Done (agent) | `D10+: live reference feeds` | ADR 0005: Binance — crypto (цена, bid/ask, свечи, стакан), Twelve Data — forex (приоритет открытой пары, лимиты 8/мин и 800/сутки). Акции (Alpaca), индексы (Massive), сырьё — ждут ключей |
+| D10+ | Живые справочные цены (расширение D10) | Done (agent) | `D10+: live reference feeds` | ADR 0005: Binance — crypto (цена, bid/ask, свечи, стакан), Twelve Data — forex, акции США, драгметаллы (приоритет открытого инструмента, лимиты 8/мин и 800/сутки). Индексы (Massive), энергоносители и агро — ждут ключей |
 | D08+ | Иконки инструментов как в прототипе | Done (agent) | `D08+: instrument icons` | ADR 0006 — отступление от критерия D08 «нет чужих логотипов» по решению владельца; 141 иконка + 28 флагов |
 | D14+ | — | Not started | | вне текущего объёма |

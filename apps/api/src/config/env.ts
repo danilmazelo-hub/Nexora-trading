@@ -32,6 +32,12 @@ const EnvSchema = z.object({
     .optional()
     .transform((v) => (v ? v : undefined)),
   TWELVEDATA_BASE_URL: z.string().url().default('https://api.twelvedata.com'),
+  /** What Twelve Data serves: forex pairs, US stocks, precious metals (XAU/XAG/XPT/XPD vs USD). */
+  TWELVEDATA_MARKETS: z
+    .string()
+    .default('forex,stocks,metals')
+    .transform((v) => [...new Set(v.split(',').map((x) => x.trim()).filter(Boolean))])
+    .pipe(z.array(z.enum(['forex', 'stocks', 'metals']), { message: 'TWELVEDATA_MARKETS: допустимы forex, stocks, metals' })),
   /** Basic plan: 8 credits per minute, 800 per day (one credit per symbol per request). */
   TWELVEDATA_MINUTE_LIMIT: z.coerce.number().int().min(1).default(8),
   TWELVEDATA_DAILY_LIMIT: z.coerce.number().int().min(1).default(800),

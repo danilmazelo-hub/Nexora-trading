@@ -24,6 +24,14 @@ const CANDLE_TTL: Record<Interval, number> = { '5m': 5 * MIN, '15m': 10 * MIN, '
 
 type Priority = 0 | 1 | 2;
 
+/** Markets this feed can serve: Forex pairs, US stocks, precious metals quoted like currency pairs (XAU/USD…). */
+export type TwelveDataMarket = 'forex' | 'stocks' | 'metals';
+const METALS = new Set(['XAU/USD', 'XAG/USD', 'XPT/USD', 'XPD/USD']);
+/** Plan answers for a symbol it does not cover (Basic: indices, energy, some metals…). */
+const NOT_ON_PLAN = new Set([403, 404]);
+const refused = (r: { status?: string; code?: number; message?: string } | null | undefined) =>
+  !!r && r.status === 'error' && (NOT_ON_PLAN.has(r.code ?? 0) || /your plan|available starting with/i.test(r.message ?? ''));
+
 /**
  * Credit budget of the Twelve Data plan: one credit per symbol per request, a per-minute and a per-day limit
  * (the day resets at 00:00 UTC). Counting is local and conservative (sliding minute window); a 429 from the
@@ -89,7 +97,7 @@ interface TdQuote {
 }
 
 /**
- * Twelve Data (Basic plan) for Forex. The pair open on a chart is refreshed first (every focusRefreshMs); other
+ * Twelve Data (Basic plan) for Forex, US stocks and precious metals (one shared credit budget). The pair open on a chart is refreshed first (every focusRefreshMs); other
  * pairs shown in a stream are refreshed every 15 min, pairs only read once every 30 min — all from the server
  * cache in between, within the credit budget. Quotes are reference prices refreshed about once a minute at best,
  * so they are reported as "delayed", never as a live tick feed. Twelve Data gives no bid/ask: the demo spread
@@ -97,7 +105,7 @@ interface TdQuote {
  */
 export class TwelveDataFeed implements LiveFeed {
   readonly source = 'twelvedata';
-  readonly market = 'forex' as const;
+  readonly markets: readonly TwelveDataMarket[];
   readonly budget: CreditBudget;
   private readonly log = new Logger('TwelveDataFeed');
   private readonly cache = new Map<string, RawQuote & { fetchedAt: number }>();
@@ -105,25 +113,38 @@ export class TwelveDataFeed implements LiveFeed {
   private readonly candleCache = new Map<string, { at: number; first: number; bars: LiveCandle[] }>();
   private timer: NodeJS.Timeout | null = null;
   private inflight: Promise<void> | null = null;
+  /** Symbols the plan refused (403/404): they go back to the simulator instead of staying unavailable. */
+  private readonly unsupported = new Set<string>();
 
   constructor(
     private readonly baseUrl: string,
     private readonly apiKey: string,
-    opts: { minuteLimit: number; dailyLimit: number; focusRefreshMs: number },
+    opts: { minuteLimit: number; dailyLimit: number; focusRefreshMs: number; markets?: readonly TwelveDataMarket[] },
     private readonly get: FetchJson = fetchJson,
     private readonly now: () => number = Date.now,
   ) {
     this.budget = new CreditBudget(opts.minuteLimit, opts.dailyLimit, now);
     this.focusRefreshMs = opts.focusRefreshMs;
+    this.markets = opts.markets ?? ['forex'];
   }
   private readonly focusRefreshMs: number;
 
   symbolOf(inst: Instrument): string | null {
-    return inst.market === 'forex' && /^[A-Z]{3}$/.test(inst.baseAsset) && /^[A-Z]{3}$/.test(inst.quoteAsset) ? `${inst.baseAsset}/${inst.quoteAsset}` : null;
+    if (inst.market === 'forex' && this.markets.includes('forex')) return /^[A-Z]{3}$/.test(inst.baseAsset) && /^[A-Z]{3}$/.test(inst.quoteAsset) ? `${inst.baseAsset}/${inst.quoteAsset}` : null;
+    if (inst.market === 'stocks' && this.markets.includes('stocks')) return /^[A-Z][A-Z0-9.]{0,9}$/.test(inst.symbol) ? inst.symbol : null;
+    if (inst.market === 'commodities' && this.markets.includes('metals')) return METALS.has(inst.symbol) ? inst.symbol : null;
+    return null;
   }
 
   supports(inst: Instrument): boolean {
-    return inst.status === 'ACTIVE' && this.symbolOf(inst) != null;
+    const symbol = this.symbolOf(inst);
+    return inst.status === 'ACTIVE' && symbol != null && !this.unsupported.has(symbol);
+  }
+
+  private refuse(symbol: string, message?: string) {
+    if (this.unsupported.has(symbol)) return;
+    this.unsupported.add(symbol);
+    this.log.warn(`${symbol} is not available on this plan, simulator is used: ${(message ?? '').slice(0, 80)}`);
   }
 
   quote(inst: Instrument, demand: Demand): RawQuote | null {
@@ -200,22 +221,26 @@ export class TwelveDataFeed implements LiveFeed {
     this.budget.spend(symbols.length);
     try {
       const body = (await this.get(`${this.baseUrl}/quote?symbol=${encodeURIComponent(symbols.join(','))}&timezone=UTC&apikey=${encodeURIComponent(this.apiKey)}`, 'twelvedata')) as TdQuote | Record<string, TdQuote>;
-      this.checkError(body as TdQuote);
-      const rows: Record<string, TdQuote> = symbols.length === 1 ? { [symbols[0] ?? '']: body as TdQuote } : (body as Record<string, TdQuote>);
+      const single = body as TdQuote;
+      // a single refused symbol comes back as a top-level error; treat it like a per-symbol one
+      if (!(symbols.length === 1 && refused(single))) this.checkError(single);
+      const rows: Record<string, TdQuote> = symbols.length === 1 ? { [symbols[0] ?? '']: single } : (body as Record<string, TdQuote>);
       const received = this.now();
       pick.forEach((inst, i) => {
         const r = rows[symbols[i] ?? ''];
+        if (refused(r)) return this.refuse(symbols[i] ?? '', r?.message);
         if (!r || r.status === 'error' || !r.close || !r.previous_close) return;
         this.cache.set(inst.id, {
           mid: r.close,
           reference: r.previous_close,
           changePeriod: 'prev_close',
-          observedAt: Math.min((r.last_quote_at ?? r.timestamp ?? received / 1000) * 1000, received),
+          // last_quote_at = time of the last price; without it the fetch time (timestamp is only the day start)
+          observedAt: r.last_quote_at ? Math.min(r.last_quote_at * 1000, received) : received,
           fetchedAt: received,
         });
       });
     } catch (e) {
-      this.onError(e);
+      this.onError(e, symbols.join(','));
     }
   }
 
@@ -237,12 +262,16 @@ export class TwelveDataFeed implements LiveFeed {
       )) as { status?: string; code?: number; message?: string; values?: { datetime: string; open: string; high: string; low: string; close: string; volume?: string }[] };
       // "no data for this range" is a valid empty answer (e.g. a weekend), anything else is an error
       if (body.status === 'error' && body.code === 400 && /no data/i.test(body.message ?? '')) return [];
+      if (refused(body)) {
+        this.refuse(symbol, body.message);
+        return null;
+      }
       this.checkError(body as TdQuote);
       const bars = (body.values ?? []).map((v) => ({ start: parseTdDate(v.datetime), o: v.open, h: v.high, l: v.low, c: v.close, v: v.volume ?? '0' })).filter((b) => Number.isFinite(b.start));
       this.candleCache.set(key, { at: t, first, bars });
       return slice(bars, first, last);
     } catch (e) {
-      this.onError(e);
+      this.onError(e, symbol);
       return hit ? slice(hit.bars, first, last) : null;
     }
   }
@@ -252,14 +281,14 @@ export class TwelveDataFeed implements LiveFeed {
     if (b && b.status === 'error') throw new FeedHttpError('twelvedata', b.code ?? 0, b.code ?? null, String(b.message ?? 'error').slice(0, 160));
   }
 
-  private onError(e: unknown) {
+  private onError(e: unknown, symbols: string) {
     const err = e as FeedHttpError;
     if (err instanceof FeedHttpError && (err.status === 429 || err.code === 429)) {
       // minute limit → wait for the next minute; day limit → until 00:00 UTC
       const t = this.now();
       this.budget.pause(/day/i.test(err.message) ? (Math.floor(t / DAY) + 1) * DAY : t + MIN);
     }
-    this.log.warn((e as Error).message); // never contains the URL / API key
+    this.log.warn(`${symbols}: ${(e as Error).message}`); // never contains the URL / API key
   }
 
   stop() {

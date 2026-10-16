@@ -112,6 +112,8 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
           await feed.prime([inst], PRIME_MS);
           raw = feed.quote(inst, 'background');
         }
+        // the provider's plan refused this symbol: it is served by the simulator from now on
+        if (!raw && !feed.supports(inst)) return this.quote(id, opts);
       } else raw = (provider as MarketDataProvider).quote(inst, t);
     }
     const changePeriod = inst.market === 'crypto' ? '24h' : 'prev_close';
@@ -207,6 +209,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     if (feed) {
       // real history from the feed (Binance: every call; Twelve Data: cached in the feed to save credits)
       const bars = await feed.candles(inst, interval, first, last);
+      if (!bars && !feed.supports(inst)) return this.candles(id, interval, q); // refused by the plan → simulator
       if (!bars) throw new AppError('QUOTES_UNAVAILABLE', 503, 'Источник цен сейчас не отдаёт историю (лимит запросов или сбой связи). Повторите через минуту.');
       const candles = bars.map((b) => ({
         openTime: new Date(b.start).toISOString(),

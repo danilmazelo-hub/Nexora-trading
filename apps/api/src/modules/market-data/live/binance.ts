@@ -29,7 +29,7 @@ interface Ticker24h {
  */
 export class BinanceFeed implements LiveFeed {
   readonly source = 'binance';
-  readonly market = 'crypto' as const;
+  readonly markets = ['crypto'] as const;
   private readonly log = new Logger('BinanceFeed');
   private readonly cache = new Map<string, RawQuote>();
   private readonly wanted = new Map<string, { inst: Instrument; at: number }>();

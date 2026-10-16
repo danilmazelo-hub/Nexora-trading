@@ -201,6 +201,29 @@ describe('TwelveDataFeed', () => {
     expect(b).toEqual(a);
   });
 
+  it('maps US stocks and precious metals; other commodities stay on the simulator', () => {
+    const feed = new TwelveDataFeed('https://td', 'K', { minuteLimit: 8, dailyLimit: 800, focusRefreshMs: 60_000, markets: ['forex', 'stocks', 'metals'] });
+    const stock = { ...inst('AAPL', 'stocks', 'AAPL', 'USD'), symbol: 'AAPL' } as Instrument;
+    const brk = { ...inst('BRK.B', 'stocks', 'BRK.B', 'USD'), symbol: 'BRK.B' } as Instrument;
+    const gold = { ...inst('XAU-USD', 'commodities', 'XAU', 'USD'), symbol: 'XAU/USD' } as Instrument;
+    const oil = { ...inst('USOIL', 'commodities', 'USOIL', 'USD'), symbol: 'USOIL' } as Instrument;
+    expect([feed.symbolOf(stock), feed.symbolOf(brk), feed.symbolOf(gold), feed.symbolOf(oil)]).toEqual(['AAPL', 'BRK.B', 'XAU/USD', null]);
+    const forexOnly = new TwelveDataFeed('https://td', 'K', { minuteLimit: 8, dailyLimit: 800, focusRefreshMs: 60_000 });
+    expect(forexOnly.supports(stock)).toBe(false);
+  });
+
+  it('a symbol the plan refuses (403) is no longer supported, so the simulator takes it over', async () => {
+    const c = clock();
+    const spx = { ...inst('SPX', 'stocks', 'SPX', 'USD'), symbol: 'SPX' } as Instrument;
+    const feed = new TwelveDataFeed('https://td', 'K', { minuteLimit: 8, dailyLimit: 800, focusRefreshMs: 60_000, markets: ['stocks'] }, async () => ({ status: 'error', code: 403, message: 'symbol SPX is not available with your plan' }), c.now);
+    feeds.push(feed);
+    expect(feed.supports(spx)).toBe(true);
+    feed.quote(spx, 'stream');
+    await feed.run();
+    expect(feed.supports(spx)).toBe(false);
+    expect(feed.usage().pausedUntil).toBeNull(); // a refusal is not a rate limit
+  });
+
   it('dates are exchanged in UTC', () => {
     expect(tdDate(Date.parse('2026-10-16T09:05:00Z'))).toBe('2026-10-16 09:05:00');
     expect(parseTdDate('2026-10-12')).toBe(Date.parse('2026-10-12T00:00:00Z'));

@@ -1,5 +1,5 @@
 import { type Instrument } from '@prisma/client';
-import { type Interval, type TradableMarket } from '@nexora/contracts';
+import { type Interval } from '@nexora/contracts';
 import { type RawQuote } from '../provider';
 
 /** One OHLCV bar of an external feed, prices as decimal strings exactly as the provider sent them. */
@@ -22,13 +22,14 @@ export interface LiveOrderBook {
 export type Demand = 'stream' | 'request' | 'background';
 
 /**
- * A reference price feed for one market (ADR 0005). Quotes are served from the feed's own server-side cache, so
+ * A reference price feed for one or more markets (ADR 0005). Quotes are served from the feed's own server-side cache, so
  * an SSE tick never waits for the network; the feed refreshes wanted instruments in the background within the
  * provider's limits. A feed is a price reference only: it never executes or confirms trades.
  */
 export interface LiveFeed {
   readonly source: string;
-  readonly market: TradableMarket;
+  /** Feed-specific market names (e.g. Twelve Data "metals" for the precious metals of the commodities market). */
+  readonly markets: readonly string[];
   supports(inst: Instrument): boolean;
   /** Cached quote (null while nothing was received yet); records the demand unless it is "background". */
   quote(inst: Instrument, demand: Demand): RawQuote | null;

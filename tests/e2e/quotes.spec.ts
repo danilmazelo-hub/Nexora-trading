@@ -51,8 +51,8 @@ test.describe('D10–D11 quotes', () => {
 
   test('prices update; after a dropped connection the stream recovers with one new connection', async ({ page }) => {
     await enterDemo(page, '/finance/account');
-    // AAPL stays on the simulator (ticks every 2 s); a live feed price may legitimately stand still for a while
-    const price = page.locator('[data-instrument="AAPL"] [data-testid="quote-last"]');
+    // SPX (indices) stays on the simulator (ticks every 2 s); a live feed price may legitimately stand still for minutes
+    const price = page.locator('[data-instrument="SPX"] [data-testid="quote-last"]');
     await expect(price).not.toHaveText('—');
     const before = await price.innerText();
     await expect.poll(() => price.innerText(), { timeout: 20_000 }).not.toBe(before);
