@@ -9,3 +9,161 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+/// D03. One browser demo context. The cookie holds a random token; only its SHA-256 is stored.
+model DemoSession {
+  id         String       @id @default(uuid()) @db.Uuid
+  tokenHash  String       @unique @db.Char(64)
+  createdAt  DateTime     @default(now()) @db.Timestamptz(3)
+  lastSeenAt DateTime     @default(now()) @db.Timestamptz(3)
+  expiresAt  DateTime     @db.Timestamptz(3)
+  revokedAt  DateTime?    @db.Timestamptz(3)
+  profile    DemoProfile?
+  accounts   Account[]
+
+  @@index([expiresAt])
+  @@map("demo_session")
+}
+
+/// D03. Display preferences of a demo session (1:1).
+model DemoProfile {
+  sessionId   String      @id @db.Uuid
+  session     DemoSession @relation(fields: [sessionId], references: [id], onDelete: Restrict)
+  displayName String      @db.VarChar(40)
+  locale      String      @default("ru") @db.VarChar(5)
+  createdAt   DateTime    @default(now()) @db.Timestamptz(3)
+  updatedAt   DateTime    @updatedAt @db.Timestamptz(3)
+
+  @@map("demo_profile")
+}
+
+enum AccountKind {
+  MAIN
+}
+
+enum AccountStatus {
+  ACTIVE
+  ARCHIVED
+}
+
+/// D03. A virtual-money account owned by a demo session (owner index on sessionId).
+model Account {
+  id        String        @id @default(uuid()) @db.Uuid
+  sessionId String        @db.Uuid
+  session   DemoSession   @relation(fields: [sessionId], references: [id], onDelete: Restrict)
+  kind      AccountKind   @default(MAIN)
+  currency  String        @db.VarChar(10)
+  status    AccountStatus @default(ACTIVE)
+  createdAt DateTime      @default(now()) @db.Timestamptz(3)
+  updatedAt DateTime      @updatedAt @db.Timestamptz(3)
+  ledgerAccounts LedgerAccount[]
+
+  @@index([sessionId, status])
+  @@map("account")
+}
+
+enum LedgerSystemCode {
+  DEMO_FUNDING
+  DEMO_PNL
+  FEES
+}
+
+enum LedgerTxType {
+  DEMO_FUNDING
+  DEMO_TEST_CREDIT
+  REVERSAL
+}
+
+/// D05. A balance bucket: one asset of a user Account, or a system counterpart (exactly one owner).
+model LedgerAccount {
+  id         String            @id @default(uuid()) @db.Uuid
+  accountId  String?           @db.Uuid
+  account    Account?          @relation(fields: [accountId], references: [id], onDelete: Restrict)
+  systemCode LedgerSystemCode?
+  asset      String            @db.VarChar(16)
+  createdAt  DateTime          @default(now()) @db.Timestamptz(3)
+  entries    LedgerEntry[]
+
+  @@unique([id, asset])
+  @@unique([accountId, asset])
+  @@unique([systemCode, asset])
+  @@map("ledger_account")
+}
+
+/// D05. One accepted money operation. Idempotency key is unique within its scope (session id or "system").
+model LedgerTransaction {
+  id             String             @id @default(uuid()) @db.Uuid
+  scope          String             @db.VarChar(64)
+  idempotencyKey String             @db.VarChar(128)
+  requestHash    String             @db.Char(64)
+  type           LedgerTxType
+  memo           String?            @db.VarChar(200)
+  reversalOfId   String?            @unique @db.Uuid
+  reversalOf     LedgerTransaction? @relation("Reversal", fields: [reversalOfId], references: [id], onDelete: Restrict)
+  reversedBy     LedgerTransaction? @relation("Reversal")
+  createdAt      DateTime           @default(now()) @db.Timestamptz(3)
+  entries        LedgerEntry[]
+
+  @@unique([scope, idempotencyKey])
+  @@index([scope, createdAt])
+  @@map("ledger_transaction")
+}
+
+/// D05. Signed posting. (ledgerAccountId, asset) must match the bucket's asset: USD and BTC never mix.
+model LedgerEntry {
+  id              String            @id @default(uuid()) @db.Uuid
+  transactionId   String            @db.Uuid
+  transaction     LedgerTransaction @relation(fields: [transactionId], references: [id], onDelete: Restrict)
+  ledgerAccountId String            @db.Uuid
+  asset           String            @db.VarChar(16)
+  ledgerAccount   LedgerAccount     @relation(fields: [ledgerAccountId, asset], references: [id, asset], onDelete: Restrict)
+  amount          Decimal           @db.Decimal(38, 18)
+  createdAt       DateTime          @default(now()) @db.Timestamptz(3)
+
+  @@index([ledgerAccountId])
+  @@index([transactionId])
+  @@map("ledger_entry")
+}
+
+enum Market {
+  crypto
+  stocks
+  indices
+  forex
+  commodities
+}
+
+enum InstrumentStatus {
+  ACTIVE
+  UNAVAILABLE
+  DISABLED
+}
+
+/// D04. Tradable instrument reference data. Units: price in quoteAsset; quantity in base units.
+model Instrument {
+  id                 String           @id @db.VarChar(32)
+  market             Market
+  symbol             String           @db.VarChar(32)
+  name               String           @db.VarChar(120)
+  baseAsset          String           @db.VarChar(16)
+  quoteAsset         String           @db.VarChar(16)
+  tickSize           Decimal          @db.Decimal(38, 18)
+  quantityStep       Decimal          @db.Decimal(38, 18)
+  contractMultiplier Decimal          @db.Decimal(38, 18)
+  maxLeverage        Int
+  categories         String[]
+  unit               String?          @db.VarChar(16)
+  status             InstrumentStatus @default(ACTIVE)
+  source             String           @db.VarChar(32)
+  /// Simulator anchor price (fictional) and daily volatility (fraction).
+  refPrice           Decimal          @db.Decimal(38, 18)
+  dailyVolatility    Decimal          @db.Decimal(10, 6)
+  liquidityUsd       Decimal          @db.Decimal(24, 0)
+  sortOrder          Int              @default(0)
+  createdAt          DateTime         @default(now()) @db.Timestamptz(3)
+  updatedAt          DateTime         @updatedAt @db.Timestamptz(3)
+
+  @@unique([market, symbol])
+  @@index([market, status, sortOrder])
+  @@map("instrument")
+}

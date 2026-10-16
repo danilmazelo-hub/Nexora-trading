@@ -25,8 +25,3 @@ p { margin: 0 0 var(--space-3); }
 .boot { min-height: 100vh; display: grid; place-items: center; color: var(--muted); }
 .unavailable { max-width: 520px; margin: 12vh auto; padding: 0 16px; text-align: center; }
 .unavailable img { margin-bottom: var(--space-4); }
-
-/* minimal button until the component kit (D08) */
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: 40px; padding: 0 var(--space-4); border-radius: var(--radius); border: 1px solid var(--border-strong); background: var(--surface-2); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
-.btn:disabled { opacity: 0.6; cursor: not-allowed; }

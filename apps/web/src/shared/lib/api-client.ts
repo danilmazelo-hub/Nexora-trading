@@ -26,6 +26,8 @@ interface RequestOptions<T> {
   idempotencyKey?: string;
   signal?: AbortSignal;
   timeoutMs?: number;
+  /** The caller handles 401 itself (e.g. the session probe) — skip the global "back to /demo" handler. */
+  handle401?: boolean;
 }
 
 type UnauthorizedHandler = (e: ApiError) => void;
@@ -85,7 +87,7 @@ async function request<T>(method: string, path: string, opts: RequestOptions<T> 
     const err = parsed.success
       ? new ApiError(res.status, parsed.data.code, parsed.data.message, parsed.data.requestId, parsed.data.fieldErrors)
       : new ApiError(res.status, 'BAD_RESPONSE', 'Сервис временно недоступен. Повторите позже.', requestId);
-    if (res.status === 401 && err.code.startsWith('SESSION_')) onUnauthorized?.(err);
+    if (res.status === 401 && err.code.startsWith('SESSION_') && !opts.handle401) onUnauthorized?.(err);
     throw err;
   }
   if (!opts.schema) return json as T;

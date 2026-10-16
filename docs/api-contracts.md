@@ -19,3 +19,28 @@ decimal-строки; проценты — процентные пункты (`"
 |---|---|---|
 | GET | `/health/live` | 200 `HealthLive` — процесс жив, БД не проверяется |
 | GET | `/health/ready` | 200 `{status:"ok",checks:{database:"up"}}` или 503 `{status:"unavailable",checks:{database:"down"}}` |
+
+## Демосессия и профиль (D03)
+| Метод | Путь | Auth | Тело / ответ |
+|---|---|---|---|
+| POST | `/demo/session` | — | `{ locale? }` → 200 `SessionState`. Создаёт сессию (cookie `nexora_demo`) или возобновляет действующую (`session.resumed=true`). Истёкшая cookie → новая сессия |
+| GET | `/demo/session` | cookie | `SessionState` (сессия, профиль, активные счета) |
+| DELETE | `/demo/session` | cookie | 204; сессия отзывается, cookie очищается |
+| PATCH | `/me/profile` | cookie | `{ displayName? (2–40), locale? 'ru'|'en' }` → `SessionState` |
+| GET | `/me/accounts` | cookie | `{ items: Account[] }` — только счета текущей сессии |
+| GET | `/me/accounts/:id` | cookie | `Account`; чужой/несуществующий → 404 `ACCOUNT_NOT_FOUND` |
+
+## Справочник (D04, D12) — публичный
+| Метод | Путь | Параметры / ответ |
+|---|---|---|
+| GET | `/markets` | `{ items: MarketSummary[] }` — 5 рынков `active` с числом инструментов и категориями + `coming_soon` |
+| GET | `/instruments` | `market?`, `category?`, `q?` (символ/имя/id, без учёта регистра), `sort=symbol|name|market`, `dir=asc|desc`, `page≥1`, `pageSize 1–100` → `InstrumentPage` |
+| GET | `/instruments/:id` | `Instrument` (tickSize, quantityStep, contractMultiplier — decimal-строки); неизвестный → 404 `INSTRUMENT_NOT_FOUND` |
+
+## Журнал денег (D05)
+| Метод | Путь | Auth | Тело / ответ |
+|---|---|---|---|
+| GET | `/me/accounts/:id/balances` | cookie | `AccountBalances` — остаток по каждому активу = сумма проводок; активы не суммируются между собой |
+| POST | `/me/accounts/:id/demo-credit` | cookie + `Idempotency-Key` | `{ amount: "0.01"–"10000" }` → `{ transactionId, replayed, balances }`. Тестовая демо-операция панели сценариев. Повтор ключа с тем же телом → тот же `transactionId`, `replayed=true`; другое тело → 409. В сценарии `OPERATION_FAILURE` → 503 `DEMO_OPERATION_FAILED`, ничего не проведено |
+
+Ошибки журнала: 422 `LEDGER_UNBALANCED` (сумма по активу ≠ 0), 422 `LEDGER_ASSET_MISMATCH`, 409 `IDEMPOTENCY_CONFLICT`.

@@ -8,9 +8,9 @@
 | D00 | Объём, правила, устройство проекта | Done (agent) | см. git log `D00–D02` | CLAUDE.md, apps/*/CLAUDE.md, docs/* , ADR 0001–0002 |
 | D01 | Каркас репозитория и команды | Done (agent) | `D00–D02` | pnpm workspaces, Nest 11, React 19/Vite 7, lint/typecheck/test/build |
 | D02 | Локальная БД и диагностика | Done (agent) | `D00–D02` | embedded PostgreSQL 18 + compose, /health/live|ready, экран «API недоступен» |
-| D03 | Демосессии, профиль, изоляция | Not started | | |
-| D04 | Справочник инструментов | Not started | | |
-| D05 | Журнал виртуальных денег | Not started | | |
+| D03 | Демосессии, профиль, изоляция | Done (agent) | `D03–D05` | cookie-сессия (sha-256 токена), профиль, счёт, /demo, SessionGate |
+| D04 | Справочник инструментов | Done (agent) | `D03–D05` | 204 инструмента, CHECK-ограничения, /markets, /instruments, AssetPicker, InstrumentSpecs |
+| D05 | Журнал виртуальных денег | Done (agent) | `D03–D05` | LedgerAccount/Transaction/Entry, триггеры БД, идемпотентность, остаток, сторно, Money/AccountBalance |
 | D06 | Тестовые данные и reset | Not started | | |
 | D07 | Навигационная карта | Not started | | |
 | D08 | Базовые компоненты и бренд | Not started | | |
