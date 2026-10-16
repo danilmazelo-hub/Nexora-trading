@@ -107,7 +107,8 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     if (!opts.unavailable) {
       if (feed) {
         raw = feed.quote(inst, demand);
-        if (!raw && demand !== 'background' && opts.prime !== false) {
+        // nothing yet, or an old value from an idle period: wait (bounded) for a fresh one first
+        if ((!raw || raw.status === 'stale') && demand !== 'background' && opts.prime !== false) {
           await feed.prime([inst], PRIME_MS);
           raw = feed.quote(inst, 'background');
         }

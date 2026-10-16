@@ -39,7 +39,7 @@ export function InstrumentSpecs({ instrument: i }: { instrument: Instrument }) {
         <dt>Макс. плечо (демо)</dt>
         <dd className="num">1:{i.maxLeverage}</dd>
         <dt>Источник цены</dt>
-        <dd>{sourceLabel(live.data?.source ?? i.source)}</dd>
+        <dd>{live.data ? sourceLabel(live.data.source) : live.isPending && i.status === 'ACTIVE' ? '—' : sourceLabel(i.source)}</dd>
       </dl>
     </section>
   );

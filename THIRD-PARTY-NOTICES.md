@@ -9,6 +9,17 @@ Used for candlestick charts in `apps/web` (see docs/decisions/0004-chart-library
 React, React Router, TanStack Query (MIT); NestJS, Prisma Client (MIT / Apache-2.0); zod, decimal.js (MIT);
 PostgreSQL (PostgreSQL License). Full license texts ship with each package in `node_modules`.
 
+## Instrument icons (ADR 0006)
+Icons and flags in `apps/web/public/instruments/` are carried over from the NEXORA prototype
+(`legacy/nexora-demo/assets`, full license texts in `legacy/nexora-demo/THIRD-PARTY-NOTICES.txt`):
+- Microsoft Fluent Emoji coin artwork — Copyright (c) Microsoft Corporation, MIT License.
+- Cryptocurrency Icons (spothq/cryptocurrency-icons, ErikThiart/cryptocurrency-icons) — CC0 1.0 Universal.
+- Simple Icons (simple-icons/simple-icons) — CC0 1.0 Universal; stock images from nvstly/icons and financialmodelingprep.
+- flag-icons by lipis — MIT License, Copyright (c) 2013-present Panayiotis Lipiridis.
+
+Company and token logos remain trademarks of their respective owners; their use identifies the instrument only and
+implies no affiliation or endorsement.
+
 ## Market data (optional, ADR 0005)
 When enabled in `apps/api/.env`: Binance Spot public market data (crypto) and Twelve Data (forex) are used as
 reference prices only, under each provider's terms of use; check those terms before any public display. No provider

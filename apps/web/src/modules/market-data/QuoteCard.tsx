@@ -1,6 +1,7 @@
 import { formatPercent, formatPrice, type Instrument, type Quote, STALE_AFTER_MS } from '@nexora/contracts';
 import { useEffect, useState } from 'react';
 import { Badge, ErrorState, Skeleton } from '../../shared/ui';
+import { InstrumentIcon } from '../instruments/InstrumentIcon';
 import { useLiveQuote, useStreamState } from './QuoteStreamProvider';
 
 export type DisplayStatus = Quote['status'];
@@ -53,7 +54,7 @@ export function sourceBadge(source: string): { label: string; tone: 'accent' | '
 }
 
 /** Price card: last, bid/ask, change with its period, source, observed time and status. Missing data → «—». */
-export function QuoteCard({ instrument, compact }: { instrument: Pick<Instrument, 'id' | 'symbol' | 'name' | 'tickSize' | 'quoteAsset'>; compact?: boolean }) {
+export function QuoteCard({ instrument, compact }: { instrument: Pick<Instrument, 'id' | 'symbol' | 'name' | 'tickSize' | 'market' | 'baseAsset' | 'quoteAsset'>; compact?: boolean }) {
   const q = useLiveQuote(instrument.id);
   const stream = useStreamState();
   const now = useNow();
@@ -66,7 +67,10 @@ export function QuoteCard({ instrument, compact }: { instrument: Pick<Instrument
     <article className={'quote-card' + (compact ? ' compact' : '')} aria-label={`Котировка ${instrument.symbol}`} data-instrument={instrument.id}>
       <header className="qc-head">
         <div>
-          <b className="mono">{instrument.symbol}</b>
+          <span className="qc-title">
+            <InstrumentIcon instrument={instrument} size={compact ? 'xs' : 'md'} />
+            <b className="mono">{instrument.symbol}</b>
+          </span>
           {!compact ? <div className="muted small">{instrument.name}</div> : null}
         </div>
         <Badge tone={STATUS[st].tone}>{statusLabel(st, d.source)}</Badge>

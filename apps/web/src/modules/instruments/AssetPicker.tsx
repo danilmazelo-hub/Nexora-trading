@@ -3,6 +3,7 @@ import { useDeferredValue, useId, useState } from 'react';
 import { EmptyState, ErrorState, Input, Skeleton } from '../../shared/ui';
 import { useInstruments } from './api';
 import { CATEGORY_LABEL } from './labels';
+import { InstrumentIcon } from './InstrumentIcon';
 
 interface Props {
   market?: TradableMarket;
@@ -40,6 +41,7 @@ export function AssetPicker({ market, selectedId, onSelect }: Props) {
               className={'picker-item' + (i.id === selectedId ? ' selected' : '')}
               onClick={() => onSelect(i)}
             >
+              <InstrumentIcon instrument={i} size="sm" />
               <span className="picker-sym mono">{i.symbol}</span>
               <span className="picker-name">{i.name}</span>
               <span className="picker-cat muted small">{i.categories.map((c) => CATEGORY_LABEL[c] ?? c).join(', ')}</span>

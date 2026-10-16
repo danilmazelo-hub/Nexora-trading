@@ -174,3 +174,21 @@
   .market-layout { grid-template-columns: minmax(0, 1fr); }
   .picker-list { max-height: 260px; }
 }
+
+/* Instrument artwork (from the prototype): icon, two flags for Forex, letters as fallback */
+.ab { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; position: relative; width: 28px; height: 28px; line-height: 0; vertical-align: middle; }
+.ab img { width: 100%; height: 100%; object-fit: contain; display: block; border-radius: 50%; }
+.ab.xs { width: 18px; height: 18px; } .ab.sm { width: 24px; height: 24px; } .ab.md { width: 32px; height: 32px; } .ab.lg { width: 40px; height: 40px; }
+.ab.fx { width: auto; height: var(--fs); --fs: 22px; }
+.ab.fx.xs { --fs: 17px; } .ab.fx.sm { --fs: 22px; } .ab.fx.md { --fs: 28px; } .ab.fx.lg { --fs: 34px; }
+.ab.fx img { flex: none; width: var(--fs); height: var(--fs); object-fit: cover; border-radius: 50%; border: 1.5px solid rgba(255, 255, 255, .85); box-shadow: 0 2px 5px #0006; background: #14324b; }
+.ab.fx img + img { margin-left: calc(var(--fs) * -0.32); }
+.ab .fallback { width: 100%; height: 100%; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(145deg, #3f7cff, #1f4ca8); color: #fff; font-weight: 800; font-size: 10px; line-height: 1; }
+.picker-item { grid-template-columns: auto auto 1fr; grid-template-areas: 'ic sym name' 'ic cat cat'; align-items: center; }
+.picker-item > .ab { grid-area: ic; margin-right: 2px; }
+.instrument-head h2 { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+.qc-head .qc-title { display: flex; align-items: center; gap: var(--space-2); }
+.qc-head .qc-title { min-width: 0; }
+.qc-head .qc-title > .ab { flex: none; }
+.qc-head .qc-title b { white-space: nowrap; }
+.quote-card.compact .qc-head { flex-wrap: wrap; row-gap: 4px; }

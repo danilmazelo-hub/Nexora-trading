@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { useInstrument } from '../../modules/instruments/api';
 import { AssetPicker } from '../../modules/instruments/AssetPicker';
+import { InstrumentIcon } from '../../modules/instruments/InstrumentIcon';
 import { InstrumentSpecs } from '../../modules/instruments/InstrumentSpecs';
 import { MARKET_LABEL } from '../../modules/instruments/labels';
 import { PriceChart } from '../../modules/market-data/PriceChart';
@@ -78,6 +79,7 @@ export function MarketPage({ market }: { market: TradableMarket }) {
             <>
               <div className="instrument-head">
                 <h2 data-testid="instrument-title">
+                  <InstrumentIcon instrument={inst.data!} size="lg" />
                   {inst.data!.name} <span className="mono muted">{inst.data!.symbol}</span>
                 </h2>
               </div>

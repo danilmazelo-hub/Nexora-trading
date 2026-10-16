@@ -63,7 +63,11 @@ export class BinanceFeed implements LiveFeed {
   }
 
   async prime(insts: Instrument[], timeoutMs: number): Promise<void> {
-    if (insts.every((i) => this.cache.has(i.id))) return;
+    const fresh = (i: Instrument) => {
+      const q = this.cache.get(i.id);
+      return !!q && this.now() - q.observedAt <= STALE_AFTER_MS;
+    };
+    if (insts.every(fresh)) return;
     for (const i of insts) this.wanted.set(i.id, { inst: i, at: this.now() });
     await within(this.refresh(), timeoutMs);
   }
@@ -72,6 +76,7 @@ export class BinanceFeed implements LiveFeed {
     if (this.timer) return;
     this.timer = setInterval(() => void this.refresh(), POLL_MS);
     this.timer.unref();
+    void this.refresh(); // resume at once: the cache may be minutes old after an idle period
   }
 
   /** One refresh at a time; concurrent callers share it. */
