@@ -26,3 +26,13 @@ Seed рынка 20261015. Формат: ID · команда/шаги · ожи�
 | D05 | integration `ledger.int.test.ts` (10) | стартовые 50 000; две одинаковые команды → одна операция; другой body → 409; откат при сбое; USD/BTC → LEDGER_UNBALANCED/ASSET_MISMATCH; триггеры БД; сторно | 10 passed | Passed |
 | D05 | Полная проверка: `pnpm install --frozen-lockfile`, lint, typecheck, test, test:integration, build, test:e2e | всё зелёное | 0 ошибок lint; 30 unit; 35 integration; 5 e2e; build ok | Passed |
 | D05 | Ручной просмотр `/demo` 1440 px | вход, баланс $50 000,00 | скриншот: корректно | Passed |
+
+## D06–D08 (2026-10-16)
+| ID | Проверка | Ожидание | Факт | Статус |
+|---|---|---|---|---|
+| D06 | integration `scenario.int.test.ts` (5) | seed ×2 без дублей и без удаления сессий; reset требует confirm; reset → 50 000 только своей сессии, второй пользователь 50 075 без изменений; OPERATION_FAILURE → 503 и баланс не меняется | 5 passed | Passed |
+| D06 | e2e `components.spec.ts › D06 reset` | UI: +$100 → reset → $50 000, второе окно $50 100; сбой операции не меняет баланс | passed (после исправления: `queryClient.clear()` отвязывал observers → заменено на `resetQueries`) | Passed |
+| D07 | e2e `navigation.spec.ts` (6) | 20 маршрутов открываются напрямую и после reload; sidebar; Back/Forward; 404; «В разработке»; мобильная навигация 390 px без горизонтального скролла; /capabilities | 6 passed | Passed |
+| D08 | e2e `components.spec.ts` (6) | диалог с клавиатуры, ловушка фокуса, Escape и возврат фокуса; disabled объяснён (aria-describedby); поле с label и ошибкой; вкладки стрелками; длинный текст; −<$0,01; ErrorState с requestId | 6 passed | Passed |
+| D08 | integration `errors.int.test.ts` (7) | только `{code,message,fieldErrors?,requestId}`; битый JSON → 400 без текста парсера; небезопасный x-request-id заменён | 7 passed | Passed |
+| D07–D08 | Скриншоты 1440/390 px (`/finance/account`) | бренд NEXORA, демо-полоса, нет чужих логотипов и обещаний доходности | корректно | Passed |

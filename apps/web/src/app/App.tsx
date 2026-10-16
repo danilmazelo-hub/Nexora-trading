@@ -2,21 +2,14 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router';
 import { ApiGate } from '../modules/health/ApiGate';
 import { SessionGate } from '../modules/session/SessionGate';
-import { useSession } from '../modules/session/api';
+import { QuoteStreamProvider } from '../modules/market-data/QuoteStreamProvider';
 import { DemoPage } from '../pages/DemoPage';
+import { NotFoundPage } from '../pages/NotFoundPage';
 import { ToastProvider } from '../shared/ui';
+import { ROUTES } from './routes';
+import { Shell } from './Shell';
 
-const queryClient = new QueryClient({ defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false } } });
-
-function Home() {
-  const s = useSession();
-  return (
-    <main className="start">
-      <h1>NEXORA Trading</h1>
-      <p>Вы в демо: {s.data?.profile.displayName}. Разделы появятся в D07.</p>
-    </main>
-  );
-}
+export const queryClient = new QueryClient({ defaultOptions: { queries: { retry: 1, refetchOnWindowFocus: false } } });
 
 export function App() {
   return (
@@ -28,13 +21,19 @@ export function App() {
               <Route path="/demo" element={<DemoPage />} />
               <Route path="/" element={<Navigate to="/markets" replace />} />
               <Route
-                path="*"
                 element={
                   <SessionGate>
-                    <Home />
+                    <QuoteStreamProvider>
+                      <Shell />
+                    </QuoteStreamProvider>
                   </SessionGate>
                 }
-              />
+              >
+                {ROUTES.map((r) => (
+                  <Route key={r.path} path={r.path} element={r.element} />
+                ))}
+                <Route path="*" element={<NotFoundPage />} />
+              </Route>
             </Routes>
           </BrowserRouter>
         </ApiGate>

@@ -11,9 +11,9 @@
 | D03 | Демосессии, профиль, изоляция | Done (agent) | `D03–D05` | cookie-сессия (sha-256 токена), профиль, счёт, /demo, SessionGate |
 | D04 | Справочник инструментов | Done (agent) | `D03–D05` | 204 инструмента, CHECK-ограничения, /markets, /instruments, AssetPicker, InstrumentSpecs |
 | D05 | Журнал виртуальных денег | Done (agent) | `D03–D05` | LedgerAccount/Transaction/Entry, триггеры БД, идемпотентность, остаток, сторно, Money/AccountBalance |
-| D06 | Тестовые данные и reset | Not started | | |
-| D07 | Навигационная карта | Not started | | |
-| D08 | Базовые компоненты и бренд | Not started | | |
+| D06 | Тестовые данные и reset | Done (agent) | `D06–D08` | MarketSettings (seed/clock), сценарии сессии, reset с подтверждением, панель сценариев, сброс кеша |
+| D07 | Навигационная карта | Done (agent) | `D06–D08` | 20 маршрутов карты, sidebar/bottom nav/topbar, 404, /capabilities, статус «в разработке» |
+| D08 | Базовые компоненты и бренд | Done (agent) | `D06–D08` | Button/Field/Select/Dialog/Tabs/Table/Empty/Error/Toast/Money, /dev/components, единый формат ошибок |
 | D09 | Проверка базы (G1) | Not started | | |
 | D10 | Симулятор котировок | Not started | | |
 | D11 | Доставка обновлений | Not started | | |

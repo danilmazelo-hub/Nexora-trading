@@ -120,3 +120,11 @@
 .balance-main { font-size: var(--fs-2xl); font-weight: 800; letter-spacing: -.01em; }
 .balance.sm .balance-main { font-size: var(--fs-lg); }
 .balance-extra { color: var(--text-2); }
+
+/* ---------- scenarios ---------- */
+.scenario-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-2); }
+.scenario { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); padding: var(--space-3); border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-2); }
+.scenario > div { flex: 1 1 240px; min-width: 0; }
+.scenario p { margin: 4px 0 0; }
+.scenario.current { border-color: rgba(24, 210, 124, .45); }
+.tab-panel { padding: var(--space-3) var(--space-1); color: var(--text-2); }

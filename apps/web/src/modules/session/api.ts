@@ -33,9 +33,9 @@ export function useLeaveDemo() {
   const qc = useQueryClient();
   return useMutation({
     mutationFn: () => apiClient.delete('/demo/session'),
-    onSuccess: () => {
-      qc.clear();
+    onSuccess: async () => {
       qc.setQueryData(sessionKeys.current, null);
+      await qc.resetQueries({ predicate: (q) => q.queryKey[0] !== 'session' });
     },
   });
 }

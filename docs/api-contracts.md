@@ -44,3 +44,15 @@ decimal-строки; проценты — процентные пункты (`"
 | POST | `/me/accounts/:id/demo-credit` | cookie + `Idempotency-Key` | `{ amount: "0.01"–"10000" }` → `{ transactionId, replayed, balances }`. Тестовая демо-операция панели сценариев. Повтор ключа с тем же телом → тот же `transactionId`, `replayed=true`; другое тело → 409. В сценарии `OPERATION_FAILURE` → 503 `DEMO_OPERATION_FAILED`, ничего не проведено |
 
 Ошибки журнала: 422 `LEDGER_UNBALANCED` (сумма по активу ≠ 0), 422 `LEDGER_ASSET_MISMATCH`, 409 `IDEMPOTENCY_CONFLICT`.
+
+## Сценарии и reset (D06)
+| Метод | Путь | Auth | Тело / ответ |
+|---|---|---|---|
+| GET | `/demo/scenarios` | cookie | `{ items: [{ id, title, description, resets }] }` — `STARTER`, `EMPTY_PORTFOLIO`, `QUOTES_UNAVAILABLE`, `OPERATION_FAILURE` |
+| POST | `/demo/reset` | cookie | `{ confirm: true, scenario? }` → `SessionState`. Без `confirm: true` → 400 `RESET_NOT_CONFIRMED`. Архивирует активные счета **только своей** сессии и создаёт новый счёт с 50 000 USD |
+| PUT | `/demo/scenario` | cookie | `{ scenario }` → `SessionState`; меняет поведение без изменения денег |
+
+## Capabilities (D07) — публичный
+| Метод | Путь | Ответ |
+|---|---|---|
+| GET | `/capabilities` | `{ mode:"demo", realMoney:false, priceSource:"simulator", sections:[{ id, path, status: available|in_development|coming_soon, simulated, tasks }] }` |

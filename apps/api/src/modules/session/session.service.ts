@@ -76,7 +76,7 @@ export class SessionService {
     });
     const profile = s.profile ?? { displayName: DEFAULT_DISPLAY_NAME, locale: 'ru', updatedAt: s.createdAt };
     return {
-      session: { id: s.id, createdAt: s.createdAt.toISOString(), expiresAt: s.expiresAt.toISOString(), scenario: 'STARTER', resumed },
+      session: { id: s.id, createdAt: s.createdAt.toISOString(), expiresAt: s.expiresAt.toISOString(), scenario: s.scenario, resumed },
       profile: { displayName: profile.displayName, locale: profile.locale === 'en' ? 'en' : 'ru', updatedAt: profile.updatedAt.toISOString() },
       accounts: s.accounts.map((a) => ({ id: a.id, kind: a.kind, currency: a.currency, status: a.status, createdAt: a.createdAt.toISOString() })),
     };
