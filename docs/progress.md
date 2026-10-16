@@ -14,9 +14,9 @@
 | D06 | Тестовые данные и reset | Done (agent) | `D06–D08` | MarketSettings (seed/clock), сценарии сессии, reset с подтверждением, панель сценариев, сброс кеша |
 | D07 | Навигационная карта | Done (agent) | `D06–D08` | 20 маршрутов карты, sidebar/bottom nav/topbar, 404, /capabilities, статус «в разработке» |
 | D08 | Базовые компоненты и бренд | Done (agent) | `D06–D08` | Button/Field/Select/Dialog/Tabs/Table/Empty/Error/Toast/Money, /dev/components, единый формат ошибок |
-| D09 | Проверка базы (G1) | Not started | | |
-| D10 | Симулятор котировок | Not started | | |
-| D11 | Доставка обновлений | Not started | | |
+| D09 | Проверка базы (G1) | Done (agent) | `D09–D11` | миграции на чистой БД (FK/CHECK/триггеры), 21 экран на 390/1440, запуск по README с нуля |
+| D10 | Симулятор котировок | Done (agent) | `D09–D11` | детерминированный симулятор, MarketDataProvider, Quote/Candle кеш, /dev/quotes |
+| D11 | Доставка обновлений | Done (agent) | `D09–D11` | SSE (ADR 0003), snapshot+seq, одна EventSource на вкладку, refcount, backoff |
 | D12 | Списки рынков и выбор инструмента | Not started | | |
 | D13 | График и периоды | Not started | | |
 | D14+ | — | Not started | | вне текущего объёма |

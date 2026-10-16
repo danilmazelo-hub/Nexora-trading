@@ -189,7 +189,47 @@ model Instrument {
   createdAt          DateTime         @default(now()) @db.Timestamptz(3)
   updatedAt          DateTime         @updatedAt @db.Timestamptz(3)
 
+  quotes  Quote[]
+  candles Candle[]
+
   @@unique([market, symbol])
   @@index([market, status, sortOrder])
   @@map("instrument")
+}
+
+/// D10. Latest quote snapshot per instrument and source (server cache; one copy, not per page).
+model Quote {
+  instrumentId String     @db.VarChar(32)
+  instrument   Instrument @relation(fields: [instrumentId], references: [id], onDelete: Restrict)
+  source       String     @db.VarChar(48)
+  bid          Decimal?   @db.Decimal(38, 18)
+  ask          Decimal?   @db.Decimal(38, 18)
+  last         Decimal?   @db.Decimal(38, 18)
+  /// Percent points; null when unknown (never stored as 0 for missing data).
+  changePct    Decimal?   @db.Decimal(20, 8)
+  changePeriod String     @db.VarChar(16)
+  observedAt   DateTime?  @db.Timestamptz(3)
+  receivedAt   DateTime   @db.Timestamptz(3)
+
+  @@id([instrumentId, source])
+  @@map("quote")
+}
+
+/// D10/D13. Closed candles cache. openTime/closeTime are UTC; one row per instrument+source+interval+openTime.
+model Candle {
+  instrumentId String     @db.VarChar(32)
+  instrument   Instrument @relation(fields: [instrumentId], references: [id], onDelete: Restrict)
+  source       String     @db.VarChar(48)
+  interval     String     @db.VarChar(4)
+  openTime     DateTime   @db.Timestamptz(3)
+  closeTime    DateTime   @db.Timestamptz(3)
+  open         Decimal    @db.Decimal(38, 18)
+  high         Decimal    @db.Decimal(38, 18)
+  low          Decimal    @db.Decimal(38, 18)
+  close        Decimal    @db.Decimal(38, 18)
+  volume       Decimal    @db.Decimal(38, 8)
+  receivedAt   DateTime   @default(now()) @db.Timestamptz(3)
+
+  @@id([instrumentId, source, interval, openTime])
+  @@map("candle")
 }

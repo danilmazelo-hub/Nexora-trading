@@ -22,8 +22,11 @@ export function useSession() {
 export function useEnterDemo() {
   const qc = useQueryClient();
   return useMutation({
+    // An in-flight "no session yet" probe must not overwrite the freshly created session (race on a fast click).
+    onMutate: () => qc.cancelQueries({ queryKey: sessionKeys.current }),
     mutationFn: () => apiClient.post('/demo/session', { locale: 'ru' }, { schema: SessionStateSchema }),
-    onSuccess: (state) => {
+    onSuccess: async (state) => {
+      await qc.cancelQueries({ queryKey: sessionKeys.current });
       qc.setQueryData(sessionKeys.current, state);
     },
   });

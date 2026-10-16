@@ -128,3 +128,13 @@
 .scenario p { margin: 4px 0 0; }
 .scenario.current { border-color: rgba(24, 210, 124, .45); }
 .tab-panel { padding: var(--space-3) var(--space-1); color: var(--text-2); }
+
+/* ---------- quotes ---------- */
+.quote-card { display: grid; gap: 6px; padding: var(--space-4); border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); min-width: 0; }
+.quote-card.compact { padding: var(--space-3); gap: 2px; }
+.qc-head { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-2); }
+.qc-price { font-size: var(--fs-2xl); font-weight: 800; letter-spacing: -.01em; }
+.quote-card.compact .qc-price { font-size: var(--fs-lg); }
+.qc-change { font-weight: 700; }
+.qc-meta { margin-top: 8px; font-size: var(--fs-sm); }
+.watchlist { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: var(--space-3); }

@@ -36,3 +36,18 @@ Seed рынка 20261015. Формат: ID · команда/шаги · ожи�
 | D08 | e2e `components.spec.ts` (6) | диалог с клавиатуры, ловушка фокуса, Escape и возврат фокуса; disabled объяснён (aria-describedby); поле с label и ошибкой; вкладки стрелками; длинный текст; −<$0,01; ErrorState с requestId | 6 passed | Passed |
 | D08 | integration `errors.int.test.ts` (7) | только `{code,message,fieldErrors?,requestId}`; битый JSON → 400 без текста парсера; небезопасный x-request-id заменён | 7 passed | Passed |
 | D07–D08 | Скриншоты 1440/390 px (`/finance/account`) | бренд NEXORA, демо-полоса, нет чужих логотипов и обещаний доходности | корректно | Passed |
+
+## D09–D11 (2026-10-16)
+| ID | Проверка | Ожидание | Факт | Статус |
+|---|---|---|---|---|
+| D09 | integration `migrations.int.test.ts` (4) | все миграции применяются к пустой БД; FK владельцев и журнала, CHECK, триггеры журнала; FK отклоняет «сироту» | 4 passed | Passed |
+| D09 | e2e `screens.spec.ts` (2) | /demo, оболочка и 21 маршрут на 390 и 1440 px: h1 виден, навигация видна, нет горизонтального скролла и JS-ошибок | 2 passed, скриншоты в test-results | Passed |
+| D09 | Запуск по README с остановленными процессами | `pnpm install --frozen-lockfile`, `db:start`, `db:generate`, `db:migrate`, `db:seed`, `pnpm dev` → /demo 200, /health/ready 200 | так и есть (первый прогон выявил занятый порт от старого процесса — README дополнен разделом диагностики) | Passed |
+| D09 | G1 | D00–D09: БД, сессия, 50 000, навигация, правила | все проверки выше | Passed (agent) |
+| D10 | unit `simulator.test.ts` (8) | один seed → одинаковые цены; агрегация 5m→1h; close формирующейся свечи = цене; нет свечей из будущего; недели с понедельника UTC | 8 passed | Passed |
+| D10 | integration `market-data.int.test.ts` (9, фиксированные часы) | карточка = список; проценты в п.п. без ×100; LBS unavailable с null; 404; сценарий QUOTES_UNAVAILABLE только своей сессии; кеш Quote | 9 passed | Passed |
+| D10 | e2e `quotes.spec.ts` (2) | карточка: цена/источник/время/статус совпадают с API; Lumber — «—» и «Недоступно» | passed | Passed |
+| D11 | integration SSE (3) | snapshot первым, монотонный seq без дублей, reconnect с Last-Event-ID → snapshot, соединения освобождаются | 3 passed | Passed |
+| D11 | unit `quote-stream.test.ts` (5) | одна EventSource на все подписки; refcount; дубли/старые события отброшены; reconnect с backoff без параллельных соединений | 5 passed | Passed |
+| D11 | e2e `quotes.spec.ts` (2) | Finance и /dev/quotes в двух вкладках — одинаковая цена BTC; после обрыва — одно новое соединение и продолжение обновлений | passed | Passed |
+| D03 | Регрессия: быстрый клик «Войти в демо» | не возвращает на /demo | найдена гонка (ответ «нет сессии» затирал новую сессию) → исправлено `cancelQueries`; e2e ×3 = 72/72 | Passed |

@@ -1,5 +1,6 @@
 import { useParams } from 'react-router';
 import { AccountBalance } from '../modules/accounts/AccountBalance';
+import { Watchlist } from '../modules/market-data/Watchlist';
 import { useSession } from '../modules/session/api';
 import { InDevelopment } from './InDevelopment';
 import { NotFoundPage } from './NotFoundPage';
@@ -14,6 +15,10 @@ export function FinanceAccountPage() {
         <h2>Остаток</h2>
         {acc ? <AccountBalance accountId={acc.id} /> : null}
         <p className="muted small">Баланс выводится из серверного журнала операций (D05).</p>
+      </section>
+      <section className="panel" aria-labelledby="wl-title">
+        <h2 id="wl-title">Котировки</h2>
+        <Watchlist />
       </section>
     </InDevelopment>
   );

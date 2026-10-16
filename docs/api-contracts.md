@@ -56,3 +56,14 @@ decimal-строки; проценты — процентные пункты (`"
 | Метод | Путь | Ответ |
 |---|---|---|
 | GET | `/capabilities` | `{ mode:"demo", realMoney:false, priceSource:"simulator", sections:[{ id, path, status: available|in_development|coming_soon, simulated, tasks }] }` |
+
+## Рыночные данные (D10–D13) — публичные; при cookie действует сценарий сессии
+| Метод | Путь | Параметры / ответ |
+|---|---|---|
+| GET | `/market/status` | `{ source, seed, clockMode: REALTIME|FIXED, now, streams }` |
+| GET | `/market/quotes/:id` | `Quote`: `bid/ask/last/change` — decimal-строки по шагу цены, `changePct` — процентные пункты, `changePeriod` `24h` (крипта) или `prev_close` (остальные, к закрытию предыдущего UTC-дня), `observedAt` (время цены, кратно 2 с), `receivedAt`, `status` `live|delayed|stale|unavailable`. Нет цены → все цены `null`, `status: unavailable` |
+| GET | `/market/quotes?ids=a,b` | `{ items: Quote[], asOf }`, 1–60 id; неизвестные id пропускаются |
+| GET | `/market/stream?ids=a,b` | SSE, событие `quotes` `{ seq, kind: snapshot|update, quotes }`, `id = seq`. Первое событие — snapshot (также после reconnect с `Last-Event-ID`); далее одно update на 2-секундный тик. См. [ADR 0003](decisions/0003-quote-stream-sse.md) |
+| GET | `/market/instruments/:id/candles` | `interval=5m|15m|1h|4h|1d|1w`, `from?`, `to?` (ISO UTC), `limit 1–1000` (по умолчанию 500) → `CandlesResponse { instrumentId, source, interval, from, to, truncated, candles: [{ openTime, closeTime, open, high, low, close, volume, isClosed }] }`. Свечи по возрастанию, без дублей, без будущих; последняя — формирующаяся (`isClosed:false`), её `close` = текущей котировке. `from > to` → 400. Недели начинаются в понедельник 00:00 UTC; история с 2022-01-03 |
+
+Источник цены во всех представлениях один — `MarketDataProvider` (сейчас `SimulatorProvider`, источник `simulator:<seed>`).
