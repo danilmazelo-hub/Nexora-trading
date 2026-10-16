@@ -22,7 +22,9 @@ browser ──HTTP /api/* (Vite proxy) ──▶ apps/api (NestJS) ──Prisma�
 - `apps/web` → `@nexora/contracts`. Запрещено: импорт из `apps/api`, `@prisma/client`, чтение серверных env.
 - `apps/api` → `@nexora/contracts`, Prisma. Модули `src/modules/*` используют `src/infra` (БД) и `src/shared` (ошибки, decimal, request-id).
 - `src/domain/*` (чистая логика: симулятор цен, правила журнала) не импортирует Nest, Prisma и HTTP.
-- Внешние источники цен подключаются только через интерфейс `MarketDataProvider` (`apps/api/src/modules/market-data/provider.ts`).
+- Внешние источники цен подключаются только через интерфейс `MarketDataProvider` (`apps/api/src/modules/market-data/provider.ts`)
+  и справочные live-feeds по рынкам (`apps/api/src/modules/market-data/live/`: Binance — crypto, Twelve Data — forex), см.
+  [ADR 0005](decisions/0005-live-reference-feeds.md). Нет источника — рынок на симуляторе с явной пометкой.
 
 ## Поток запроса
 Сервер: HTTP → middleware request-id → `SessionGuard` (cookie → DemoSession) → controller (валидация zod) →
@@ -33,7 +35,7 @@ service/use case → repository (Prisma, транзакции) → ответ и
 `['quote', instrumentId]`. Ни одна страница не хранит собственную копию цены.
 
 ## Режим и ограничения
-- Этап 1 — демо: виртуальные деньги, симулятор цен, cookie-сессия без паролей. Live-интеграции — этап 2 (R01–R15).
+- Этап 1 — демо: виртуальные деньги, симулятор цен, cookie-сессия без паролей. Справочные цены Binance / Twelve Data — опционально (ADR 0005); брокерские и денежные live-интеграции — этап 2 (R01–R15).
 - Единственный источник цены в демо — детерминированный симулятор (seed + clock). Котировка, свеча и будущая
   оценка позиции берутся из одного провайдера.
 - Время хранится в UTC (`timestamptz`), в JSON — ISO-8601 с `Z`.

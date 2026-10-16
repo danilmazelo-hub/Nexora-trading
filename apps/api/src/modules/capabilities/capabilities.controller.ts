@@ -1,5 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { type Capabilities } from '@nexora/contracts';
+import { MarketDataService } from '../market-data/market-data.service';
 
 /**
  * What the demo offers: which sections are usable now, which are still in development, which are simulated.
@@ -39,8 +40,11 @@ export const CAPABILITIES: Capabilities = {
 
 @Controller('capabilities')
 export class CapabilitiesController {
+  constructor(private readonly market: MarketDataService) {}
+
   @Get()
   get(): Capabilities {
-    return CAPABILITIES;
+    // live reference feeds (ADR 0005) are named in priceSource; trading and money stay simulated
+    return { ...CAPABILITIES, priceSource: this.market.priceSource() };
   }
 }

@@ -1,13 +1,22 @@
 import { type Instrument } from '@prisma/client';
 import { DAY, MarketSimulator, type Ohlcv, type SimInstrument } from '../../domain/market-sim/simulator';
 
-/** Raw provider output, still in float64; MarketDataService rounds to the tick size and serialises. */
+/**
+ * Raw provider output: float64 from the simulator, decimal strings from live feeds. MarketDataService rounds to
+ * the tick size and serialises.
+ */
 export interface RawQuote {
-  mid: number;
+  /** Last price (simulator: mid). */
+  mid: number | string;
   /** Reference price for the change: 24h ago (crypto) or previous UTC session close (others). */
-  reference: number;
+  reference: number | string;
   changePeriod: '24h' | 'prev_close';
   observedAt: number;
+  /** Real best bid/ask when the feed has them; otherwise the demo spread is applied around `mid`. */
+  bid?: string;
+  ask?: string;
+  /** Freshness as judged by the feed (live feeds only; the simulator follows the market clock mode). */
+  status?: 'live' | 'delayed' | 'stale';
 }
 
 /**

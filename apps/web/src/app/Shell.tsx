@@ -42,7 +42,7 @@ function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
             </div>
           ))}
         </nav>
-        <p className="sidebar-foot muted small">Демо-платформа: виртуальные средства, симулированные котировки. Не является инвестиционной рекомендацией.</p>
+        <p className="sidebar-foot muted small">Демо-платформа: виртуальные средства; котировки — симулятор или справочные цены провайдеров (источник указан у цены). Не является инвестиционной рекомендацией.</p>
       </aside>
       {open ? <div className="scrim" onClick={onClose} aria-hidden="true" /> : null}
     </>
@@ -142,7 +142,7 @@ export function Shell() {
         К содержимому
       </a>
       <div className="demo-strip" role="note">
-        <b>ДЕМО</b> · виртуальные средства, котировки симулированы. Реальных сделок и платежей нет.
+        <b>ДЕМО</b> · виртуальные средства; котировки — симулятор или справочные цены провайдеров. Реальных сделок и платежей нет.
       </div>
       <Sidebar open={drawer} onClose={() => setDrawer(false)} />
       <div className="main">

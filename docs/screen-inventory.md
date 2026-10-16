@@ -15,7 +15,7 @@
 | `/subscription` | Assistant / Analyst / Agent, сравнение | тарифы | активировать, отменить | — | D32 | Stub |
 | `/activity` | Positions / Pending / History, All / AI / Client | позиции, заявки | закрыть, отменить, фильтр | — | D19 | Stub |
 | `/markets` | hub рынков, Coming soon | рынки и число инструментов | открыть рынок, поиск инструмента | скелетон / — / ErrorState | D12, D42 | Ready (D12) |
-| `/markets/crypto` | Charts / Performance, Order Book / Top Crypto | инструменты, котировки, свечи | выбрать актив (AssetPicker), период графика | скелетон / «Ничего не найдено» / ErrorState, «Инструмент не найден» | D12, D13, D20 | Ready: выбор+котировка+график; вкладки — D20 |
+| `/markets/crypto` | Charts / Performance, Order Book / Top Crypto | инструменты, котировки, свечи | выбрать актив (AssetPicker), период графика | скелетон / «Ничего не найдено» / ErrorState, «Инструмент не найден» | D12, D13, D20 | Ready: выбор+котировка+график, стакан Binance (ADR 0005); вкладки — D20 |
 | `/markets/stocks` | Charts / Heatmap / Performance | то же | то же | то же | D12, D13, D21 | Ready: выбор+график; вкладки — D21 |
 | `/markets/indices` | Charts / Heatmap / Performance, регионы | то же | то же | то же | D12, D13, D22 | Ready: выбор+график; вкладки — D22 |
 | `/markets/forex` | Charts / Quotes / Performance, группы | то же | то же | то же | D12, D13, D23 | Ready: выбор+график; вкладки — D23 |

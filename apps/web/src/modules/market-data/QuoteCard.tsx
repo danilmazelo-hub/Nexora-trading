@@ -13,10 +13,17 @@ export function displayStatus(q: Quote, now: number): DisplayStatus {
 
 const STATUS: Record<DisplayStatus, { label: string; tone: 'up' | 'warn' | 'down' | 'info' }> = {
   live: { label: 'Онлайн', tone: 'up' },
-  delayed: { label: 'Фиксированное время', tone: 'info' },
+  delayed: { label: 'С задержкой', tone: 'info' },
   stale: { label: 'Устарела', tone: 'warn' },
   unavailable: { label: 'Недоступно', tone: 'down' },
 };
+
+const isSimulator = (source: string) => source.startsWith('simulator');
+
+/** "delayed" of the simulator means a fixed market clock (demo scenario); of a live feed — a periodic refresh. */
+export function statusLabel(st: DisplayStatus, source: string) {
+  return st === 'delayed' && isSimulator(source) ? 'Фиксированное время' : STATUS[st].label;
+}
 
 export const PERIOD_LABEL = { '24h': 'за 24 ч', prev_close: 'к закрытию пред. дня (UTC)' } as const;
 
@@ -29,8 +36,20 @@ export function useNow(everyMs = 5000) {
   return now;
 }
 
+const SOURCES: Record<string, string> = {
+  binance: 'Binance · справочная цена (USDT ≈ USD)',
+  twelvedata: 'Twelve Data · справочная цена, обновление ~1 мин',
+};
+
 export function sourceLabel(source: string) {
-  return source.startsWith('simulator') ? 'Симулятор NEXORA (демо)' : source;
+  return isSimulator(source) ? 'Симулятор NEXORA (демо)' : (SOURCES[source] ?? source);
+}
+
+/** Page-level badge: simulated prices, or real reference prices with demo trading. */
+export function sourceBadge(source: string): { label: string; tone: 'accent' | 'info' } {
+  if (isSimulator(source)) return { label: 'Симулированные котировки', tone: 'accent' };
+  const name = source === 'binance' ? 'Binance' : source === 'twelvedata' ? 'Twelve Data' : source;
+  return { label: `Реальные цены ${name} · сделки демо`, tone: 'info' };
 }
 
 /** Price card: last, bid/ask, change with its period, source, observed time and status. Missing data → «—». */
@@ -50,7 +69,7 @@ export function QuoteCard({ instrument, compact }: { instrument: Pick<Instrument
           <b className="mono">{instrument.symbol}</b>
           {!compact ? <div className="muted small">{instrument.name}</div> : null}
         </div>
-        <Badge tone={STATUS[st].tone}>{STATUS[st].label}</Badge>
+        <Badge tone={STATUS[st].tone}>{statusLabel(st, d.source)}</Badge>
       </header>
       <div className="qc-price num" data-testid="quote-last">
         {formatPrice(d.last, instrument.tickSize)} <span className="muted small">{d.last ? instrument.quoteAsset : ''}</span>

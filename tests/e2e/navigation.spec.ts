@@ -93,7 +93,8 @@ test.describe('D07 navigation map', () => {
   test('capabilities API describes demo sections honestly', async ({ page }) => {
     const res = await page.request.get('/api/capabilities');
     const body = await res.json();
-    expect(body).toMatchObject({ mode: 'demo', realMoney: false, priceSource: 'simulator' });
+    expect(body).toMatchObject({ mode: 'demo', realMoney: false });
+    expect(body.priceSource).toMatch(/^simulator(\+[a-z]+)*$/);
     expect(body.sections.find((s: { id: string }) => s.id === 'activity').status).toBe('in_development');
   });
 });

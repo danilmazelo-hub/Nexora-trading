@@ -6,7 +6,9 @@ import { AssetPicker } from '../../modules/instruments/AssetPicker';
 import { InstrumentSpecs } from '../../modules/instruments/InstrumentSpecs';
 import { MARKET_LABEL } from '../../modules/instruments/labels';
 import { PriceChart } from '../../modules/market-data/PriceChart';
-import { QuoteCard } from '../../modules/market-data/QuoteCard';
+import { OrderBook } from '../../modules/market-data/OrderBook';
+import { QuoteCard, sourceBadge } from '../../modules/market-data/QuoteCard';
+import { useLiveQuote } from '../../modules/market-data/QuoteStreamProvider';
 import { ApiError } from '../../shared/lib/api-client';
 import { Badge, EmptyState, ErrorState, Skeleton, Tabs } from '../../shared/ui';
 
@@ -45,7 +47,7 @@ export function MarketPage({ market }: { market: TradableMarket }) {
     <div className="page">
       <header className="page-head">
         <h1>{MARKET_LABEL[market]}</h1>
-        <Badge tone="accent">Симулированные котировки</Badge>
+        <SourceBadge id={inst.data && inst.data.market === market ? inst.data.id : null} />
       </header>
       <Tabs label="Представление рынка" value="charts" onChange={() => undefined} items={views.map((v) => ({ id: v.id, label: v.task ? `${v.label} (${v.task})` : v.label, disabled: !!v.task }))} />
       <div className="market-layout">
@@ -84,10 +86,19 @@ export function MarketPage({ market }: { market: TradableMarket }) {
                 <InstrumentSpecs instrument={inst.data!} />
               </div>
               <PriceChart key={inst.data!.id} instrument={inst.data!} period={period} onPeriod={setPeriod} />
+              {market === 'crypto' ? <OrderBook key={'book-' + inst.data!.id} instrument={inst.data!} /> : null}
             </>
           )}
         </div>
       </div>
     </div>
   );
+}
+
+/** Where the prices of the selected instrument come from (simulator or a live reference feed). */
+function SourceBadge({ id }: { id: string | null }) {
+  const q = useLiveQuote(id);
+  if (!id || !q.data) return <Badge tone="accent">Демо</Badge>;
+  const b = sourceBadge(q.data.source);
+  return <Badge tone={b.tone}>{b.label}</Badge>;
 }

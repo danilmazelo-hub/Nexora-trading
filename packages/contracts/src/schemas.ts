@@ -158,6 +158,19 @@ export const CandlesResponseSchema = z.object({
 });
 export type CandlesResponse = z.infer<typeof CandlesResponseSchema>;
 
+/** Order book of a live feed (crypto via Binance). Without a live feed: status "unavailable" and empty sides. */
+export const OrderBookLevelSchema = z.object({ price: Dec, quantity: Dec });
+export const OrderBookSchema = z.object({
+  instrumentId: z.string(),
+  source: z.string(),
+  status: z.enum(['live', 'unavailable']),
+  bids: z.array(OrderBookLevelSchema),
+  asks: z.array(OrderBookLevelSchema),
+  observedAt: Iso.nullable(),
+});
+export type OrderBook = z.infer<typeof OrderBookSchema>;
+export const OrderBookQuerySchema = z.object({ depth: z.coerce.number().int().min(1).max(50).default(10) });
+
 /* ---------- capabilities (D07) ---------- */
 export const SectionSchema = z.object({
   id: z.string(),

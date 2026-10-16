@@ -64,3 +64,12 @@ Seed рынка 20261015. Формат: ID · команда/шаги · ожи�
 | Регрессия | Холодный старт + e2e | без 500 при создании сессии | найдено P2028 (localhost → IPv6 и ожидание соединения) → адреса 127.0.0.1, maxWait 10 с, уступка event loop при расчёте свечей | Passed |
 | Финал | `pnpm lint`, `typecheck`, `test`, `build`, `test:integration`, `test:e2e`, `docs:links` | всё зелёное | 0 lint; 43 unit; 64 integration; 37 e2e; build без предупреждений; 0 битых ссылок | Passed |
 | Финал | Скриншоты `/markets/crypto?symbol=BTC-USD&period=1M` (1440), `/markets/forex?symbol=EUR-USD` (390) | график, котировка, параметры, без горизонтального скролла | корректно | Passed |
+
+## D10+ Живые справочные цены (2026-10-16)
+| ID | Проверка | Ожидание | Факт | Статус |
+|---|---|---|---|---|
+| D10+ | unit `live/feeds.test.ts` (13) | Binance: кеш 24h-тикера с реальными bid/ask, без данных → null (не 0), устаревание → stale, только USD-крипта, klines в диапазоне, ошибка истории → null. Twelve Data: single/batch ответы, приоритет открытой пары, остальные из кеша без трат, лимит в минуту не превышается, 429 → пауза, ключ не попадает в usage, кеш истории, даты UTC | 13 passed | Passed |
+| D10+ | Живой вызов API (dev, ключ в apps/api/.env) | BTC-USD `binance` `live`, EUR-USD `twelvedata` `delayed`, AAPL `simulator`; стакан BTC; свечи 5m/1w BTC с 2022-01-03, 1h EUR/USD; повторный запрос свечей из кеша | так и есть; Twelve Data: 2 кредита из 800 | Passed |
+| D10+ | integration (64) с `MARKET_LIVE_FEEDS=off` | детерминированный симулятор без сети | 64 passed | Passed |
+| D10+ | e2e (38) при включённых feeds | прежние сценарии + стакан на /markets/crypto, нет стакана на акциях | 38 passed | Passed |
+| D10+ | Скриншоты /markets/crypto и /markets/forex (1440) | бейдж «Реальные цены Binance / Twelve Data · сделки демо», источник в карточке, параметрах и под графиком, стакан | корректно | Passed |

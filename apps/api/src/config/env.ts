@@ -20,6 +20,26 @@ const EnvSchema = z.object({
     .optional()
     .transform((v) => (v ? v : undefined))
     .refine((v) => v === undefined || !Number.isNaN(Date.parse(v)), 'MARKET_FIXED_TIME должен быть датой ISO-8601'),
+  // Live reference feeds (ADR 0005): comma list of binance, twelvedata; empty / "off" = simulator only.
+  MARKET_LIVE_FEEDS: z
+    .string()
+    .optional()
+    .transform((v) => (!v || v.trim() === 'off' ? [] : [...new Set(v.split(',').map((x) => x.trim()).filter(Boolean))]))
+    .pipe(z.array(z.enum(['binance', 'twelvedata']), { message: 'MARKET_LIVE_FEEDS: допустимы binance, twelvedata или off' })),
+  BINANCE_BASE_URL: z.string().url().default('https://data-api.binance.vision'),
+  TWELVEDATA_API_KEY: z
+    .string()
+    .optional()
+    .transform((v) => (v ? v : undefined)),
+  TWELVEDATA_BASE_URL: z.string().url().default('https://api.twelvedata.com'),
+  /** Basic plan: 8 credits per minute, 800 per day (one credit per symbol per request). */
+  TWELVEDATA_MINUTE_LIMIT: z.coerce.number().int().min(1).default(8),
+  TWELVEDATA_DAILY_LIMIT: z.coerce.number().int().min(1).default(800),
+  /** Refresh period of the pair open on a chart; other pairs are refreshed much less often. */
+  TWELVEDATA_FOCUS_REFRESH_SEC: z.coerce.number().int().min(15).default(60),
+}).refine((e) => !e.MARKET_LIVE_FEEDS.includes('twelvedata') || !!e.TWELVEDATA_API_KEY, {
+  path: ['TWELVEDATA_API_KEY'],
+  message: 'обязателен, если в MARKET_LIVE_FEEDS указан twelvedata',
 });
 export type Env = z.infer<typeof EnvSchema>;
 

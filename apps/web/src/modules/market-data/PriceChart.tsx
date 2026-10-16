@@ -3,6 +3,7 @@ import { CandlestickSeries, ColorType, createChart, type IChartApi, type ISeries
 import { useEffect, useRef } from 'react';
 import { EmptyState, ErrorState, Spinner, Tabs } from '../../shared/ui';
 import { useCandles } from './candles';
+import { sourceLabel } from './QuoteCard';
 import { useLiveQuote } from './QuoteStreamProvider';
 
 export const PERIOD_LABEL: Record<ChartPeriod, string> = { '24h': '24 ч', '1W': '1 нед', '1M': '1 мес', '1Y': '1 год', All: 'Всё' };
@@ -120,7 +121,7 @@ export function PriceChart({ instrument, period, onPeriod }: { instrument: Pick<
         ) : null}
       </div>
       <p className="muted small chart-attrib">
-        Цены симулированы (демо). Графики:{' '}
+        {data ? (data.source.startsWith('simulator') ? 'Цены симулированы (демо).' : `История цен: ${sourceLabel(data.source)}.`) : null} Графики:{' '}
         <a href="https://www.tradingview.com/" target="_blank" rel="noreferrer noopener">
           TradingView Lightweight Charts™
         </a>{' '}

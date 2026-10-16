@@ -13,7 +13,7 @@ export function MarketsHubPage() {
     <div className="page">
       <header className="page-head">
         <h1>Рынки</h1>
-        <Badge tone="accent">Демо · симулированные котировки</Badge>
+        <Badge tone="accent">Демо · источник цены указан у инструмента</Badge>
       </header>
       {markets.isPending ? (
         <Skeleton lines={4} />

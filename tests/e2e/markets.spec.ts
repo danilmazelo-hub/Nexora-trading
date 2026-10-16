@@ -77,4 +77,21 @@ test.describe('D12 markets and instrument selection', () => {
     await dlg.getByRole('option', { name: /XAU\/USD/ }).click();
     await expect(page).toHaveURL(/\/markets\/commodities\?symbol=XAU-USD/);
   });
+
+  test('crypto shows an order book: live levels with a live feed, otherwise an honest "unavailable"', async ({ page }) => {
+    await page.goto('/markets/crypto?symbol=BTC-USD');
+    const book = page.getByTestId('order-book');
+    await expect(book).toBeVisible();
+    const api = await (await page.request.get('/api/market/instruments/BTC-USD/orderbook?depth=10')).json();
+    if (api.status === 'live') {
+      await expect(book.getByRole('table')).toHaveCount(2);
+      await expect(book.getByText(/Binance/)).toBeVisible();
+    } else {
+      await expect(book.getByText('Стакан недоступен')).toBeVisible();
+    }
+    // other markets have no order book panel
+    await page.goto('/markets/stocks?symbol=AAPL');
+    await expect(page.getByRole('heading', { name: 'График AAPL' })).toBeVisible();
+    await expect(page.getByTestId('order-book')).toHaveCount(0);
+  });
 });

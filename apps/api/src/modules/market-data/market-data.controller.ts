@@ -1,5 +1,5 @@
 import { Controller, Get, type MessageEvent, Param, Query, Req, Sse } from '@nestjs/common';
-import { type CandlesResponse, CandlesQuerySchema, type Quote, type QuoteEvent } from '@nexora/contracts';
+import { type CandlesResponse, CandlesQuerySchema, type OrderBook, OrderBookQuerySchema, type Quote, type QuoteEvent } from '@nexora/contracts';
 import { type Request } from 'express';
 import { concat, defer, from, map, mergeMap, Observable } from 'rxjs';
 import { z } from 'zod';
@@ -66,6 +66,12 @@ export class MarketDataController {
     return this.market.candles(id, query.interval, { ...query, unavailable: await this.unavailableFor(req) });
   }
 
+  @Get('instruments/:id/orderbook')
+  async orderBook(@Req() req: Request, @Param('id') id: string, @Query() q: unknown): Promise<OrderBook> {
+    const { depth } = parse(OrderBookQuerySchema, q);
+    return this.market.orderBook(id, depth, await this.unavailableFor(req));
+  }
+
   /**
    * One SSE channel per browser tab for the instruments it shows. The first event is always a full snapshot
    * (also after a reconnect with Last-Event-ID), then one "update" per 2-second tick. Event id = seq =
@@ -81,7 +87,7 @@ export class MarketDataController {
     }).pipe(
       mergeMap(({ known, unavailable }) => {
         const event = (kind: QuoteEvent['kind'], t: number): Promise<MessageEvent> =>
-          this.market.quotes(known, { unavailable, t }).then((quotes) => {
+          this.market.quotes(known, { unavailable, t, demand: 'stream', prime: kind === 'snapshot' }).then((quotes) => {
             const seq = Math.floor(t / 2000);
             return { id: String(seq), type: 'quotes', data: { seq, kind, quotes } satisfies QuoteEvent };
           });

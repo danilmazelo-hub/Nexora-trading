@@ -1,18 +1,32 @@
 import { Injectable, Logger, type OnModuleDestroy, type OnModuleInit } from '@nestjs/common';
 import { type Instrument } from '@prisma/client';
-import { type Candle, type CandlesResponse, D, HISTORY_START, type Interval, INTERVAL_MS, percentChange, placesOf, type Quote, toDecimalString } from '@nexora/contracts';
+import { type Candle, type CandlesResponse, D, HISTORY_START, type Interval, INTERVAL_MS, type OrderBook, percentChange, placesOf, type Quote, toDecimalString, type TradableMarket } from '@nexora/contracts';
 import Decimal from 'decimal.js';
+import { loadEnv } from '../../config/env';
 import { bucketStart } from '../../domain/market-sim/simulator';
 import { PrismaService } from '../../infra/database/prisma.service';
 import { AppError } from '../../shared/app-error';
 import { InstrumentsService } from '../instruments/instruments.service';
+import { createFeeds } from './live/feeds';
+import { type Demand, type LiveFeed } from './live/live-feed';
 import { MarketClock } from './market-clock';
 import { type MarketDataProvider, SimulatorProvider } from './provider';
 
-/** Full bid–ask spread in basis points per market (demo). */
+/** Full bid–ask spread in basis points per market (demo; also applied around live prices without bid/ask). */
 const SPREAD_BPS: Record<string, number> = { crypto: 6, stocks: 3, indices: 2, forex: 1.2, commodities: 5 };
 const HISTORY_START_MS = Date.parse(HISTORY_START);
 const QUOTE_FLUSH_MS = 10_000;
+/** How long a request waits for the very first value of a live instrument. */
+const PRIME_MS = 4_000;
+
+export interface QuoteOpts {
+  unavailable?: boolean;
+  t?: number;
+  /** stream = shown in an SSE stream, request = REST read, background = internal (does not keep feeds polling). */
+  demand?: Demand;
+  /** Wait for the first value of live instruments (false for SSE updates: they never block a tick). */
+  prime?: boolean;
+}
 
 @Injectable()
 export class MarketDataService implements OnModuleInit, OnModuleDestroy {
@@ -22,6 +36,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
   private instrumentsAt = 0;
   private readonly recent = new Map<string, number>();
   private flushTimer: NodeJS.Timeout | null = null;
+  private readonly feeds: Map<TradableMarket, LiveFeed> = createFeeds(loadEnv());
 
   constructor(
     private readonly prisma: PrismaService,
@@ -35,6 +50,17 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
   }
   onModuleDestroy() {
     if (this.flushTimer) clearInterval(this.flushTimer);
+    for (const f of this.feeds.values()) f.stop();
+  }
+
+  /**
+   * The live reference feed of this instrument's market, if one is enabled and supports it. Live feeds follow
+   * real time only: with a fixed market clock (demo scenarios, tests) every market uses the simulator.
+   */
+  private async liveFeedOf(inst: Instrument): Promise<LiveFeed | null> {
+    const feed = this.feeds.get(inst.market as TradableMarket);
+    if (!feed || !feed.supports(inst)) return null;
+    return (await this.clock.refresh()).mode === 'REALTIME' ? feed : null;
   }
 
   async providerFor(): Promise<MarketDataProvider> {
@@ -68,14 +94,25 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
    * Quote as of market time t. Missing data stays missing: unavailable instruments (or the session scenario
    * QUOTES_UNAVAILABLE) return null prices and status "unavailable", never 0 / +0.00 %.
    */
-  async quote(id: string, opts: { unavailable?: boolean; t?: number } = {}): Promise<Quote> {
+  async quote(id: string, opts: QuoteOpts = {}): Promise<Quote> {
     const inst = await this.instrument(id);
     const t = opts.t ?? (await this.clock.now());
     const state = await this.clock.refresh();
-    const provider = await this.providerFor();
+    const feed = await this.liveFeedOf(inst);
+    const provider = feed ?? (await this.providerFor());
+    const demand = opts.demand ?? 'request';
     const receivedAt = new Date().toISOString();
-    this.recent.set(id, Date.now());
-    const raw = opts.unavailable ? null : provider.quote(inst, t);
+    if (demand !== 'background') this.recent.set(id, Date.now());
+    let raw = null;
+    if (!opts.unavailable) {
+      if (feed) {
+        raw = feed.quote(inst, demand);
+        if (!raw && demand !== 'background' && opts.prime !== false) {
+          await feed.prime([inst], PRIME_MS);
+          raw = feed.quote(inst, 'background');
+        }
+      } else raw = (provider as MarketDataProvider).quote(inst, t);
+    }
     const changePeriod = inst.market === 'crypto' ? '24h' : 'prev_close';
     if (!raw) return { instrumentId: id, source: provider.source, status: 'unavailable', bid: null, ask: null, last: null, change: null, changePct: null, changePeriod, observedAt: null, receivedAt };
     const places = placesOf(toDecimalString(inst.tickSize.toString()));
@@ -83,12 +120,15 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     const half = mid.times(SPREAD_BPS[inst.market] ?? 5).div(20_000);
     const last = mid.toDecimalPlaces(places, Decimal.ROUND_HALF_UP);
     const reference = new D(raw.reference).toDecimalPlaces(places, Decimal.ROUND_HALF_UP);
+    // real best bid/ask when the feed has them, otherwise the demo spread around the price
+    const bid = raw.bid && raw.ask ? new D(raw.bid) : mid.minus(half);
+    const ask = raw.bid && raw.ask ? new D(raw.ask) : mid.plus(half);
     return {
       instrumentId: id,
       source: provider.source,
-      status: state.mode === 'FIXED' ? 'delayed' : 'live',
-      bid: mid.minus(half).toDecimalPlaces(places, Decimal.ROUND_DOWN).toFixed(places),
-      ask: mid.plus(half).toDecimalPlaces(places, Decimal.ROUND_UP).toFixed(places),
+      status: raw.status ?? (state.mode === 'FIXED' ? 'delayed' : 'live'),
+      bid: bid.toDecimalPlaces(places, Decimal.ROUND_DOWN).toFixed(places),
+      ask: ask.toDecimalPlaces(places, Decimal.ROUND_UP).toFixed(places),
       last: last.toFixed(places),
       change: last.minus(reference).toFixed(places),
       changePct: percentChange(last.toFixed(places), reference.toFixed(places), 4),
@@ -98,10 +138,26 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     };
   }
 
-  async quotes(ids: string[], opts: { unavailable?: boolean; t?: number } = {}): Promise<Quote[]> {
+  async quotes(ids: string[], opts: QuoteOpts = {}): Promise<Quote[]> {
     const t = opts.t ?? (await this.clock.now());
     const known = await this.knownIds(ids);
-    return Promise.all(known.map((id) => this.quote(id, { ...opts, t })));
+    const demand = opts.demand ?? 'request';
+    if (!opts.unavailable && demand !== 'background' && opts.prime !== false) {
+      // one batched first fetch per feed instead of one per instrument
+      const byFeed = new Map<LiveFeed, Instrument[]>();
+      for (const id of known) {
+        const inst = await this.instrument(id);
+        const feed = await this.liveFeedOf(inst);
+        if (feed) byFeed.set(feed, [...(byFeed.get(feed) ?? []), inst]);
+      }
+      await Promise.all(
+        [...byFeed].map(([feed, list]) => {
+          for (const i of list) feed.quote(i, demand);
+          return feed.prime(list, PRIME_MS);
+        }),
+      );
+    }
+    return Promise.all(known.map((id) => this.quote(id, { ...opts, t, prime: false })));
   }
 
   /** Writes the latest quotes of recently requested instruments to the Quote cache table. */
@@ -110,7 +166,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     const ids = [...this.recent.entries()].filter(([, at]) => at >= since).map(([id]) => id);
     for (const [id, at] of this.recent) if (at < since) this.recent.delete(id);
     if (!ids.length) return;
-    const qs = await this.quotes(ids);
+    const qs = await this.quotes(ids, { demand: 'background' });
     await this.prisma.$transaction(
       qs.map((q) => {
         const data = { bid: q.bid, ask: q.ask, last: q.last, changePct: q.changePct, changePeriod: q.changePeriod, observedAt: q.observedAt ? new Date(q.observedAt) : null, receivedAt: new Date(q.receivedAt) };
@@ -126,7 +182,8 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
    */
   async candles(id: string, interval: Interval, q: { from?: string; to?: string; limit: number; unavailable?: boolean }): Promise<CandlesResponse> {
     const inst = await this.instrument(id);
-    const provider = await this.providerFor();
+    const feed = await this.liveFeedOf(inst);
+    const provider = feed ?? (await this.providerFor());
     const now = await this.clock.now();
     const ms = INTERVAL_MS[interval];
     const toT = Math.min(q.to ? Date.parse(q.to) : now, now);
@@ -145,6 +202,24 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     if (q.unavailable || inst.status !== 'ACTIVE' || last < first) return { ...base, candles: [] };
 
     const places = placesOf(toDecimalString(inst.tickSize.toString()));
+    const px = (v: string) => new D(v).toDecimalPlaces(places, Decimal.ROUND_HALF_UP).toFixed(places);
+    if (feed) {
+      // real history from the feed (Binance: every call; Twelve Data: cached in the feed to save credits)
+      const bars = await feed.candles(inst, interval, first, last);
+      if (!bars) throw new AppError('QUOTES_UNAVAILABLE', 503, 'Источник цен сейчас не отдаёт историю (лимит запросов или сбой связи). Повторите через минуту.');
+      const candles = bars.map((b) => ({
+        openTime: new Date(b.start).toISOString(),
+        closeTime: new Date(b.start + ms).toISOString(),
+        open: px(b.o),
+        high: px(b.h),
+        low: px(b.l),
+        close: px(b.c),
+        volume: new D(b.v).toDecimalPlaces(8).toFixed(),
+        isClosed: b.start + ms <= now,
+      }));
+      return { ...base, candles };
+    }
+    const sim = provider as MarketDataProvider;
     const lastClosedStart = last + ms <= now ? last : last - ms;
     const cached = lastClosedStart >= first
       ? await this.prisma.candle.findMany({ where: { instrumentId: id, source: provider.source, interval, openTime: { gte: new Date(first), lte: new Date(lastClosedStart) } }, orderBy: { openTime: 'asc' } })
@@ -164,7 +239,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
       }
       // Long histories are CPU-heavy on first computation: yield to other requests regularly.
       if (++computed % 25 === 0) await new Promise((r) => setImmediate(r));
-      const c = provider.candle(inst, start, ms, now);
+      const c = sim.candle(inst, start, ms, now);
       if (!c) continue;
       const row = { openTime: new Date(start), closeTime: new Date(start + ms), open: fmt(c.o), high: fmt(c.h), low: fmt(c.l), close: fmt(c.c), volume: new D(c.v).toDecimalPlaces(8).toFixed() };
       out.push({ ...row, openTime: row.openTime.toISOString(), closeTime: row.closeTime.toISOString(), isClosed: closed });
@@ -185,8 +260,28 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     return this.clock.now();
   }
 
+  /** Order book from the live feed (crypto via Binance); without one the book is reported unavailable, never faked. */
+  async orderBook(id: string, depth: number, unavailable = false): Promise<OrderBook> {
+    const inst = await this.instrument(id);
+    const feed = await this.liveFeedOf(inst);
+    const none: OrderBook = { instrumentId: id, source: feed?.source ?? 'none', status: 'unavailable', bids: [], asks: [], observedAt: null };
+    if (unavailable || !feed?.orderBook) return none;
+    const book = await feed.orderBook(inst, depth);
+    if (!book) return none;
+    const places = placesOf(toDecimalString(inst.tickSize.toString()));
+    const level = ([p, q]: [string, string]) => ({ price: new D(p).toDecimalPlaces(places, Decimal.ROUND_HALF_UP).toFixed(places), quantity: new D(q).toFixed() });
+    return { instrumentId: id, source: feed.source, status: 'live', bids: book.bids.map(level), asks: book.asks.map(level), observedAt: new Date(book.observedAt).toISOString() };
+  }
+
   async status() {
     const s = await this.clock.refresh();
-    return { source: (await this.providerFor()).source, seed: s.seed, clockMode: s.mode, now: new Date(await this.clock.now()).toISOString() };
+    const live = s.mode === 'REALTIME';
+    const feeds = Object.fromEntries([...this.feeds].map(([market, f]) => [market, { source: f.source, active: live, ...(f.usage ? { usage: f.usage() } : {}) }]));
+    return { source: (await this.providerFor()).source, seed: s.seed, clockMode: s.mode, now: new Date(await this.clock.now()).toISOString(), feeds };
+  }
+
+  /** "simulator", or "simulator+binance+twelvedata" when live reference feeds are enabled. */
+  priceSource(): string {
+    return ['simulator', ...[...this.feeds.values()].map((f) => f.source)].join('+');
   }
 }

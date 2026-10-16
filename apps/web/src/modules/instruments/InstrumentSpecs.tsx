@@ -1,9 +1,13 @@
 import { type Instrument } from '@nexora/contracts';
+import { sourceLabel } from '../market-data/QuoteCard';
+import { useLiveQuote } from '../market-data/QuoteStreamProvider';
 import { Badge } from '../../shared/ui';
 import { CATEGORY_LABEL, MARKET_LABEL, UNIT_LABEL } from './labels';
 
 /** Contract units of an instrument (no trading form): what one quantity step and one tick mean. */
 export function InstrumentSpecs({ instrument: i }: { instrument: Instrument }) {
+  // the price source is the one of the live quote (simulator or a reference feed), not only the catalogue default
+  const live = useLiveQuote(i.status === 'ACTIVE' ? i.id : null);
   const unit = i.unit ? (UNIT_LABEL[i.unit] ?? i.unit) : i.market === 'forex' ? `единица ${i.baseAsset}` : i.baseAsset;
   return (
     <section className="panel" aria-labelledby={`specs-${i.id}`}>
@@ -35,7 +39,7 @@ export function InstrumentSpecs({ instrument: i }: { instrument: Instrument }) {
         <dt>Макс. плечо (демо)</dt>
         <dd className="num">1:{i.maxLeverage}</dd>
         <dt>Источник цены</dt>
-        <dd>{i.source === 'simulator' ? 'Симулятор NEXORA (демо)' : i.source}</dd>
+        <dd>{sourceLabel(live.data?.source ?? i.source)}</dd>
       </dl>
     </section>
   );

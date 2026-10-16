@@ -7,7 +7,8 @@ test.describe('D10–D11 quotes', () => {
   test('test card shows price, source, time and status; it matches the API', async ({ page }) => {
     await enterDemo(page, '/dev/quotes');
     const card = page.locator('[data-instrument="BTC-USD"]');
-    await expect(card.getByText('Симулятор NEXORA (демо)')).toBeVisible();
+    // simulator, or Binance when live reference feeds are on (ADR 0005)
+    await expect(card.getByText(/Симулятор NEXORA \(демо\)|Binance · справочная цена/)).toBeVisible();
     await expect(card.getByText('Онлайн')).toBeVisible();
     await expect(card.getByText('за 24 ч')).toBeVisible();
     await expect(card.getByTestId('quote-observed')).not.toHaveText('—');
@@ -50,7 +51,8 @@ test.describe('D10–D11 quotes', () => {
 
   test('prices update; after a dropped connection the stream recovers with one new connection', async ({ page }) => {
     await enterDemo(page, '/finance/account');
-    const price = page.locator('[data-instrument="BTC-USD"] [data-testid="quote-last"]');
+    // AAPL stays on the simulator (ticks every 2 s); a live feed price may legitimately stand still for a while
+    const price = page.locator('[data-instrument="AAPL"] [data-testid="quote-last"]');
     await expect(price).not.toHaveText('—');
     const before = await price.innerText();
     await expect.poll(() => price.innerText(), { timeout: 20_000 }).not.toBe(before);
