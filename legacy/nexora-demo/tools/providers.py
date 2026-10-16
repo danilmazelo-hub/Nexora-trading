@@ -589,7 +589,7 @@ class Hub:
             Yahoo(), Frankfurter()]}
         self.chains = dict(DEFAULT_CHAINS)
         self.disabled = set()
-        self.section_stats = {s: {"requests": 0, "served": 0, "fallback": 0, "unserved": 0, "lastProvider": None} for s in SECTIONS}
+        self.section_stats = {s: {"requests": 0, "served": 0, "fallback": 0, "unserved": 0, "lastProvider": None, "servedAt": {}} for s in SECTIONS}
         self.qcache = {}   # (section, sym) -> (expires, quote)
         self.td_last = {}  # (section, sym) -> last Twelve Data refresh time (rotation order)
         self.ccache = {}   # (section, sym, tf) -> (expires, payload)
@@ -691,6 +691,9 @@ class Hub:
                     st["fallback"] += 1
                     if section == "forex":   # short cache: Twelve Data takes these pairs over as credits allow
                         self.qcache[(section, s)] = (time.time() + 60, qq)
+            if res:
+                # every provider that actually served prices is "serving" (not only the last one in the chain)
+                st["servedAt"][name] = time.time()
             st["lastProvider"] = name
             remaining = [s for s in remaining if s not in res]
         if section == "crypto" and "coingecko" in self.providers and self.usable("coingecko"):

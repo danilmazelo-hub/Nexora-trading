@@ -192,7 +192,7 @@
           const state = !p.available ? '<span class="status gray">' + t('ds.noKey') + '</span>'
             : p.disabled ? '<span class="status gray">' + t('ds.off') + '</span>'
             : m.tripped ? '<span class="status bad">' + t('ds.tripped', { time: U.time(m.trippedUntil * 1000) }) + '</span>'
-            : stats.lastProvider === name ? '<span class="status">' + t('ds.active') + '</span>' : '<span class="status info">' + t('ds.ready') + '</span>';
+            : (stats.servedAt && stats.servedAt[name] && Date.now() / 1000 - stats.servedAt[name] < 180) || (!stats.servedAt && stats.lastProvider === name) ? '<span class="status">' + t('ds.active') + '</span>' : '<span class="status info">' + t('ds.ready') + '</span>';
           const role = i === 0 ? '<span class="pill info">' + t('ds.primary') + '</span>' : '<span class="pill gray">' + t('ds.backupN', { n: i }) + '</span>';
           return '<tr><td data-label="">' + role + '</td>' +
             '<td data-label="API"><b>' + U.esc(p.label) + '</b>' + (p.official ? '' : ' <span class="internal-tag">' + t('live.unofficialShort') + '</span>') + '<br><small class="muted" style="white-space:normal">' + U.esc(p.note) + (p.monthCalls != null ? ' · ' + t('ds.monthCalls', { n: U.fmt(p.monthCalls, 0) }) : '') + (p.dayLimit != null ? ' · ' + t('ds.dayCredits', { n: U.fmt(p.dayUsed, 0), max: U.fmt(p.dayLimit, 0) }) : '') + '</small></td>' +
