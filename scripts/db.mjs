@@ -93,11 +93,21 @@ async function start() {
     writeFileSync(pwfile, PASSWORD + '\n');
     run(exe('initdb'), ['-D', DATA, '-U', USER, '--pwfile', pwfile, '-A', 'scram-sha-256', '-E', 'UTF8', '--locale=C']);
   }
-  // Run the server fully detached (output to the log file) so it outlives this script and the terminal.
-  const log = openSync(LOG, 'a');
+  // Run the server independently of this script and the terminal (output to the log file).
   const args = ['-D', DATA, '-p', String(PORT), '-c', 'listen_addresses=127.0.0.1', '-c', 'TimeZone=UTC', '-c', 'max_logical_replication_workers=0'];
-  const child = spawn(exe('postgres'), args, { stdio: ['ignore', log, log], detached: true, windowsHide: true });
-  child.unref();
+  if (process.platform === 'win32') {
+    // `detached` on Windows means "no console at all": postgres then gets a NEW console window for every backend
+    // process (one per connection). Start it with one hidden console instead; all backends inherit that one.
+    // Paths are ASCII 8.3 short paths (see ascii()), so plain single quotes are safe here.
+    const ps = `Start-Process -FilePath '${exe('postgres')}' -ArgumentList '${args.join(' ')}' -WindowStyle Hidden -RedirectStandardError '${LOG}' -RedirectStandardOutput '${LOG}.out'`;
+    // stdio 'ignore': postgres must not inherit pipes of this call, or spawnSync would wait for it to exit
+    const r = spawnSync('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command', ps], { stdio: 'ignore', windowsHide: true });
+    if (r.status !== 0) throw new Error(`Start-Process postgres failed (exit ${r.status}); see .data/postgres.log`);
+  } else {
+    const log = openSync(LOG, 'a');
+    const child = spawn(exe('postgres'), args, { stdio: ['ignore', log, log], detached: true });
+    child.unref();
+  }
   if (!(await waitReady())) throw new Error('PostgreSQL did not become ready; see .data/postgres.log');
   await ensureDatabases();
   console.info(`PostgreSQL ready on localhost:${PORT} (databases: ${DATABASES.join(', ')}); data in .data/postgres`);
