@@ -67,8 +67,25 @@ scripts/            db.mjs (встроенный PostgreSQL), check-links.mjs, d
 tests/e2e           Playwright
 docs/               architecture, data-model, api-contracts, acceptance, screen-inventory, decisions, progress, QA-results
 docs/handoff        исходный пакет плана и аудиты (только справка)
-legacy/nexora-demo  прежний статический прототип (не развивается)
+legacy/nexora-demo  прежний статический прототип и CRM (только справка, не развивается; запуск — pnpm crm)
 ```
+
+## CRM (старый прототип)
+CRM-панель (клиенты, воронка, задачи, тикеты, платежи, сотрудники и роли, инструменты, комиссии) пока есть только в
+прежнем прототипе `legacy/nexora-demo`; в новом приложении её нет (в плане — кабинет оператора R11, этап 2). Данные
+тестовые и хранятся в браузере. Нужен Python 3:
+
+```powershell
+pnpm crm          # = python legacy/nexora-demo/tools/serve.py 8080
+```
+
+| Что | Адрес |
+|---|---|
+| CRM | http://localhost:8080/crm.html |
+| Прототип платформы | http://localhost:8080/ |
+
+Ключи котировок прототипа — в `legacy/nexora-demo/tools/.env` (шаблон `tools/.env.example`, в git не попадает). Прототип и
+новое приложение с одним ключом Twelve Data делят его лимит (8 запросов/мин).
 
 ## Реальные цены (необязательно)
 По умолчанию все котировки — детерминированный симулятор. В `apps/api/.env` можно включить справочные цены

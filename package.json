@@ -23,7 +23,8 @@
     "db:migrate": "pnpm --filter @nexora/api db:migrate",
     "db:migrate:dev": "pnpm --filter @nexora/api db:migrate:dev",
     "db:seed": "pnpm --filter @nexora/api db:seed",
-    "docs:links": "node scripts/check-links.mjs"
+    "docs:links": "node scripts/check-links.mjs",
+    "crm": "python legacy/nexora-demo/tools/serve.py 8080"
   },
   "devDependencies": {
     "@eslint/js": "9.39.5",
