@@ -51,7 +51,7 @@ export const PERIOD_SPEC: Record<ChartPeriod, { interval: Interval; lookbackMs: 
   All: { interval: '1w', lookbackMs: null },
 };
 
-export type QuoteStatus = 'live' | 'delayed' | 'stale' | 'unavailable';
+export type QuoteStatus = 'live' | 'delayed' | 'eod' | 'stale' | 'unavailable';
 /** Change period label: crypto trades 24/7 (rolling 24h), others vs previous UTC session close. */
 export type ChangePeriod = '24h' | 'prev_close';
 /** A quote older than this (by observedAt) is reported as stale. */

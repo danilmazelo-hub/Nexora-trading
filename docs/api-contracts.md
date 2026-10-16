@@ -61,7 +61,7 @@ decimal-строки; проценты — процентные пункты (`"
 | Метод | Путь | Параметры / ответ |
 |---|---|---|
 | GET | `/market/status` | `{ source, seed, clockMode: REALTIME|FIXED, now, streams, feeds }`; `feeds` — включённые справочные источники по рынкам `{ crypto: { source: "binance", active } , forex: { source: "twelvedata", active, usage } }` (`usage` — расход кредитов Twelve Data, без ключа) |
-| GET | `/market/quotes/:id` | `Quote`: `bid/ask/last/change` — decimal-строки по шагу цены, `changePct` — процентные пункты, `changePeriod` `24h` (крипта) или `prev_close` (остальные, к закрытию предыдущего UTC-дня), `observedAt` (время цены, кратно 2 с), `receivedAt`, `status` `live|delayed|stale|unavailable`. Нет цены → все цены `null`, `status: unavailable` |
+| GET | `/market/quotes/:id` | `Quote`: `bid/ask/last/change` — decimal-строки по шагу цены, `changePct` — процентные пункты, `changePeriod` `24h` (крипта) или `prev_close` (остальные, к закрытию предыдущего UTC-дня), `observedAt` (время цены, кратно 2 с), `receivedAt`, `status` `live|delayed|eod|stale|unavailable` (`eod` — закрытие последней сессии, индексы Massive). Нет цены → все цены `null`, `status: unavailable` |
 | GET | `/market/quotes?ids=a,b` | `{ items: Quote[], asOf }`, 1–60 id; неизвестные id пропускаются |
 | GET | `/market/stream?ids=a,b` | SSE, событие `quotes` `{ seq, kind: snapshot|update, quotes }`, `id = seq`. Первое событие — snapshot (также после reconnect с `Last-Event-ID`); далее одно update на 2-секундный тик. См. [ADR 0003](decisions/0003-quote-stream-sse.md) |
 | GET | `/market/instruments/:id/candles` | `interval=5m|15m|1h|4h|1d|1w`, `from?`, `to?` (ISO UTC), `limit 1–1000` (по умолчанию 500) → `CandlesResponse { instrumentId, source, interval, from, to, truncated, candles: [{ openTime, closeTime, open, high, low, close, volume, isClosed }] }`. Свечи по возрастанию, без дублей, без будущих; последняя — формирующаяся (`isClosed:false`), её `close` = текущей котировке. `from > to` → 400. Недели начинаются в понедельник 00:00 UTC; история с 2022-01-03 |
@@ -69,6 +69,7 @@ decimal-строки; проценты — процентные пункты (`"
 | GET | `/market/instruments/:id/orderbook` | `depth 1–50` (10) → `OrderBook { instrumentId, source, status: live|unavailable, bids, asks: [{ price, quantity }], observedAt }`. Только crypto с Binance; иначе `unavailable` и пустые стороны (стакан не выдумывается) |
 
 Источник цены инструмента один для котировки, потока и свечей: справочный feed рынка (ADR 0005, `source` `binance` /
-`twelvedata`) при `MARKET_LIVE_FEEDS` и часах REALTIME, иначе `SimulatorProvider` (`simulator:<seed>`). Twelve Data обслуживает forex, акции США и XAU/XAG/XPT/XPD; символ, отклонённый тарифом, переходит на симулятор. `status`: Binance —
+`twelvedata`) при `MARKET_LIVE_FEEDS` и часах REALTIME, иначе `SimulatorProvider` (`simulator:<seed>`). Twelve Data обслуживает forex, акции США и XAU/XAG/XPT/XPD; Massive — индексы США по итогам дня (свечи только 1d/1w,
+внутридневные — пустой список); EIA — энергоносители (`eia-sim`, ADR 0007); символ, отклонённый тарифом, переходит на симулятор. `status`: Binance —
 `live` (старше 30 с → `stale`), Twelve Data — `delayed` (старше 45 мин → `stale`), симулятор — `live` / `delayed` при фиксированных часах.
 Нет истории у feed (лимит, сбой) → 503 `QUOTES_UNAVAILABLE`.

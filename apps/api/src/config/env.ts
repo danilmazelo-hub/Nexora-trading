@@ -25,7 +25,7 @@ const EnvSchema = z.object({
     .string()
     .optional()
     .transform((v) => (!v || v.trim() === 'off' ? [] : [...new Set(v.split(',').map((x) => x.trim()).filter(Boolean))]))
-    .pipe(z.array(z.enum(['binance', 'twelvedata']), { message: 'MARKET_LIVE_FEEDS: допустимы binance, twelvedata или off' })),
+    .pipe(z.array(z.enum(['binance', 'twelvedata', 'massive', 'eia']), { message: 'MARKET_LIVE_FEEDS: допустимы binance, twelvedata, massive, eia или off' })),
   BINANCE_BASE_URL: z.string().url().default('https://data-api.binance.vision'),
   TWELVEDATA_API_KEY: z
     .string()
@@ -38,15 +38,36 @@ const EnvSchema = z.object({
     .default('forex,stocks,metals')
     .transform((v) => [...new Set(v.split(',').map((x) => x.trim()).filter(Boolean))])
     .pipe(z.array(z.enum(['forex', 'stocks', 'metals']), { message: 'TWELVEDATA_MARKETS: допустимы forex, stocks, metals' })),
+  /** Massive (indices, end of day; free plan: 5 requests per minute). */
+  MASSIVE_API_KEY: z
+    .string()
+    .optional()
+    .transform((v) => (v ? v : undefined)),
+  MASSIVE_BASE_URL: z.string().url().default('https://api.massive.com'),
+  /** EIA open data (daily energy spot prices). */
+  EIA_API_KEY: z
+    .string()
+    .optional()
+    .transform((v) => (v ? v : undefined)),
+  EIA_BASE_URL: z.string().url().default('https://api.eia.gov'),
   /** Basic plan: 8 credits per minute, 800 per day (one credit per symbol per request). */
   TWELVEDATA_MINUTE_LIMIT: z.coerce.number().int().min(1).default(8),
   TWELVEDATA_DAILY_LIMIT: z.coerce.number().int().min(1).default(800),
   /** Refresh period of the pair open on a chart; other pairs are refreshed much less often. */
   TWELVEDATA_FOCUS_REFRESH_SEC: z.coerce.number().int().min(15).default(60),
-}).refine((e) => !e.MARKET_LIVE_FEEDS.includes('twelvedata') || !!e.TWELVEDATA_API_KEY, {
-  path: ['TWELVEDATA_API_KEY'],
-  message: 'обязателен, если в MARKET_LIVE_FEEDS указан twelvedata',
-});
+})
+  .refine((e) => !e.MARKET_LIVE_FEEDS.includes('twelvedata') || !!e.TWELVEDATA_API_KEY, {
+    path: ['TWELVEDATA_API_KEY'],
+    message: 'обязателен, если в MARKET_LIVE_FEEDS указан twelvedata',
+  })
+  .refine((e) => !e.MARKET_LIVE_FEEDS.includes('massive') || !!e.MASSIVE_API_KEY, {
+    path: ['MASSIVE_API_KEY'],
+    message: 'обязателен, если в MARKET_LIVE_FEEDS указан massive',
+  })
+  .refine((e) => !e.MARKET_LIVE_FEEDS.includes('eia') || !!e.EIA_API_KEY, {
+    path: ['EIA_API_KEY'],
+    message: 'обязателен, если в MARKET_LIVE_FEEDS указан eia',
+  });
 export type Env = z.infer<typeof EnvSchema>;
 
 let cached: Env | null = null;

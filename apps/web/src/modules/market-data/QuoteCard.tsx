@@ -15,6 +15,7 @@ export function displayStatus(q: Quote, now: number): DisplayStatus {
 const STATUS: Record<DisplayStatus, { label: string; tone: 'up' | 'warn' | 'down' | 'info' }> = {
   live: { label: 'Онлайн', tone: 'up' },
   delayed: { label: 'С задержкой', tone: 'info' },
+  eod: { label: 'По итогам дня', tone: 'info' },
   stale: { label: 'Устарела', tone: 'warn' },
   unavailable: { label: 'Недоступно', tone: 'down' },
 };
@@ -40,6 +41,8 @@ export function useNow(everyMs = 5000) {
 const SOURCES: Record<string, string> = {
   binance: 'Binance · справочная цена (USDT ≈ USD)',
   twelvedata: 'Twelve Data · справочная цена, обновление ~1 мин',
+  massive: 'Massive · по итогам дня (закрытие сессии)',
+  'eia-sim': 'Симуляция от дневных цен EIA (демо)',
 };
 
 export function sourceLabel(source: string) {
@@ -49,6 +52,8 @@ export function sourceLabel(source: string) {
 /** Page-level badge: simulated prices, or real reference prices with demo trading. */
 export function sourceBadge(source: string): { label: string; tone: 'accent' | 'info' } {
   if (isSimulator(source)) return { label: 'Симулированные котировки', tone: 'accent' };
+  if (source === 'eia-sim') return { label: 'Симуляция от реальных цен EIA · демо', tone: 'accent' };
+  if (source === 'massive') return { label: 'Индексы по итогам дня (Massive) · сделки демо', tone: 'info' };
   const name = source === 'binance' ? 'Binance' : source === 'twelvedata' ? 'Twelve Data' : source;
   return { label: `Реальные цены ${name} · сделки демо`, tone: 'info' };
 }
@@ -91,7 +96,7 @@ export function QuoteCard({ instrument, compact }: { instrument: Pick<Instrument
           <dd>{sourceLabel(d.source)}</dd>
           <dt>Время цены</dt>
           <dd className="num" data-testid="quote-observed">
-            {d.observedAt ? new Date(d.observedAt).toLocaleTimeString('ru-RU') : '—'}
+            {d.observedAt ? (d.status === 'eod' ? `сессия ${new Date(d.observedAt).toLocaleDateString('ru-RU', { timeZone: 'UTC' })}` : new Date(d.observedAt).toLocaleTimeString('ru-RU')) : '—'}
           </dd>
           <dt>Поток</dt>
           <dd>{stream === 'open' ? 'подключён' : stream === 'reconnecting' ? 'переподключение…' : stream === 'connecting' ? 'подключение…' : 'нет подписки'}</dd>

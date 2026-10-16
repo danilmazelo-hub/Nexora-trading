@@ -21,7 +21,9 @@ Company and token logos remain trademarks of their respective owners; their use 
 implies no affiliation or endorsement.
 
 ## Market data (optional, ADR 0005)
-When enabled in `apps/api/.env`: Binance Spot public market data (crypto) and Twelve Data (forex) are used as
+When enabled in `apps/api/.env`: Binance Spot public market data (crypto), Twelve Data (forex, US stocks, gold),
+Massive (US indices, end of day) and the U.S. Energy Information Administration open data (energy spot prices, public
+domain; source: U.S. EIA) are used as
 reference prices only, under each provider's terms of use; check those terms before any public display. No provider
 logos are shown. Without these feeds all prices are simulated.
 

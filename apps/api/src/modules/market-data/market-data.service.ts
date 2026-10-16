@@ -36,7 +36,11 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
   private instrumentsAt = 0;
   private readonly recent = new Map<string, number>();
   private flushTimer: NodeJS.Timeout | null = null;
-  private readonly feeds: Map<TradableMarket, LiveFeed> = createFeeds(loadEnv());
+  private readonly feeds: Map<TradableMarket, LiveFeed[]> = createFeeds(loadEnv());
+  /** Every distinct feed once (Twelve Data serves several markets). */
+  private get allFeeds(): LiveFeed[] {
+    return [...new Set([...this.feeds.values()].flat())];
+  }
 
   constructor(
     private readonly prisma: PrismaService,
@@ -50,7 +54,7 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
   }
   onModuleDestroy() {
     if (this.flushTimer) clearInterval(this.flushTimer);
-    for (const f of this.feeds.values()) f.stop();
+    for (const f of this.allFeeds) f.stop();
   }
 
   /**
@@ -58,8 +62,8 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
    * real time only: with a fixed market clock (demo scenarios, tests) every market uses the simulator.
    */
   private async liveFeedOf(inst: Instrument): Promise<LiveFeed | null> {
-    const feed = this.feeds.get(inst.market as TradableMarket);
-    if (!feed || !feed.supports(inst)) return null;
+    const feed = this.feeds.get(inst.market as TradableMarket)?.find((f) => f.supports(inst));
+    if (!feed) return null;
     return (await this.clock.refresh()).mode === 'REALTIME' ? feed : null;
   }
 
@@ -280,12 +284,12 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
   async status() {
     const s = await this.clock.refresh();
     const live = s.mode === 'REALTIME';
-    const feeds = Object.fromEntries([...this.feeds].map(([market, f]) => [market, { source: f.source, active: live, ...(f.usage ? { usage: f.usage() } : {}) }]));
+    const feeds = Object.fromEntries([...this.feeds].map(([market, list]) => [market, list.map((f) => ({ source: f.source, active: live, ...(f.usage ? { usage: f.usage() } : {}) }))]));
     return { source: (await this.providerFor()).source, seed: s.seed, clockMode: s.mode, now: new Date(await this.clock.now()).toISOString(), feeds };
   }
 
   /** "simulator", or "simulator+binance+twelvedata" when live reference feeds are enabled. */
   priceSource(): string {
-    return ['simulator', ...[...this.feeds.values()].map((f) => f.source)].join('+');
+    return ['simulator', ...this.allFeeds.map((f) => f.source)].join('+');
   }
 }

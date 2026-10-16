@@ -110,7 +110,8 @@ export type MarketSummary = z.infer<typeof MarketSummarySchema>;
 export const QuoteSchema = z.object({
   instrumentId: z.string(),
   source: z.string(),
-  status: z.enum(['live', 'delayed', 'stale', 'unavailable']),
+  /** eod = end-of-day value (indices via Massive): the last session close, not a running price. */
+  status: z.enum(['live', 'delayed', 'eod', 'stale', 'unavailable']),
   bid: Dec.nullable(),
   ask: Dec.nullable(),
   last: Dec.nullable(),

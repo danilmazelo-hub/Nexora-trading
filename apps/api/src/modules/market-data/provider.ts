@@ -16,7 +16,7 @@ export interface RawQuote {
   bid?: string;
   ask?: string;
   /** Freshness as judged by the feed (live feeds only; the simulator follows the market clock mode). */
-  status?: 'live' | 'delayed' | 'stale';
+  status?: 'live' | 'delayed' | 'eod' | 'stale';
 }
 
 /**
