@@ -1,0 +1,31 @@
+# dependencies and builds
+node_modules/
+dist/
+!legacy/nexora-demo/dist/
+*.tsbuildinfo
+coverage/
+
+# local env and secrets
+.env
+.env.*
+!.env.example
+legacy/nexora-demo/tools/.env
+legacy/nexora-demo/tools/providers.json
+legacy/nexora-demo/tools/.twelvedata_usage.json
+
+# local database data (embedded postgres)
+.data/
+
+# test artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# tooling caches
+__pycache__/
+*.pyc
+.vite/
+.eslintcache
+*.log
+.DS_Store
+Thumbs.db

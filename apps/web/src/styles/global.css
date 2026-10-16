@@ -1,0 +1,32 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: var(--fs);
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overflow-wrap: anywhere;
+}
+a { color: var(--accent); }
+h1, h2, h3 { line-height: 1.2; margin: 0 0 var(--space-3); }
+h1 { font-size: var(--fs-2xl); }
+h2 { font-size: var(--fs-xl); }
+h3 { font-size: var(--fs-lg); }
+p { margin: 0 0 var(--space-3); }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.muted { color: var(--muted); }
+.small { font-size: var(--fs-sm); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.start { max-width: 720px; margin: 48px auto; padding: 0 16px; }
+
+/* boot / unavailable screens */
+.boot { min-height: 100vh; display: grid; place-items: center; color: var(--muted); }
+.unavailable { max-width: 520px; margin: 12vh auto; padding: 0 16px; text-align: center; }
+.unavailable img { margin-bottom: var(--space-4); }
+
+/* minimal button until the component kit (D08) */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--space-2); min-height: 40px; padding: 0 var(--space-4); border-radius: var(--radius); border: 1px solid var(--border-strong); background: var(--surface-2); color: var(--text); font: inherit; font-weight: 600; cursor: pointer; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }

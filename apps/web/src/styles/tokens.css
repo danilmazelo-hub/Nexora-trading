@@ -1,0 +1,45 @@
+/* NEXORA Trading design tokens (palette from the original NEXORA demo). */
+:root {
+  --bg: #071321;
+  --bg-2: #0b1b2e;
+  --surface: #0f2238;
+  --surface-2: #142b45;
+  --surface-3: #1a3655;
+  --border: #22405f;
+  --border-strong: #2e5276;
+  --text: #e8f1fb;
+  --text-2: #b9cbe0;
+  --muted: #8299b3;
+  --accent: #19c2ff;
+  --accent-2: #2a7fff;
+  --accent-text: #04131f;
+  --up: #18d27c;
+  --down: #ff5a6e;
+  --warn: #ffb547;
+  --info: #5aa9ff;
+  --focus: #7fdcff;
+  --danger: #ff5a6e;
+
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+  --fs-xs: 11px;
+  --fs-sm: 13px;
+  --fs: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 26px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --sidebar-w: 240px;
+  --topbar-h: 56px;
+  --bottomnav-h: 60px;
+  color-scheme: dark;
+}

@@ -1,0 +1,25 @@
+# Local PostgreSQL only (no app containers). Alternative without Docker: `pnpm db:start`.
+# Same port, user and databases as scripts/db.mjs, so DATABASE_URL in apps/api/.env works with both.
+services:
+  db:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: nexora
+      POSTGRES_PASSWORD: nexora # local-only test password
+      POSTGRES_DB: nexora
+      TZ: UTC
+      PGTZ: UTC
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - nexora-pgdata:/var/lib/postgresql
+      - ./scripts/docker-init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U nexora -d nexora"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  nexora-pgdata:

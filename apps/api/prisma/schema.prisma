@@ -1,0 +1,11 @@
+// NEXORA Trading demo schema. Entities are introduced task by task (see docs/data-model.md).
+// Money/quantities: Decimal(38,18). Time: timestamptz(3), UTC.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}

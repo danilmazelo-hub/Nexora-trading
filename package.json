@@ -1,0 +1,54 @@
+{
+  "name": "nexora-trading",
+  "private": true,
+  "description": "NEXORA Trading — demo trading platform (virtual funds, simulated quotes)",
+  "packageManager": "pnpm@10.34.7",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @nexora/contracts build && concurrently -k -n contracts,api,web -c gray,cyan,magenta \"pnpm --filter @nexora/contracts dev\" \"pnpm dev:api\" \"pnpm dev:web\"",
+    "dev:api": "pnpm --filter @nexora/api dev",
+    "dev:web": "pnpm --filter @nexora/web dev",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "test:integration": "pnpm --filter @nexora/api test:integration",
+    "test:e2e": "playwright test",
+    "build": "pnpm -r build",
+    "db:start": "node scripts/db.mjs start",
+    "db:stop": "node scripts/db.mjs stop",
+    "db:status": "node scripts/db.mjs status",
+    "db:generate": "pnpm --filter @nexora/api db:generate",
+    "db:migrate": "pnpm --filter @nexora/api db:migrate",
+    "db:migrate:dev": "pnpm --filter @nexora/api db:migrate:dev",
+    "db:seed": "pnpm --filter @nexora/api db:seed",
+    "docs:links": "node scripts/check-links.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "concurrently": "10.0.6",
+    "embedded-postgres": "18.4.0-beta.17",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "globals": "17.13.0",
+    "pg": "8.16.3",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.71.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@embedded-postgres/windows-x64",
+      "@embedded-postgres/linux-x64",
+      "@embedded-postgres/darwin-arm64",
+      "@embedded-postgres/darwin-x64",
+      "@prisma/client",
+      "@prisma/engines",
+      "prisma",
+      "@swc/core",
+      "esbuild"
+    ]
+  }
+}
