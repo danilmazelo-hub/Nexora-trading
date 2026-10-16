@@ -42,6 +42,7 @@ const SOURCES: Record<string, string> = {
   binance: 'Binance · справочная цена (USDT ≈ USD)',
   twelvedata: 'Twelve Data · справочная цена, обновление ~1 мин',
   massive: 'Massive · по итогам дня (закрытие сессии)',
+  fred: 'FRED (ФРС Сент-Луиса) · по итогам дня (закрытие)',
   'eia-sim': 'Симуляция от дневных цен EIA (демо)',
 };
 
@@ -53,7 +54,7 @@ export function sourceLabel(source: string) {
 export function sourceBadge(source: string): { label: string; tone: 'accent' | 'info' } {
   if (isSimulator(source)) return { label: 'Симулированные котировки', tone: 'accent' };
   if (source === 'eia-sim') return { label: 'Симуляция от реальных цен EIA · демо', tone: 'accent' };
-  if (source === 'massive') return { label: 'Индексы по итогам дня (Massive) · сделки демо', tone: 'info' };
+  if (source === 'massive' || source === 'fred') return { label: `Индексы по итогам дня (${source === 'fred' ? 'FRED' : 'Massive'}) · сделки демо`, tone: 'info' };
   const name = source === 'binance' ? 'Binance' : source === 'twelvedata' ? 'Twelve Data' : source;
   return { label: `Реальные цены ${name} · сделки демо`, tone: 'info' };
 }

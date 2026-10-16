@@ -111,6 +111,12 @@ describe('market data with a fixed clock (D10)', () => {
     expect(row.observedAt?.toISOString()).toBe(FIXED);
   });
 
+  it('a quote without a price never overwrites the last stored one', async () => {
+    await get('/market/quotes/LBS').expect(200); // no feed → unavailable
+    await app.get(MarketDataService).flushQuotes();
+    expect(await prisma.quote.count({ where: { instrumentId: 'LBS' } })).toBe(0);
+  });
+
   it('candles: ordered, unique, no future, last one forming; intervals differ (D13)', async () => {
     const now = Date.parse(FIXED);
     for (const [interval, ms] of [['5m', 300_000], ['1h', 3_600_000], ['1d', 86_400_000], ['1w', 604_800_000]] as const) {

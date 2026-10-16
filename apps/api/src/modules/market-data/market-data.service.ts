@@ -118,6 +118,11 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
         }
         // the provider's plan refused this symbol: it is served by the simulator from now on
         if (!raw && !feed.supports(inst)) return this.quote(id, opts);
+        // no fresh value (provider limit or outage): the last real quote saved from this feed, marked stale
+        if (!raw) {
+          const saved = await this.lastSaved(inst, feed.source, receivedAt);
+          if (saved) return saved;
+        }
       } else raw = (provider as MarketDataProvider).quote(inst, t);
     }
     const changePeriod = inst.market === 'crypto' ? '24h' : 'prev_close';
@@ -143,6 +148,43 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
       observedAt: new Date(raw.observedAt).toISOString(),
       receivedAt,
     };
+  }
+
+  private readonly savedCache = new Map<string, { at: number; quote: Quote | null }>();
+
+  /** Last quote of a live feed stored by flushQuotes (cached 30 s), as "stale"; null if none was ever stored. */
+  private async lastSaved(inst: Instrument, source: string, receivedAt: string): Promise<Quote | null> {
+    const key = inst.id + ':' + source;
+    const hit = this.savedCache.get(key);
+    if (hit && Date.now() - hit.at < 30_000) return hit.quote && { ...hit.quote, receivedAt };
+    let quote: Quote | null = null;
+    try {
+      const row = await this.prisma.quote.findUnique({ where: { instrumentId_source: { instrumentId: inst.id, source } } });
+      if (row?.last) {
+        const places = placesOf(toDecimalString(inst.tickSize.toString()));
+        const last = new D(row.last.toString());
+        const pct = row.changePct ? new D(row.changePct.toString()) : null;
+        // change in price units from the stored percent: last − last / (1 + pct/100)
+        const change = pct ? last.minus(last.div(pct.div(100).plus(1))).toDecimalPlaces(places, Decimal.ROUND_HALF_UP).toFixed(places) : null;
+        quote = {
+          instrumentId: inst.id,
+          source,
+          status: 'stale',
+          bid: row.bid ? new D(row.bid.toString()).toFixed(places) : null,
+          ask: row.ask ? new D(row.ask.toString()).toFixed(places) : null,
+          last: last.toFixed(places),
+          change,
+          changePct: pct ? pct.toFixed(4) : null,
+          changePeriod: row.changePeriod === '24h' ? '24h' : 'prev_close',
+          observedAt: row.observedAt ? row.observedAt.toISOString() : null,
+          receivedAt,
+        };
+      }
+    } catch {
+      quote = null; // database down: stay unavailable
+    }
+    this.savedCache.set(key, { at: Date.now(), quote });
+    return quote;
   }
 
   async quotes(ids: string[], opts: QuoteOpts = {}): Promise<Quote[]> {
@@ -173,7 +215,9 @@ export class MarketDataService implements OnModuleInit, OnModuleDestroy {
     const ids = [...this.recent.entries()].filter(([, at]) => at >= since).map(([id]) => id);
     for (const [id, at] of this.recent) if (at < since) this.recent.delete(id);
     if (!ids.length) return;
-    const qs = await this.quotes(ids, { demand: 'background' });
+    // only fresh values: a missing or stale quote must never overwrite the last real one
+    const qs = (await this.quotes(ids, { demand: 'background' })).filter((q) => q.last != null && q.status !== 'stale' && q.status !== 'unavailable');
+    if (!qs.length) return;
     await this.prisma.$transaction(
       qs.map((q) => {
         const data = { bid: q.bid, ask: q.ask, last: q.last, changePct: q.changePct, changePeriod: q.changePeriod, observedAt: q.observedAt ? new Date(q.observedAt) : null, receivedAt: new Date(q.receivedAt) };

@@ -2,6 +2,7 @@ import { type TradableMarket } from '@nexora/contracts';
 import { type Env } from '../../../config/env';
 import { BinanceFeed } from './binance';
 import { EiaFeed } from './eia';
+import { FredIndicesFeed } from './fred';
 import { type LiveFeed } from './live-feed';
 import { MassiveIndicesFeed } from './massive';
 import { TwelveDataFeed } from './twelve-data';
@@ -29,6 +30,8 @@ export function createFeeds(env: Env): Map<TradableMarket, LiveFeed[]> {
     if (env.TWELVEDATA_MARKETS.includes('metals')) add('commodities', td);
   }
   if (env.MARKET_LIVE_FEEDS.includes('massive') && env.MASSIVE_API_KEY) add('indices', new MassiveIndicesFeed(env.MASSIVE_BASE_URL, env.MASSIVE_API_KEY));
+  // after Massive (real OHLC): indices the Massive plan refuses (e.g. S&P 500) come from FRED closes
+  if (env.MARKET_LIVE_FEEDS.includes('fred')) add('indices', new FredIndicesFeed(env.FRED_BASE_URL));
   if (env.MARKET_LIVE_FEEDS.includes('eia') && env.EIA_API_KEY) add('commodities', new EiaFeed(env.EIA_BASE_URL, env.EIA_API_KEY, env.MARKET_SEED));
   return feeds;
 }

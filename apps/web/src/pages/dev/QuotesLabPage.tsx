@@ -13,6 +13,7 @@ const CHOICES = [
   { value: 'AAPL', label: 'Apple (акция, к закрытию дня)' },
   { value: 'EUR-USD', label: 'EUR/USD (Forex)' },
   { value: 'XPT-USD', label: 'Platinum (сырьё)' },
+  { value: 'ZC', label: 'Corn (сырьё, всегда симулятор)' },
   { value: 'LBS', label: 'Lumber — котировка недоступна' },
 ];
 

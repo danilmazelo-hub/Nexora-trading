@@ -64,6 +64,9 @@ test.describe('D13 chart and periods', () => {
   });
 
   test('price format follows the instrument tick size', async ({ page }) => {
+    // a live feed may have no value at all (provider day limit before anything was saved): nothing to format then
+    const q = await (await page.request.get('/api/market/quotes/EUR-USD')).json();
+    test.skip(q.last == null, `no EUR/USD price from ${q.source} right now (${q.status})`);
     await page.goto('/markets/forex?symbol=EUR-USD');
     await expect(page.locator('[data-instrument="EUR-USD"] [data-testid="quote-last"]')).toHaveText(/^\d,\d{5}/);
   });

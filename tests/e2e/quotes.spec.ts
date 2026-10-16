@@ -50,12 +50,10 @@ test.describe('D10–D11 quotes', () => {
   });
 
   test('prices update; after a dropped connection the stream recovers with one new connection', async ({ page }) => {
-    await enterDemo(page, '/finance/account');
-    // a watchlist instrument served by the simulator (ticks every 2 s); live feed prices may stand still for minutes
-    const list = (await (await page.request.get('/api/market/quotes?ids=BTC-USD,ETH-USD,AAPL,EUR-USD,XAU-USD,SPX')).json()) as { items: { instrumentId: string; source: string }[] };
-    const simulated = list.items.find((q) => q.source.startsWith('simulator'));
-    test.skip(!simulated, 'every watchlist instrument is on a live feed');
-    const price = page.locator(`[data-instrument="${simulated!.instrumentId}"] [data-testid="quote-last"]`);
+    // Corn (ZC) has no live feed: the simulator ticks every 2 s, while live prices may stand still for minutes
+    await enterDemo(page, '/dev/quotes');
+    await page.getByLabel('Инструмент').selectOption('ZC');
+    const price = page.locator('[data-instrument="ZC"] [data-testid="quote-last"]');
     await expect(price).not.toHaveText('—');
     const before = await price.innerText();
     await expect.poll(() => price.innerText(), { timeout: 20_000 }).not.toBe(before);

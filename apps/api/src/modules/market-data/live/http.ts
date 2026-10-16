@@ -27,3 +27,17 @@ export const fetchJson: FetchJson = async (url, feed) => {
   }
   return body;
 };
+
+export type FetchText = (url: string, feed: string, timeoutMs?: number) => Promise<string>;
+
+/** GET as text (CSV downloads) with a timeout; same error rules as fetchJson. */
+export const fetchText: FetchText = async (url, feed, timeoutMs = 20_000) => {
+  let res: Response;
+  try {
+    res = await fetch(url, { signal: AbortSignal.timeout(timeoutMs) });
+  } catch (e) {
+    throw new FeedHttpError(feed, 0, null, (e as Error).name === 'TimeoutError' ? 'timeout' : 'network error');
+  }
+  if (!res.ok) throw new FeedHttpError(feed, res.status, null, `HTTP ${res.status}`);
+  return res.text();
+};

@@ -94,7 +94,7 @@ pnpm crm          # = python legacy/nexora-demo/tools/serve.py 8080
 ([ADR 0005](docs/decisions/0005-live-reference-feeds.md)):
 
 ```text
-MARKET_LIVE_FEEDS=binance,twelvedata,massive,eia   # off — только симулятор
+MARKET_LIVE_FEEDS=binance,twelvedata,massive,fred,eia   # off — только симулятор
 TWELVEDATA_API_KEY=<ключ twelvedata.com>   # ключи — только в apps/api/.env, не коммитить
 MASSIVE_API_KEY=<ключ massive.com>
 EIA_API_KEY=<ключ eia.gov>
@@ -104,8 +104,9 @@ EIA_API_KEY=<ключ eia.gov>
 - **Forex, все 49 акций справочника, золото (XAU/USD)** — Twelve Data (Basic: 8 запросов/мин, 800/сутки, общий бюджет): открытый
   инструмент обновляется раз в минуту, остальные берутся из кеша и обновляются реже. Статус «С задержкой». Расход
   кредитов — `GET /api/market/status`. Символы, которых нет в тарифе (серебро, платина, палладий), автоматически идут на симуляторе.
-- **Индексы США** — Massive (`massive`, `MASSIVE_API_KEY`), «По итогам дня»: закрытие последней сессии, графики «1 год» и
-  «Всё». Индексы, которых нет в вашем плане Massive (сейчас S&P 500), и европейские/азиатские — на симуляторе.
+- **Индексы** — «По итогам дня» (закрытие последней сессии, графики «1 год» и «Всё»): Massive (`massive`, `MASSIVE_API_KEY`),
+  затем FRED (`fred`, без ключа) для того, чего нет в плане Massive: S&P 500, Dow, VIX, Nikkei 225. Европейские и прочие
+  азиатские индексы — на симуляторе.
 - **Нефть, газ, бензин, мазут** — EIA (`eia`, `EIA_API_KEY`): реальные дневные закрытия, внутри дня — помеченная
   симуляция, привязанная к ним ([ADR 0007](docs/decisions/0007-indices-eod-and-energy-history.md)). Агротовары — симулятор.
 - При фиксированных часах (демосценарии) и в integration-тестах всё работает на симуляторе. После изменения `.env`

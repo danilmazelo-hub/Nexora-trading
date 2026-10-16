@@ -25,7 +25,7 @@ const EnvSchema = z.object({
     .string()
     .optional()
     .transform((v) => (!v || v.trim() === 'off' ? [] : [...new Set(v.split(',').map((x) => x.trim()).filter(Boolean))]))
-    .pipe(z.array(z.enum(['binance', 'twelvedata', 'massive', 'eia']), { message: 'MARKET_LIVE_FEEDS: допустимы binance, twelvedata, massive, eia или off' })),
+    .pipe(z.array(z.enum(['binance', 'twelvedata', 'massive', 'fred', 'eia']), { message: 'MARKET_LIVE_FEEDS: допустимы binance, twelvedata, massive, fred, eia или off' })),
   BINANCE_BASE_URL: z.string().url().default('https://data-api.binance.vision'),
   TWELVEDATA_API_KEY: z
     .string()
@@ -44,6 +44,8 @@ const EnvSchema = z.object({
     .optional()
     .transform((v) => (v ? v : undefined)),
   MASSIVE_BASE_URL: z.string().url().default('https://api.massive.com'),
+  /** FRED public CSV download (index closes, no key). */
+  FRED_BASE_URL: z.string().url().default('https://fred.stlouisfed.org'),
   /** EIA open data (daily energy spot prices). */
   EIA_API_KEY: z
     .string()

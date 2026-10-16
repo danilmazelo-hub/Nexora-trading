@@ -69,7 +69,7 @@ decimal-строки; проценты — процентные пункты (`"
 | GET | `/market/instruments/:id/orderbook` | `depth 1–50` (10) → `OrderBook { instrumentId, source, status: live|unavailable, bids, asks: [{ price, quantity }], observedAt }`. Только crypto с Binance; иначе `unavailable` и пустые стороны (стакан не выдумывается) |
 
 Источник цены инструмента один для котировки, потока и свечей: справочный feed рынка (ADR 0005, `source` `binance` /
-`twelvedata`) при `MARKET_LIVE_FEEDS` и часах REALTIME, иначе `SimulatorProvider` (`simulator:<seed>`). Twelve Data обслуживает forex, акции США и XAU/XAG/XPT/XPD; Massive — индексы США по итогам дня (свечи только 1d/1w,
+`twelvedata`) при `MARKET_LIVE_FEEDS` и часах REALTIME, иначе `SimulatorProvider` (`simulator:<seed>`). Twelve Data обслуживает forex, акции США и XAU/XAG/XPT/XPD; Massive, затем FRED — индексы по итогам дня (свечи только 1d/1w,
 внутридневные — пустой список); EIA — энергоносители (`eia-sim`, ADR 0007); символ, отклонённый тарифом, переходит на симулятор. `status`: Binance —
 `live` (старше 30 с → `stale`), Twelve Data — `delayed` (старше 45 мин → `stale`), симулятор — `live` / `delayed` при фиксированных часах.
 Нет истории у feed (лимит, сбой) → 503 `QUOTES_UNAVAILABLE`.

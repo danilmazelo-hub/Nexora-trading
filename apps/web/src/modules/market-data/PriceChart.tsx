@@ -116,7 +116,7 @@ export function PriceChart({ instrument, period, onPeriod }: { instrument: Pick<
           </div>
         ) : data && data.candles.length === 0 ? (
           <div className="chart-overlay">
-            {data.source === 'massive' ? (
+            {data.source === 'massive' || data.source === 'fred' ? (
               <EmptyState title="Только дневные данные">Индекс доступен по итогам дня — внутридневных свечей нет. Выберите период «1 год» или «Всё».</EmptyState>
             ) : (
               <EmptyState title="Нет данных за период">Для этого инструмента история цен недоступна.</EmptyState>

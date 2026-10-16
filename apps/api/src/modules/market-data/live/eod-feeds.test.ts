@@ -1,6 +1,7 @@
 import { type Instrument } from '@prisma/client';
 import { describe, expect, it } from 'vitest';
 import { EiaFeed } from './eia';
+import { FredIndicesFeed, parseFredCsv } from './fred';
 import { FeedHttpError } from './http';
 import { MassiveIndicesFeed } from './massive';
 
@@ -98,5 +99,42 @@ describe('MassiveIndicesFeed', () => {
   it('European/Asian indices are not mapped (simulator)', () => {
     const f = new MassiveIndicesFeed('https://m', 'K');
     expect(f.supports(inst('GDAXI', 'indices', 18000))).toBe(false);
+  });
+});
+
+describe('FredIndicesFeed', () => {
+  const csv = 'observation_date,SP500\n2026-10-12,7807.24\n2026-10-13,\n2026-10-14,7718.94\n2026-10-15,7744.06\n';
+  const SPX = inst('SPX', 'indices', 5800);
+  const now = Date.parse('2026-10-16T12:00:00Z');
+
+  it('parses closes, skips holidays; a daily bar spans previous close → close', () => {
+    const bars = parseFredCsv(csv);
+    expect(bars.map((b) => b.c)).toEqual([7807.24, 7718.94, 7744.06]);
+    expect(bars[2]).toMatchObject({ o: 7718.94, h: 7744.06, l: 7718.94, c: 7744.06 });
+  });
+
+  it('S&P 500 from FRED: last session close vs. the one before, status eod; intraday empty', async () => {
+    const urls: string[] = [];
+    const f = new FredIndicesFeed('https://fred', async (url) => {
+      urls.push(url);
+      return csv;
+    }, () => now);
+    await f.prime([SPX], 1000);
+    expect(urls[0]).toContain('/graph/fredgraph.csv?id=SP500');
+    expect(f.quote(SPX, 'stream')).toMatchObject({ mid: '7744.06', reference: '7718.94', status: 'eod' });
+    expect(await f.candles(SPX, '5m', 0, now)).toEqual([]);
+    expect((await f.candles(SPX, '1d', Date.parse('2026-10-12T00:00:00Z'), now))?.length).toBe(3);
+  });
+
+  it('a failed download is not retried on every tick', async () => {
+    let calls = 0;
+    const f = new FredIndicesFeed('https://fred', async () => {
+      calls++;
+      throw new FeedHttpError('fred', 0, null, 'timeout');
+    }, () => now);
+    await f.prime([SPX], 1000);
+    await f.prime([SPX], 1000);
+    expect(calls).toBe(1);
+    expect(f.quote(SPX, 'stream')).toBeNull();
   });
 });
